@@ -51,4 +51,16 @@ span a {
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+footer {
+  margin-top: 32%;
+  width: 100%;
+}
+
+footer p {
+  font-size: 0.88rem;
+  font-family: "Montserrat";
+  text-align: center;
+  width: 100%;
 }/*# sourceMappingURL=styles.css.map */
