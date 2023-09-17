@@ -1,1 +1,33 @@
-/*# sourceMappingURL=styles.css.map */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: "Inconsolata";
+  font-size: 1.5rem;
+}
+
+.align__container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__img {
+  width: 90%;
+}
+
+h1 {
+  color: #333333;
+  font-family: "Space Mono";
+  font-size: 3rem;
+  width: 90%;
+}
+
+p {
+  color: #4F4F4F;
+  font-family: "Space Mono";
+  font-size: 1.12rem;
+  width: 90%;
+}/*# sourceMappingURL=styles.css.map */
