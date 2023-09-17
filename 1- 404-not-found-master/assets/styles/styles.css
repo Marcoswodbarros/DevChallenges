@@ -1,4 +1,4 @@
-body {
+* {
   margin: 0;
   padding: 0;
 }
@@ -6,7 +6,7 @@ body {
 h2 {
   font-family: "Inconsolata";
   font-size: 1.5rem;
-  margin-left: 5%;
+  margin: 5% 0 0 5%;
   text-transform: uppercase;
 }
 
@@ -14,6 +14,7 @@ h2 {
   align-items: center;
   display: flex;
   flex-direction: column;
+  margin: 4rem 0;
 }
 
 .main__img {
