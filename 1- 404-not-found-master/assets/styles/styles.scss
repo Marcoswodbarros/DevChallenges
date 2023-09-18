@@ -1,10 +1,12 @@
+@import 'abstract/variables';
+
 * {
     margin: 0;
     padding: 0;
 }
 
 h2 {
-    font-family: "Inconsolata";
+    font-family: $inconsolata;
     font-size: 1.5rem;
     margin: 5% 0 0 5%;
     text-transform: uppercase;
@@ -22,22 +24,22 @@ h2 {
 }
 
 h1 {
-    color: #333333;
-    font-family: "Space Mono";
+    color: $color-dark-gray;
+    font-family: $space-mono;
     font-size: 3rem;
     width: 90%;
 }
 
 p {
-    color: #4F4F4F;
-    font-family: "Space Mono";
+    color: $color-light-gray;
+    font-family: $space-mono;
     font-size: 1.12rem;
     width: 90%;
 }
 
 span {
     align-items: center;
-    background-color: #333333;
+    background-color: $color-dark-gray;
     display: flex;
     height: 4.25rem;
     justify-content: center;
@@ -46,8 +48,8 @@ span {
 }
 
 span a {
-    color: #FFFFFF;
-    font-family: "Space Mono";
+    color: $color-white;
+    font-family: $space-mono;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
@@ -60,7 +62,7 @@ footer {
 
 footer p {
     font-size: .88rem;
-    font-family: "Montserrat";
+    font-family: $mont;
     text-align: center;
     width: 100%;
 }
