@@ -4,6 +4,11 @@ main {
   flex-direction: column;
   padding: 1rem 0;
 }
+@media screen and (min-width: 615px) {
+  main {
+    padding: 2rem 0;
+  }
+}
 main h2 {
   color: #333333;
   font-family: "Inconsolata";
@@ -26,14 +31,36 @@ main .align__container {
     width: 50%;
   }
 }
+@media screen and (min-width: 1024px) {
+  main .align__container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
 main .align__container .img__container {
   align-items: center;
   display: flex;
   justify-content: center;
   margin-bottom: 4rem;
 }
+@media screen and (min-width: 1024px) {
+  main .align__container .img__container {
+    width: 50%;
+  }
+}
 main .align__container .img__container .main__img {
   width: 80%;
+}
+@media screen and (min-width: 1024px) {
+  main .align__container .img__container .main__img {
+    width: 27rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  main .align__container .align__container--texts {
+    width: 50%;
+  }
 }
 main .align__container .align__container--texts h1 {
   color: #333333;
@@ -41,14 +68,30 @@ main .align__container .align__container--texts h1 {
   font-size: 3rem;
   margin-bottom: 1.5rem;
 }
+@media screen and (min-width: 1024px) {
+  main .align__container .align__container--texts h1 {
+    width: 28rem;
+  }
+}
 main .align__container .align__container--texts p {
   color: #4F4F4F;
   font-family: "Space Mono";
   font-size: 1.12rem;
   margin-bottom: 4rem;
 }
+@media screen and (min-width: 1024px) {
+  main .align__container .align__container--texts p {
+    width: 18rem;
+  }
+}
 main .align__container .align__container--texts .container__texts--button {
   display: none;
+}
+@media screen and (min-width: 1024px) {
+  main .align__container .align__container--texts .container__texts--button {
+    display: flex;
+    margin: 0;
+  }
 }
 main span {
   align-items: center;
@@ -68,6 +111,11 @@ main span {
 @media screen and (min-width: 615px) {
   main span {
     margin-left: 25%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  main span {
+    display: none;
   }
 }
 main span a {
