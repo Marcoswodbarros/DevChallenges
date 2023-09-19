@@ -1,75 +1,63 @@
-<!-- Please update value in the {}  -->
+# DevChallenges - 404 page challenge
 
-<h1 align="center">{Your project name}</h1>
+This is my first challenge from DevChallenges.
 
-<div align="center">
-   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
-</div>
-
-<div align="center">
-  <h3>
-    <a href="https://{your-demo-link.your-domain}">
-      Demo
-    </a>
-    <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
-      Solution
-    </a>
-    <span> | </span>
-    <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
-      Challenge
-    </a>
-  </h3>
-</div>
-
-<!-- TABLE OF CONTENTS -->
-
-## Table of Contents
+## Table of contents
 
 - [Overview](#overview)
-  - [Built With](#built-with)
-- [Features](#features)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+- [Author](#author)
 
-<!-- OVERVIEW -->
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+### The challenge
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+Users should be able to:
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+- View the optimal layout for the site depending on their device's screen size;
+- See hover states for all interactive elements on the page;
 
-### Built With
+### Screenshot
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
+![Mobile](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/2733a0cd-e037-40a5-8115-400ff1ce12a6)
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+![Tablet](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/5b079e9a-3cdd-4ee0-a5c9-4761e2103b82)
 
-## Features
+![Laptop](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/1a6b7f2d-f4e3-44c4-844c-8e4d662bcda4)
 
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
+![Desktop](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/e425d74b-1c18-41d3-94f2-f513b8c82c71)
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to complete the given user stories.
+### Links
+
+- Solution URL: [https://github.com/Marcoswodbarros/DevChallenges.git]
+- Deploy: [https://dev-challenges-gqkr1y4mo-marcoswodbarros.vercel.app/]
 
 
-## Acknowledgements
+## My process
 
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
+### Built with
 
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
+- Semantic HTML5 markup
+- SCSS
+- Flexbox
 
-## Contact
+### What I learned
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+While I was doing this project I was able to remember and improve SCSS skills. 
+
+### Continued development
+
+To my next project, I will try to bring a new simple page, to help those who are starting at Front-End Development.
+
+
+## Author
+
+- GitHub - [Marcos Barros](https://github.com/Marcoswodbarros)
+- Linkedin - [Marcoswodbarros](www.linkedin.com/in/marcoswodbarros)
