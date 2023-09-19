@@ -1,1 +1,60 @@
 @import '../abstract/variables';
+
+h1 {
+    font-family: $font-pt-serif;
+    font-size: 2.25rem;
+    margin: 4.5rem 0 2.5rem 1rem;
+}
+
+h2 {
+    font-family: $font-poppins;
+    font-size: 1.12rem;
+    font-weight: 600;
+    margin: 0 0 1rem 1rem;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: $font-poppins;
+    font-size: 0.87rem;
+    margin: 0 0 4.5rem 1rem;
+}
+
+
+.img__container {
+    display: flex;
+    justify-content: center;
+    column-gap: 10%;
+
+    figure {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        font-family: $font-poppins;
+        position: relative;
+        row-gap: .5rem;
+        width: 40%;
+
+        img {
+            width: 85%;
+        }
+
+        figcaption {
+            align-self: flex-start;
+            font-size: .87rem;
+            font-weight: bold;
+            margin-left: .8rem;
+        }
+
+        span {
+            display: inline-block;
+            font-size: .62rem;
+            left: 5rem;
+            position: absolute;
+            text-transform: uppercase;
+            top: 4.8rem;
+            transform: rotate(90deg);
+            width: 100%;
+        }
+    }
+}
