@@ -1,79 +1,81 @@
 @import '../abstract/variables';
 
-h2 {
-    font-family: $inconsolata;
-    font-size: 1.5rem;
-    margin: 5% 0 0 5%;
-    text-transform: uppercase;
-}
-
-.align__container {
+main {
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin: 4rem 0;
-}
+    padding: 1rem 0;
 
-.main__img {
-    width: 80%;
-
-    @media screen and (min-width: 650px) {
-        width: 60%;
+    h2 {
+        color: $color-dark-gray;
+        font-family: $inconsolata;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        align-self: flex-start;
+        margin-left: 5%;
     }
-}
 
-h1 {
-    color: $color-dark-gray;
-    font-family: $space-mono;
-    font-size: 3rem;
-    width: 90%;
+    .align__container {
+        margin-top: 4rem;
+        width: 90%;
 
-    @media screen and (min-width: 650px) {
-        width: 60%;
+        .img__container {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 4rem;
+
+            .main__img {
+                width: 80%;
+            }
+        }
+
+        .align__container--texts {
+
+            h1 {
+                color: $color-dark-gray;
+                font-family: $space-mono;
+                font-size: 3rem;
+                margin-bottom: 1.5rem;
+            }
+
+            p {
+                color: $color-light-gray;
+                font-family: $space-mono;
+                font-size: 1.12rem;
+                margin-bottom: 4rem;
+            }
+
+            .container__texts--button {
+                display: none;
+            }
+        }
     }
-}
 
-p {
-    color: $color-light-gray;
-    font-family: $space-mono;
-    font-size: 1.12rem;
-    width: 90%;
-
-    @media screen and (min-width: 650px) {
-        width: 60%;
+    span {
+        align-items: center;
+        align-self: flex-start;
+        background-color: $color-dark-gray;
+        display: flex;
+        height: 4.25rem;
+        justify-content: center;
+        margin-bottom: 32%;
+        margin-left: 5%;
+        width: 13.5rem;
     }
-}
 
-span {
-    align-items: center;
-    background-color: $color-dark-gray;
-    display: flex;
-    height: 4.25rem;
-    justify-content: center;
-    margin-left: 5%;
-    width: 13.5rem;
-
-    @media screen and (min-width: 650px) {
-        margin-left: 20%;
+    span a {
+        color: $color-white;
+        font-family: $space-mono;
+        font-size: .88rem;
+        text-decoration: none;
+        text-transform: uppercase;
     }
-}
-
-span a {
-    color: $color-white;
-    font-family: $space-mono;
-    font-weight: bold;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-footer {
-    margin-top: 32%;
-    width: 100%;
 }
 
 footer p {
-    font-size: .88rem;
+    color: $color-footer;
     font-family: $mont;
+    font-size: .88rem;
     text-align: center;
-    width: 100%;
 }
