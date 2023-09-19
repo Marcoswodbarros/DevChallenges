@@ -16,6 +16,16 @@ main .align__container {
   margin-top: 4rem;
   width: 90%;
 }
+@media screen and (min-width: 615px) {
+  main .align__container {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 756px) {
+  main .align__container {
+    width: 50%;
+  }
+}
 main .align__container .img__container {
   align-items: center;
   display: flex;
@@ -47,9 +57,18 @@ main span {
   display: flex;
   height: 4.25rem;
   justify-content: center;
-  margin-bottom: 32%;
-  margin-left: 5%;
+  margin: 0 0 32% 5%;
   width: 13.5rem;
+}
+@media screen and (min-width: 615px) {
+  main span {
+    margin-left: 15%;
+  }
+}
+@media screen and (min-width: 615px) {
+  main span {
+    margin-left: 25%;
+  }
 }
 main span a {
   color: #FFFFFF;
