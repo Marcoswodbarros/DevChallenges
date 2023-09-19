@@ -109,6 +109,11 @@ main {
                 @media screen and (min-width: 1024px) {
                     display: flex;
                     margin: 0;
+
+                    &:hover {
+                        background-color: red;
+                        transition: .7s;
+                    }
                 }
             }
         }
@@ -128,7 +133,7 @@ main {
         text-decoration: none;
         text-transform: uppercase;
         width: 13.5rem;
-        
+
         @media screen and (min-width: 615px) {
             margin-left: 15%;
         }
@@ -156,9 +161,20 @@ footer {
         font-family: $mont;
         font-size: .88rem;
         text-align: center;
+        text-decoration: none;
 
         @media screen and (min-width: 1024px) {
             padding-bottom: .5rem;
+        }
+
+        a {
+            color: $color-footer;
+            text-decoration: none;
+
+            &:hover {
+                color: $color-dark-gray;
+                transition: .7s;
+            }
         }
     }
 }

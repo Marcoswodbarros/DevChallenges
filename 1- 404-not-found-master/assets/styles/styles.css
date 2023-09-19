@@ -113,6 +113,10 @@ main .align__container .align__container--texts .container__texts--button {
     display: flex;
     margin: 0;
   }
+  main .align__container .align__container--texts .container__texts--button:hover {
+    background-color: red;
+    transition: 0.7s;
+  }
 }
 main a {
   align-items: center;
@@ -157,11 +161,20 @@ footer p {
   font-family: "Montserrat";
   font-size: 0.88rem;
   text-align: center;
+  text-decoration: none;
 }
 @media screen and (min-width: 1024px) {
   footer p {
     padding-bottom: 0.5rem;
   }
+}
+footer p a {
+  color: #BDBDBD;
+  text-decoration: none;
+}
+footer p a:hover {
+  color: #333333;
+  transition: 0.7s;
 }
 
 * {
