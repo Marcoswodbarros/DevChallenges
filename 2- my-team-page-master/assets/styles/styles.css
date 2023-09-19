@@ -23,6 +23,7 @@ p {
   justify-content: center;
   -moz-column-gap: 15%;
        column-gap: 15%;
+  flex-wrap: wrap;
 }
 .img__container figure {
   align-items: center;

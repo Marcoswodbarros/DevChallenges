@@ -25,6 +25,7 @@ p {
     display: flex;
     justify-content: center;
     column-gap: 15%;
+    flex-wrap: wrap;
 
     figure {
         align-items: center;
