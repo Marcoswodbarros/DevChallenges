@@ -61,6 +61,11 @@ main .align__container .img__container .main__img {
     width: 27rem;
   }
 }
+@media screen and (min-width: 1440px) {
+  main .align__container .img__container .main__img {
+    width: 32rem;
+  }
+}
 @media screen and (min-width: 1024px) {
   main .align__container .align__container--texts {
     width: 50%;
@@ -77,6 +82,12 @@ main .align__container .align__container--texts h1 {
     width: 28rem;
   }
 }
+@media screen and (min-width: 1440px) {
+  main .align__container .align__container--texts h1 {
+    font-size: 4rem;
+    width: 37rem;
+  }
+}
 main .align__container .align__container--texts p {
   color: #4F4F4F;
   font-family: "Space Mono";
@@ -86,6 +97,12 @@ main .align__container .align__container--texts p {
 @media screen and (min-width: 1024px) {
   main .align__container .align__container--texts p {
     width: 18rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  main .align__container .align__container--texts p {
+    font-size: 1.5rem;
+    width: 25rem;
   }
 }
 main .align__container .align__container--texts .container__texts--button {

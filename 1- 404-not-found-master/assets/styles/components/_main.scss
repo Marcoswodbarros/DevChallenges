@@ -58,6 +58,10 @@ main {
                 @media screen and (min-width: 1024px) {
                     width: 27rem;
                 }
+
+                @media screen and (min-width: 1440px) {
+                    width: 32rem;
+                }
             }
         }
 
@@ -76,6 +80,11 @@ main {
                 @media screen and (min-width: 1024px) {
                     width: 28rem;
                 }
+
+                @media screen and (min-width: 1440px) {
+                    font-size: 4rem;
+                    width: 37rem;
+                }
             }
 
             p {
@@ -86,6 +95,11 @@ main {
 
                 @media screen and (min-width: 1024px) {
                     width: 18rem;
+                }
+
+                @media screen and (min-width: 1440px) {
+                    font-size: 1.5rem;
+                    width: 25rem;
                 }
             }
 
