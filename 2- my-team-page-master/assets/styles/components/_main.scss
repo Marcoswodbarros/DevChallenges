@@ -7,8 +7,15 @@ main {
         @media screen and (min-width: 1024px) {
             display: flex;
             justify-content: center;
-            column-gap: 6rem;
-            width: 96%;
+            column-gap: 5rem;
+            width: 98%;
+        }
+
+        @media screen and (min-width: 1440px) {
+            display: flex;
+            justify-content: center;
+            column-gap: 15rem;
+            width: 91%;
         }
 
         h1 {
@@ -95,6 +102,15 @@ main {
             }
         }
 
+        @media screen and (min-width: 1024px) {
+            margin: 0 auto;
+            max-width: 80%;
+        }
+
+        @media screen and (min-width: 1720px) {
+            max-width: 91rem;
+        }
+
         figure {
             align-items: center;
             display: flex;
@@ -110,6 +126,10 @@ main {
 
             @media screen and (min-width: 979px) {
                 width: 12rem;
+            }
+
+            @media screen and (min-width: 1440px) {
+                width: 16rem;
             }
 
             img {
@@ -140,6 +160,11 @@ main {
                 @media screen and (min-width: 979px) {
                     left: 6.5rem;
                     top: 5.55rem;
+                }
+
+                @media screen and (min-width: 1440px) {
+                    left: 8.5rem;
+                    top: 7.55rem;
                 }
             }
         }

@@ -2,9 +2,18 @@
   main .main__texts--container {
     display: flex;
     justify-content: center;
-    -moz-column-gap: 6rem;
-         column-gap: 6rem;
-    width: 96%;
+    -moz-column-gap: 5rem;
+         column-gap: 5rem;
+    width: 98%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  main .main__texts--container {
+    display: flex;
+    justify-content: center;
+    -moz-column-gap: 15rem;
+         column-gap: 15rem;
+    width: 91%;
   }
 }
 main .main__texts--container h1 {
@@ -91,6 +100,17 @@ main .img__container figure:nth-child(2n) {
     margin-top: 4rem;
   }
 }
+@media screen and (min-width: 1024px) {
+  main .img__container {
+    margin: 0 auto;
+    max-width: 80%;
+  }
+}
+@media screen and (min-width: 1720px) {
+  main .img__container {
+    max-width: 91rem;
+  }
+}
 main .img__container figure {
   align-items: center;
   display: flex;
@@ -108,6 +128,11 @@ main .img__container figure {
 @media screen and (min-width: 979px) {
   main .img__container figure {
     width: 12rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  main .img__container figure {
+    width: 16rem;
   }
 }
 main .img__container figure img {
@@ -138,6 +163,12 @@ main .img__container figure span {
   main .img__container figure span {
     left: 6.5rem;
     top: 5.55rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  main .img__container figure span {
+    left: 8.5rem;
+    top: 7.55rem;
   }
 }
 
