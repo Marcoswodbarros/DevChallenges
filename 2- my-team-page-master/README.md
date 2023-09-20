@@ -6,7 +6,7 @@ This is my second challenge from DevChallenges.
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -24,7 +24,7 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size;
 - See hover states for all interactive elements on the page;
 
-### Screenshot
+### Screenshots
 
 ![Mobile](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/943c5d93-9a96-44b0-83de-5b7fad874892)
 
