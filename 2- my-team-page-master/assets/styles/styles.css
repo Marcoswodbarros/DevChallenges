@@ -16,6 +16,11 @@ main p {
   margin: 0 0 4.5rem 1.5rem;
   width: 20rem;
 }
+@media screen and (min-width: 664px) {
+  main p {
+    width: 35rem;
+  }
+}
 main .img__container {
   display: flex;
   justify-content: center;
@@ -55,6 +60,11 @@ main .img__container figure {
     width: 10rem;
   }
 }
+@media screen and (min-width: 979px) {
+  main .img__container figure {
+    width: 12rem;
+  }
+}
 main .img__container figure img {
   width: 100%;
 }
@@ -75,8 +85,14 @@ main .img__container figure span {
 }
 @media screen and (min-width: 528px) {
   main .img__container figure span {
-    top: 4.55rem;
     left: 5.5rem;
+    top: 4.55rem;
+  }
+}
+@media screen and (min-width: 979px) {
+  main .img__container figure span {
+    left: 6.5rem;
+    top: 5.55rem;
   }
 }
 

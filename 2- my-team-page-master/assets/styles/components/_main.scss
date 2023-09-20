@@ -21,6 +21,10 @@ main {
         font-size: 0.87rem;
         margin: 0 0 4.5rem 1.5rem;
         width: 20rem;
+
+        @media screen and (min-width: 664px) {
+            width: 35rem;
+        }
     }
 
 
@@ -50,7 +54,6 @@ main {
             }
         }
 
-
         figure {
             align-items: center;
             display: flex;
@@ -62,6 +65,10 @@ main {
 
             @media screen and (min-width: 528px) {
                 width: 10rem;
+            }
+
+            @media screen and (min-width: 979px) {
+                width: 12rem;
             }
 
             img {
@@ -85,8 +92,13 @@ main {
                 width: 100%;
 
                 @media screen and (min-width: 528px) {
-                    top: 4.55rem;
                     left: 5.5rem;
+                    top: 4.55rem;
+                }
+
+                @media screen and (min-width: 979px) {
+                    left: 6.5rem;
+                    top: 5.55rem;
                 }
             }
         }
