@@ -27,22 +27,29 @@ main {
     .img__container {
         display: flex;
         justify-content: center;
-        column-gap: 12%;
+        column-gap: 10%;
         flex-wrap: wrap;
 
         & figure:nth-child(2n) {
             margin-top: 3rem;
 
-            @media screen and (min-width: 568px) {
+            @media screen and (min-width: 664px) {
                 margin-top: 0;
             }
         }
 
-        @media screen and (min-width: 568px) {
-            & figure:nth-child(2), & figure:nth-child(5) {
+        @media screen and (min-width: 600px) {
+            padding: 0 2rem;
+        }
+
+        @media screen and (min-width: 664px) {
+
+            & figure:nth-child(2),
+            & figure:nth-child(5) {
                 margin-top: 4rem;
             }
         }
+
 
         figure {
             align-items: center;
@@ -52,6 +59,10 @@ main {
             position: relative;
             row-gap: .5rem;
             width: 9rem;
+
+            @media screen and (min-width: 528px) {
+                width: 10rem;
+            }
 
             img {
                 width: 100%;
@@ -72,6 +83,11 @@ main {
                 top: 4.1rem;
                 transform: rotate(90deg);
                 width: 100%;
+
+                @media screen and (min-width: 528px) {
+                    top: 4.55rem;
+                    left: 5.5rem;
+                }
             }
         }
     }
