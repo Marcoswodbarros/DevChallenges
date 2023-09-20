@@ -1,14 +1,34 @@
-main h1 {
+@media screen and (min-width: 1024px) {
+  main .main__texts--container {
+    display: flex;
+    justify-content: center;
+    -moz-column-gap: 6rem;
+         column-gap: 6rem;
+    width: 96%;
+  }
+}
+main .main__texts--container h1 {
   font-family: "PT Serif", serif;
   font-size: 2.25rem;
   margin: 4.5rem 0 2.5rem 1.5rem;
 }
 @media screen and (min-width: 700px) {
-  main h1 {
+  main .main__texts--container h1 {
     margin-left: 8%;
   }
 }
-main h2 {
+@media screen and (min-width: 1024px) {
+  main .main__texts--container h1 {
+    margin-left: 0;
+    align-self: flex-start;
+  }
+}
+@media screen and (min-width: 1024px) {
+  main .main__texts--container .main__texts--description {
+    margin-top: 4.5rem;
+  }
+}
+main .main__texts--container .main__texts--description h2 {
   font-family: "Poppins", sans-serif;
   font-size: 1.12rem;
   font-weight: 600;
@@ -16,29 +36,34 @@ main h2 {
   text-transform: uppercase;
 }
 @media screen and (min-width: 700px) {
-  main h2 {
+  main .main__texts--container .main__texts--description h2 {
     margin-left: 8%;
   }
 }
-main p {
+main .main__texts--container .main__texts--description p {
   font-family: "Poppins", sans-serif;
   font-size: 0.87rem;
   margin: 0 0 4.5rem 1.5rem;
   width: 20rem;
 }
 @media screen and (min-width: 600px) {
-  main p {
+  main .main__texts--container .main__texts--description p {
     width: 25rem;
   }
 }
 @media screen and (min-width: 664px) {
-  main p {
+  main .main__texts--container .main__texts--description p {
     width: 35rem;
   }
 }
 @media screen and (min-width: 700px) {
-  main p {
+  main .main__texts--container .main__texts--description p {
     margin-left: 8%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  main .main__texts--container .main__texts--description p {
+    width: 20rem;
   }
 }
 main .img__container {
