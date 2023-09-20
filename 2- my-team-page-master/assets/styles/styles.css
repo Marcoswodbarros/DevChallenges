@@ -128,6 +128,14 @@ main .img__container figure {
     width: 12rem;
   }
 }
+@media screen and (min-width: 1024px) {
+  main .img__container figure:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: 0.7s;
+    z-index: 20;
+  }
+}
 @media screen and (min-width: 1440px) {
   main .img__container figure {
     width: 16rem;

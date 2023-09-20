@@ -122,6 +122,15 @@ main {
                 width: 12rem;
             }
 
+            @media screen and (min-width: 1024px) {
+                &:hover {
+                    cursor: pointer;
+                    transform: scale(1.5);
+                    transition: .7s;
+                    z-index: 20;
+                }
+            }
+
             @media screen and (min-width: 1440px) {
                 width: 16rem;
             }
