@@ -5,28 +5,29 @@ main {
     h1 {
         font-family: $font-pt-serif;
         font-size: 2.25rem;
-        margin: 4.5rem 0 2.5rem 1rem;
+        margin: 4.5rem 0 2.5rem 1.5rem;
     }
 
     h2 {
         font-family: $font-poppins;
         font-size: 1.12rem;
         font-weight: 600;
-        margin: 0 0 1rem 1rem;
+        margin: 0 0 1rem 1.5rem;
         text-transform: uppercase;
     }
 
     p {
         font-family: $font-poppins;
         font-size: 0.87rem;
-        margin: 0 0 4.5rem 1rem;
+        margin: 0 0 4.5rem 1.5rem;
+        width: 20rem;
     }
 
 
     .img__container {
         display: flex;
         justify-content: center;
-        column-gap: 15%;
+        column-gap: 12%;
         flex-wrap: wrap;
 
         & figure:nth-child(2n) {
@@ -40,7 +41,7 @@ main {
             font-family: $font-poppins;
             position: relative;
             row-gap: .5rem;
-            width: 8rem;
+            width: 9rem;
 
             img {
                 width: 100%;
@@ -55,10 +56,10 @@ main {
             span {
                 display: inline-block;
                 font-size: .62rem;
-                left: 4.5rem;
+                left: 5rem;
                 position: absolute;
                 text-transform: uppercase;
-                top: 3.6rem;
+                top: 4.1rem;
                 transform: rotate(90deg);
                 width: 100%;
             }

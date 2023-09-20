@@ -1,25 +1,26 @@
 main h1 {
   font-family: "PT Serif", serif;
   font-size: 2.25rem;
-  margin: 4.5rem 0 2.5rem 1rem;
+  margin: 4.5rem 0 2.5rem 1.5rem;
 }
 main h2 {
   font-family: "Poppins", sans-serif;
   font-size: 1.12rem;
   font-weight: 600;
-  margin: 0 0 1rem 1rem;
+  margin: 0 0 1rem 1.5rem;
   text-transform: uppercase;
 }
 main p {
   font-family: "Poppins", sans-serif;
   font-size: 0.87rem;
-  margin: 0 0 4.5rem 1rem;
+  margin: 0 0 4.5rem 1.5rem;
+  width: 20rem;
 }
 main .img__container {
   display: flex;
   justify-content: center;
-  -moz-column-gap: 15%;
-       column-gap: 15%;
+  -moz-column-gap: 12%;
+       column-gap: 12%;
   flex-wrap: wrap;
 }
 main .img__container figure:nth-child(2n) {
@@ -32,7 +33,7 @@ main .img__container figure {
   font-family: "Poppins", sans-serif;
   position: relative;
   row-gap: 0.5rem;
-  width: 8rem;
+  width: 9rem;
 }
 main .img__container figure img {
   width: 100%;
@@ -45,10 +46,10 @@ main .img__container figure figcaption {
 main .img__container figure span {
   display: inline-block;
   font-size: 0.62rem;
-  left: 4.5rem;
+  left: 5rem;
   position: absolute;
   text-transform: uppercase;
-  top: 3.6rem;
+  top: 4.1rem;
   transform: rotate(90deg);
   width: 100%;
 }
