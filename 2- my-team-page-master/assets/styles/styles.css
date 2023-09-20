@@ -3,12 +3,22 @@ main h1 {
   font-size: 2.25rem;
   margin: 4.5rem 0 2.5rem 1.5rem;
 }
+@media screen and (min-width: 700px) {
+  main h1 {
+    margin-left: 8%;
+  }
+}
 main h2 {
   font-family: "Poppins", sans-serif;
   font-size: 1.12rem;
   font-weight: 600;
   margin: 0 0 1rem 1.5rem;
   text-transform: uppercase;
+}
+@media screen and (min-width: 700px) {
+  main h2 {
+    margin-left: 8%;
+  }
 }
 main p {
   font-family: "Poppins", sans-serif;
@@ -19,6 +29,11 @@ main p {
 @media screen and (min-width: 664px) {
   main p {
     width: 35rem;
+  }
+}
+@media screen and (min-width: 700px) {
+  main p {
+    margin-left: 8%;
   }
 }
 main .img__container {
