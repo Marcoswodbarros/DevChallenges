@@ -1,60 +1,84 @@
 @import '../abstract/variables';
 
-h1 {
-    font-family: $font-pt-serif;
-    font-size: 2.25rem;
-    margin: 4.5rem 0 2.5rem 1rem;
-}
+main {
 
-h2 {
-    font-family: $font-poppins;
-    font-size: 1.12rem;
-    font-weight: 600;
-    margin: 0 0 1rem 1rem;
-    text-transform: uppercase;
-}
+    h1 {
+        font-family: $font-pt-serif;
+        font-size: 2.25rem;
+        margin: 4.5rem 0 2.5rem 1rem;
+    }
 
-p {
-    font-family: $font-poppins;
-    font-size: 0.87rem;
-    margin: 0 0 4.5rem 1rem;
-}
-
-
-.img__container {
-    display: flex;
-    justify-content: center;
-    column-gap: 15%;
-    flex-wrap: wrap;
-
-    figure {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
+    h2 {
         font-family: $font-poppins;
-        position: relative;
-        row-gap: .5rem;
-        width: 8rem;
+        font-size: 1.12rem;
+        font-weight: 600;
+        margin: 0 0 1rem 1rem;
+        text-transform: uppercase;
+    }
 
-        img {
-            width: 100%;
+    p {
+        font-family: $font-poppins;
+        font-size: 0.87rem;
+        margin: 0 0 4.5rem 1rem;
+    }
+
+
+    .img__container {
+        display: flex;
+        justify-content: center;
+        column-gap: 15%;
+        flex-wrap: wrap;
+
+        & figure:nth-child(2n) {
+            margin-top: 3rem;
         }
 
-        figcaption {
-            align-self: flex-start;
-            font-size: .87rem;
-            font-weight: bold;
-        }
+        figure {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            font-family: $font-poppins;
+            position: relative;
+            row-gap: .5rem;
+            width: 8rem;
 
-        span {
-            display: inline-block;
-            font-size: .62rem;
-            left: 4.5rem;
-            position: absolute;
-            text-transform: uppercase;
-            top: 3.6rem;
-            transform: rotate(90deg);
-            width: 100%;
+            img {
+                width: 100%;
+            }
+
+            figcaption {
+                align-self: flex-start;
+                font-size: .87rem;
+                font-weight: bold;
+            }
+
+            span {
+                display: inline-block;
+                font-size: .62rem;
+                left: 4.5rem;
+                position: absolute;
+                text-transform: uppercase;
+                top: 3.6rem;
+                transform: rotate(90deg);
+                width: 100%;
+            }
+        }
+    }
+}
+
+footer {
+
+    margin: 32% 0 .5rem 0;
+
+    p {
+        color: $color-light-gray;
+        font-family: $font-mont;
+        font-size: .87rem;
+        text-align: center;
+
+        a {
+            color: $color-light-gray;
+            text-decoration: none;
         }
     }
 }
