@@ -29,7 +29,6 @@ main .main__texts--container h1 {
 @media screen and (min-width: 1024px) {
   main .main__texts--container h1 {
     margin-left: 0;
-    align-self: flex-start;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -112,7 +111,6 @@ main .img__container figure:nth-child(2n) {
   }
 }
 main .img__container figure {
-  align-items: center;
   display: flex;
   flex-direction: column;
   font-family: "Poppins", sans-serif;
@@ -139,7 +137,6 @@ main .img__container figure img {
   width: 100%;
 }
 main .img__container figure figcaption {
-  align-self: flex-start;
   font-size: 0.87rem;
   font-weight: bold;
 }
