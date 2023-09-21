@@ -1,5 +1,57 @@
+header {
+  padding: 1.5rem 1rem;
+}
+header nav {
+  align-items: center;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+}
+header nav p {
+  border: 1px solid white;
+  font-family: "Crimson Pro", serif;
+  font-size: 0.87rem;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+}
+header nav i {
+  font-size: 2rem;
+  z-index: 2;
+}
+header nav .fa-xmark {
+  display: none;
+}
+header nav ul {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  left: 50%;
+  position: absolute;
+  row-gap: 5%;
+  top: -100%;
+  transform: translate(-50%);
+  transition: 0.7s ease-in-out;
+  width: 100vw;
+}
+header nav ul li {
+  font-size: 1.12rem;
+  text-align: center;
+}
+header nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+header nav .nav__ul--expanded {
+  top: 0;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: black;
 }/*# sourceMappingURL=style.css.map */
