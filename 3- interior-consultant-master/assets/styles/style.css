@@ -36,7 +36,7 @@ header nav ul {
   row-gap: 5%;
   top: -100%;
   transform: translate(-50%);
-  transition: 0.7s ease-in-out;
+  transition: 0.8s ease-in-out;
   width: 100vw;
 }
 header nav ul li {
@@ -84,11 +84,34 @@ main .main__text--container .main__read span {
   font-weight: bold;
 }
 main .main__images--container {
+  align-items: center;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 main .main__images--container img {
-  width: 90%;
+  width: 22rem;
+}
+main .main__images--container .aliza__card figure {
+  align-items: center;
+  -moz-column-gap: 0.8rem;
+       column-gap: 0.8rem;
+  display: flex;
+}
+main .main__images--container .aliza__card figure img {
+  border-radius: 50%;
+  width: 2.25rem;
+}
+main .main__images--container .aliza__card figure .figcaption__container figcaption {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+}
+main .main__images--container .aliza__card figure .figcaption__container p {
+  color: #828282;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.62rem;
+  font-weight: 500;
 }
 
 * {
