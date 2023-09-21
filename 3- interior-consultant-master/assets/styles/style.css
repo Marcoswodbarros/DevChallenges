@@ -17,7 +17,7 @@ header nav p {
 }
 header nav i {
   font-size: 2rem;
-  z-index: 2;
+  z-index: 3;
 }
 header nav .fa-xmark {
   display: none;
@@ -26,7 +26,7 @@ header nav ul {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   list-style: none;
-  background-color: #000000;
+  background-color: #181719;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -38,6 +38,7 @@ header nav ul {
   transform: translate(-50%);
   transition: 0.8s ease-in-out;
   width: 100vw;
+  z-index: 2;
 }
 header nav ul li {
   font-size: 1.12rem;
@@ -87,9 +88,24 @@ main .main__images--container {
   align-items: center;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 main .main__images--container img {
   width: 22rem;
+}
+main .main__images--container .aliza__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 1rem;
+  padding: 0 1.5rem;
+  background-color: #181719;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+  height: 8.62rem;
+  left: 3rem;
+  position: absolute;
+  top: 13.5rem;
+  width: 18.75rem;
 }
 main .main__images--container .aliza__card figure {
   align-items: center;
@@ -113,6 +129,13 @@ main .main__images--container .aliza__card figure .figcaption__container p {
   font-size: 0.62rem;
   font-weight: 500;
 }
+main .main__images--container .aliza__card h3 {
+  font-family: "Lora", serif;
+  font-size: 1.12rem;
+  font-weight: bold;
+  line-height: 1.43rem;
+  width: 13.12rem;
+}
 
 * {
   box-sizing: border-box;
@@ -121,5 +144,5 @@ main .main__images--container .aliza__card figure .figcaption__container p {
 }
 
 body {
-  background-color: black;
+  background-color: #181719;
 }/*# sourceMappingURL=style.css.map */
