@@ -1,0 +1,37 @@
+@import '../abstract/variables';
+
+main {
+    color: $color-white;
+    padding-left: 1rem;
+
+    .main__text--container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1.5rem;
+    }
+
+    h1 {
+        font-family: $font-lora;
+        font-size: 2.25rem;
+        margin-bottom: .5rem;
+    }
+
+    p {
+        font-family: $font-mont;
+        font-size: .87rem;
+        line-height: 1.06rem;
+        width: 15.62rem;
+    }
+
+    .main__read {
+        align-items: center;
+        column-gap: 1rem;
+        display: flex;
+
+        span {
+            font-family: $font-mont;
+            font-size: .87rem;
+            font-weight: bold;
+        }
+    }
+}
