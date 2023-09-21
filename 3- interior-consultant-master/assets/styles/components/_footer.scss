@@ -1,0 +1,18 @@
+@import '../abstract/variables';
+
+footer {
+    color: $color-gray;
+    margin: 42% 0 1rem 0;
+    text-align: center;
+
+    p {
+        font-family: $font-mont;
+        font-weight: bold;
+        font-size: .87rem;
+
+        a {
+            color: $color-gray;
+            text-decoration: none;
+        }
+    }
+}

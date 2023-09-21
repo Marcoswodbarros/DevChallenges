@@ -137,6 +137,21 @@ main .main__images--container .aliza__card h3 {
   width: 13.12rem;
 }
 
+footer {
+  color: #828282;
+  margin: 42% 0 1rem 0;
+  text-align: center;
+}
+footer p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 0.87rem;
+}
+footer p a {
+  color: #828282;
+  text-decoration: none;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
