@@ -10,4 +10,15 @@
 
 body {
     background-color: $color-black;
+
+    main {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main__menu--expanded {
+        position: fixed;
+        width: 100%;
+    }
 }
