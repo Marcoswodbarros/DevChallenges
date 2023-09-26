@@ -54,14 +54,16 @@ header nav .nav__ul--expanded {
 }
 
 main {
+  align-items: center;
   color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
 }
 main .main__text--container {
-  align-self: flex-start;
   display: flex;
   flex-direction: column;
   margin-bottom: 2rem;
-  padding-left: 1rem;
+  padding-right: 4.3rem;
   row-gap: 1.5rem;
 }
 main .main__text--container h1 {
@@ -162,11 +164,6 @@ footer p a {
 
 body {
   background-color: #181719;
-}
-body main {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
 }
 body .main__menu--expanded {
   position: fixed;

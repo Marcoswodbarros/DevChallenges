@@ -1,15 +1,21 @@
 @import '../abstract/variables';
 
 main {
+    align-items: center;
     color: $color-white;
+    display: flex;
+    flex-direction: column;
 
     .main__text--container {
-        align-self: flex-start;
         display: flex;
         flex-direction: column;
         margin-bottom: 2rem;
-        padding-left: 1rem;
+        padding-right: 4.3rem;
         row-gap: 1.5rem;
+
+        @media screen and (min-width: 500px) {
+            
+        }
 
         h1 {
             font-family: $font-lora;
@@ -41,7 +47,6 @@ main {
         align-items: center;
         display: flex;
         flex-direction: column;
-
         position: relative;
 
         img {
