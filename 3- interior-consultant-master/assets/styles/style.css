@@ -75,6 +75,7 @@ header nav ul {
 header nav ul li {
   font-size: 1.12rem;
   text-align: center;
+  position: relative;
 }
 header nav ul li a {
   color: #FFFFFF;
@@ -82,6 +83,19 @@ header nav ul li a {
 }
 header nav ul li a:hover {
   font-weight: bold;
+}
+header nav ul li::after {
+  content: "";
+  background-color: #FFFFFF;
+  top: 120%;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  transition: width 0.5s;
+  width: 0%;
+}
+header nav ul li:hover::after {
+  width: 100%;
 }
 header nav .nav__ul--expanded {
   position: fixed;

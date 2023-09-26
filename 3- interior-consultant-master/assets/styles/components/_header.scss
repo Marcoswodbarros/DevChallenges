@@ -78,14 +78,30 @@ header {
             li {
                 font-size: 1.12rem;
                 text-align: center;
-
+                position: relative;
+            
                 a {
                     color: $color-white;
                     text-decoration: none;
-
+            
                     &:hover {
                         font-weight: bold;
                     }
+                }
+            
+                &::after {
+                    content: '';
+                    background-color: $color-white;
+                    top: 120%;
+                    height: 2px;
+                    left: 0;
+                    position: absolute;
+                    transition: width 0.5s;
+                    width: 0%;
+                }
+            
+                &:hover::after {
+                    width: 100%;
                 }
             }
         }
