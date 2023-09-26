@@ -1,8 +1,12 @@
 @import '../abstract/variables';
 
 header {
-    padding: 1.5rem 1rem;
     margin-bottom: 1rem;
+    padding: 1.5rem 1rem;
+
+    @media screen and (min-width: 576px) {
+        padding: 2.5rem 2rem 1.5rem 2rem;
+    }
 
     nav {
         align-items: center;
