@@ -12,6 +12,10 @@ header {
         padding: 2.5rem 3rem;
     }
 
+    @media screen and (min-width: 1440px) {
+        padding: 2.5rem 4rem;
+    }
+
     nav {
         align-items: center;
         color: $color-white;

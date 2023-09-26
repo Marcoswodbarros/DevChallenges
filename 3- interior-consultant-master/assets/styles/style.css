@@ -12,6 +12,11 @@ header {
     padding: 2.5rem 3rem;
   }
 }
+@media screen and (min-width: 1440px) {
+  header {
+    padding: 2.5rem 4rem;
+  }
+}
 header nav {
   align-items: center;
   color: #FFFFFF;
@@ -97,6 +102,12 @@ main {
     justify-content: center;
   }
 }
+@media screen and (min-width: 1440px) {
+  main {
+    -moz-column-gap: 11.5%;
+         column-gap: 11.5%;
+  }
+}
 main .main__text--container {
   display: flex;
   flex-direction: column;
@@ -109,11 +120,24 @@ main .main__text--container h1 {
   font-size: 2.25rem;
   margin-bottom: 0.5rem;
 }
+@media screen and (min-width: 1440px) {
+  main .main__text--container h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+}
 main .main__text--container p {
   font-family: "Montserrat", sans-serif;
   font-size: 0.87rem;
   line-height: 1.06rem;
   width: 15.62rem;
+}
+@media screen and (min-width: 1440px) {
+  main .main__text--container p {
+    font-size: 1.5rem;
+    line-height: 1.82rem;
+    width: 25.62rem;
+  }
 }
 main .main__text--container .main__read {
   align-items: center;
@@ -121,10 +145,20 @@ main .main__text--container .main__read {
        column-gap: 1rem;
   display: flex;
 }
+@media screen and (min-width: 1440px) {
+  main .main__text--container .main__read {
+    margin-top: 2rem;
+  }
+}
 main .main__text--container .main__read span {
   font-family: "Montserrat", sans-serif;
   font-size: 0.87rem;
   font-weight: bold;
+}
+@media screen and (min-width: 1440px) {
+  main .main__text--container .main__read span {
+    font-size: 1.12rem;
+  }
 }
 main .main__images--container {
   align-items: center;
@@ -138,6 +172,11 @@ main .main__images--container img {
 @media screen and (min-width: 1024px) {
   main .main__images--container img {
     width: 32rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  main .main__images--container img {
+    width: 42rem;
   }
 }
 main .main__images--container .aliza__card {
@@ -158,6 +197,12 @@ main .main__images--container .aliza__card {
   main .main__images--container .aliza__card {
     left: 11.5rem;
     top: 20.5rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  main .main__images--container .aliza__card {
+    left: 21.5rem;
+    top: 27rem;
   }
 }
 main .main__images--container .aliza__card figure {
