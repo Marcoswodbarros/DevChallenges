@@ -8,6 +8,10 @@ header {
         padding: 2.5rem 2rem 1.5rem 2rem;
     }
 
+    @media screen and (min-width: 1024px) {
+        padding: 2.5rem 3rem;
+    }
+
     nav {
         align-items: center;
         color: $color-white;
@@ -60,6 +64,7 @@ header {
             @media screen and (min-width: 1024px) {
                 column-gap: 4rem;
                 flex-direction: row;
+                font-weight: 500;
                 height: auto;
                 position: static;
                 transform: none;
@@ -73,6 +78,10 @@ header {
                 a {
                     color: $color-white;
                     text-decoration: none;
+
+                    &:hover {
+                        font-weight: bold;
+                    }
                 }
             }
         }

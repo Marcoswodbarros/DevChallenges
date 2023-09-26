@@ -7,6 +7,11 @@ header {
     padding: 2.5rem 2rem 1.5rem 2rem;
   }
 }
+@media screen and (min-width: 1024px) {
+  header {
+    padding: 2.5rem 3rem;
+  }
+}
 header nav {
   align-items: center;
   color: #FFFFFF;
@@ -55,6 +60,7 @@ header nav ul {
     -moz-column-gap: 4rem;
          column-gap: 4rem;
     flex-direction: row;
+    font-weight: 500;
     height: auto;
     position: static;
     transform: none;
@@ -68,6 +74,9 @@ header nav ul li {
 header nav ul li a {
   color: #FFFFFF;
   text-decoration: none;
+}
+header nav ul li a:hover {
+  font-weight: bold;
 }
 header nav .nav__ul--expanded {
   position: fixed;
