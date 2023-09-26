@@ -5,6 +5,10 @@ footer {
     margin: 42% 0 1rem 0;
     text-align: center;
 
+    @media screen and (min-width: 1024px) {
+        margin: 8.5% 0 0 0 ;
+    }
+
     p {
         font-family: $font-mont;
         font-weight: bold;

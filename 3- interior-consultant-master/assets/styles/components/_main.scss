@@ -6,16 +6,18 @@ main {
     display: flex;
     flex-direction: column;
 
+    @media screen and (min-width: 1024px) {
+        column-gap: 7%;
+        flex-direction: row;
+        justify-content: center;
+    }
+
     .main__text--container {
         display: flex;
         flex-direction: column;
         margin-bottom: 2rem;
         padding-right: 4.3rem;
         row-gap: 1.5rem;
-
-        @media screen and (min-width: 500px) {
-            
-        }
 
         h1 {
             font-family: $font-lora;
@@ -51,6 +53,10 @@ main {
 
         img {
             width: 22rem;
+
+            @media screen and (min-width: 1024px) {
+                width: 32rem;
+            }
         }
 
         .aliza__card {
@@ -68,6 +74,11 @@ main {
             top: 13.5rem;
             width: 18.75rem;
 
+
+            @media screen and (min-width: 1024px) {
+                left: 11.5rem;
+                top: 20.5rem;    
+            }
 
             figure {
                 align-items: center;

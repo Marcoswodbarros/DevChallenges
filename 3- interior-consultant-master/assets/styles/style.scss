@@ -15,4 +15,10 @@ body {
         position: fixed;
         width: 100%;
     }
+
+    @media screen and (min-width: 1024px) {
+        display: flex;
+        flex-direction: column;
+        row-gap: 4rem;
+    }
 }

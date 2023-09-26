@@ -89,6 +89,14 @@ main {
   display: flex;
   flex-direction: column;
 }
+@media screen and (min-width: 1024px) {
+  main {
+    -moz-column-gap: 7%;
+         column-gap: 7%;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
 main .main__text--container {
   display: flex;
   flex-direction: column;
@@ -127,6 +135,11 @@ main .main__images--container {
 main .main__images--container img {
   width: 22rem;
 }
+@media screen and (min-width: 1024px) {
+  main .main__images--container img {
+    width: 32rem;
+  }
+}
 main .main__images--container .aliza__card {
   display: flex;
   flex-direction: column;
@@ -140,6 +153,12 @@ main .main__images--container .aliza__card {
   position: absolute;
   top: 13.5rem;
   width: 18.75rem;
+}
+@media screen and (min-width: 1024px) {
+  main .main__images--container .aliza__card {
+    left: 11.5rem;
+    top: 20.5rem;
+  }
 }
 main .main__images--container .aliza__card figure {
   align-items: center;
@@ -176,6 +195,11 @@ footer {
   margin: 42% 0 1rem 0;
   text-align: center;
 }
+@media screen and (min-width: 1024px) {
+  footer {
+    margin: 8.5% 0 0 0;
+  }
+}
 footer p {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -198,4 +222,11 @@ body {
 body .main__menu--expanded {
   position: fixed;
   width: 100%;
+}
+@media screen and (min-width: 1024px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+  }
 }/*# sourceMappingURL=style.css.map */
