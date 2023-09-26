@@ -24,6 +24,11 @@ header nav i {
   font-size: 2rem;
   z-index: 3;
 }
+@media screen and (min-width: 1024px) {
+  header nav .fa-bars {
+    display: none;
+  }
+}
 header nav .fa-xmark {
   display: none;
 }
@@ -44,6 +49,17 @@ header nav ul {
   transition: 0.8s ease-in-out;
   width: 100vw;
   z-index: 2;
+}
+@media screen and (min-width: 1024px) {
+  header nav ul {
+    -moz-column-gap: 4rem;
+         column-gap: 4rem;
+    flex-direction: row;
+    height: auto;
+    position: static;
+    transform: none;
+    width: auto;
+  }
 }
 header nav ul li {
   font-size: 1.12rem;

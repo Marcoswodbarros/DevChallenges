@@ -27,6 +27,13 @@ header {
             z-index: 3;
         }
 
+        .fa-bars {
+
+            @media screen and (min-width: 1024px) {
+                display: none;
+            }
+        }
+
         .fa-xmark {
             display: none;
         }
@@ -49,6 +56,15 @@ header {
             transition: .8s ease-in-out;
             width: 100vw;
             z-index: 2;
+
+            @media screen and (min-width: 1024px) {
+                column-gap: 4rem;
+                flex-direction: row;
+                height: auto;
+                position: static;
+                transform: none;
+                width: auto;
+            }
 
             li {
                 font-size: 1.12rem;
