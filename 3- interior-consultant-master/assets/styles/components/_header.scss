@@ -30,33 +30,24 @@ header {
             text-transform: uppercase;
         }
 
-        i {
-            font-size: 2rem;
-            z-index: 3;
-        }
-
         .fa-bars {
-
+            font-size: 2rem;
+            
             @media screen and (min-width: 1024px) {
                 display: none;
             }
         }
 
-        .fa-xmark {
-            display: none;
-        }
-
         ul {
-            font-family: $font-mont;
-            font-weight: bold;
-            list-style: none;
-
             background-color: $color-black;
             display: flex;
             flex-direction: column;
+            font-family: $font-mont;
+            font-weight: bold;
             height: 100vh;
             justify-content: center;
             left: 50%;
+            list-style: none;
             position: absolute;
             row-gap: 5%;
             top: -100%;
@@ -72,7 +63,19 @@ header {
                 height: auto;
                 position: static;
                 transform: none;
+                transition: none;
                 width: auto;
+            }
+
+            .fa-xmark {
+                font-size: 2rem;
+                position: absolute;
+                right: 1.1rem;
+                top: 1.7rem;
+    
+                @media screen and (min-width: 1024px) {
+                    display: none;
+                }
             }
 
             li {
@@ -107,7 +110,7 @@ header {
         }
 
         .nav__ul--expanded {
-            position: fixed;
+            // position: fixed;
             top: 0;
         }
     }
