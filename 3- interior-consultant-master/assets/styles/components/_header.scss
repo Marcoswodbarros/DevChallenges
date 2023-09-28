@@ -22,12 +22,18 @@ header {
         display: flex;
         justify-content: space-between;
 
-        p {
+        .header__logo {
             border: 1px solid white;
+            color: $color-white;
             font-family: $font-crimson;
             font-size: .87rem;
             padding: .5rem 1rem;
+            text-decoration: none;
             text-transform: uppercase;
+
+            &:hover {
+                cursor: pointer;
+            }
         }
 
         .fa-bars {

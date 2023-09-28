@@ -23,12 +23,17 @@ header nav {
   display: flex;
   justify-content: space-between;
 }
-header nav p {
+header nav .header__logo {
   border: 1px solid white;
+  color: #FFFFFF;
   font-family: "Crimson Pro", serif;
   font-size: 0.87rem;
   padding: 0.5rem 1rem;
+  text-decoration: none;
   text-transform: uppercase;
+}
+header nav .header__logo:hover {
+  cursor: pointer;
 }
 header nav .fa-bars {
   font-size: 2rem;
@@ -172,6 +177,9 @@ main .main__text--container .main__read {
        column-gap: 1rem;
   display: flex;
 }
+main .main__text--container .main__read:hover {
+  cursor: pointer;
+}
 @media screen and (min-width: 1440px) {
   main .main__text--container .main__read {
     margin-top: 2rem;
@@ -186,6 +194,10 @@ main .main__text--container .main__read span {
   main .main__text--container .main__read span {
     font-size: 1.12rem;
   }
+}
+main .main__text--container .main__read span a {
+  color: #FFFFFF;
+  text-decoration: none;
 }
 main .main__images--container {
   align-items: center;
