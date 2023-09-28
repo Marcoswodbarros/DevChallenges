@@ -25,6 +25,6 @@ bars.addEventListener('click', openMenu);
 x.addEventListener('click', closeMenu);
 window.addEventListener('resize', updateIconVisibility);
 
-// Chame a função inicialmente para definir a visibilidade correta dos ícones
+// Chamando a função inicialmente para definir a visibilidade correta dos ícones
 updateIconVisibility();
 
