@@ -17,9 +17,8 @@ header {
     }
 
     nav {
-        align-items: center;
+        @include flexAlignCenter;
         color: $color-white;
-        display: flex;
         justify-content: space-between;
 
         .header__logo {
@@ -45,22 +44,7 @@ header {
         }
 
         ul {
-            background-color: $color-black;
-            display: flex;
-            flex-direction: column;
-            font-family: $font-mont;
-            font-weight: bold;
-            height: 100vh;
-            justify-content: center;
-            left: 50%;
-            list-style: none;
-            position: absolute;
-            row-gap: 5%;
-            top: -130%;
-            transform: translate(-50%);
-            transition: .8s ease-in-out;
-            width: 100vw;
-            z-index: 2;
+            @include ulNotExpanded;
 
             @media screen and (min-width: 1024px) {
                 column-gap: 4rem;
@@ -121,7 +105,6 @@ header {
         }
 
         .nav__ul--expanded {
-            // position: fixed;
             top: 0;
         }
     }

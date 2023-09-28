@@ -1,9 +1,8 @@
 @import '../abstract/variables';
 
 main {
-    align-items: center;
+    @include flexAlignCenter;
     color: $color-white;
-    display: flex;
     flex-direction: column;
 
     @media screen and (min-width: 1024px) {
@@ -48,9 +47,8 @@ main {
         }
 
         .main__read {
-            align-items: center;
+            @include flexAlignCenter;
             column-gap: 1rem;
-            display: flex;
 
             &:hover {
                 cursor: pointer;
@@ -78,8 +76,7 @@ main {
     }
 
     .main__images--container {
-        align-items: center;
-        display: flex;
+        @include flexAlignCenter;
         flex-direction: column;
         position: relative;
 
@@ -96,20 +93,7 @@ main {
         }
 
         .aliza__card {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            row-gap: 1rem;
-            padding: 0 1.5rem;
-
-            background-color: $color-black;
-            box-shadow: 0px 4px 4px 0px #00000040;
-            height: 8.62rem;
-            left: 2.5rem;
-            position: absolute;
-            top: 13.5rem;
-            width: 18.75rem;
-
+            @include alizaCard;
 
             @media screen and (min-width: 1024px) {
                 left: 11.5rem;
@@ -122,9 +106,8 @@ main {
             }
 
             figure {
-                align-items: center;
+                @include flexAlignCenter;
                 column-gap: .8rem;
-                display: flex;
 
                 img {
                     border-radius: 50%;
