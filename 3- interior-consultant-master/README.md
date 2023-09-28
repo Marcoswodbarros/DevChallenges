@@ -27,13 +27,13 @@ Users should be able to:
 
 ### Screenshots
 
-![Mobile](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/943c5d93-9a96-44b0-83de-5b7fad874892)
+![Mobile](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/eee26177-fbd5-4284-b8df-a51009f5f89e)
+![Mobile - Menu Open](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/9ad9999e-54ca-4f19-98e3-c11294afdf85)
 
-![Tablet](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/4a51d905-4dfa-4101-8d58-cac485e9945c)
+![Tablet](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/36a4b786-c88d-4a2d-a5d9-064f0733a4c6)
+![Tablet - Menu Open](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/bc6ab5e2-2d2f-49db-aa78-1f34a3241a45)
 
-![Laptop](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/186063ed-a192-46be-a819-5de7968854c1)
-
-![Desktop](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/19b95aa9-12f4-4342-bdb1-4b8fa4131862)
+![Desktop](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/56e00105-7ed9-4aea-a501-dac626767d6e)
 
 ### Links
 
