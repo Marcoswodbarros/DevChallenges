@@ -75,6 +75,12 @@ header nav ul .fa-xmark {
   right: 1.1rem;
   top: 1.7rem;
 }
+@media screen and (min-width: 576px) {
+  header nav ul .fa-xmark {
+    right: 2.1rem;
+    top: 2.7rem;
+  }
+}
 @media screen and (min-width: 1024px) {
   header nav ul .fa-xmark {
     display: none;

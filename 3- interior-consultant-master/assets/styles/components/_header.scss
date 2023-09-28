@@ -32,7 +32,7 @@ header {
 
         .fa-bars {
             font-size: 2rem;
-            
+
             @media screen and (min-width: 1024px) {
                 display: none;
             }
@@ -72,7 +72,12 @@ header {
                 position: absolute;
                 right: 1.1rem;
                 top: 1.7rem;
-    
+
+                @media screen and (min-width: 576px) {
+                    right: 2.1rem;
+                    top: 2.7rem;
+                }
+
                 @media screen and (min-width: 1024px) {
                     display: none;
                 }
@@ -82,16 +87,16 @@ header {
                 font-size: 1.12rem;
                 text-align: center;
                 position: relative;
-            
+
                 a {
                     color: $color-white;
                     text-decoration: none;
-            
+
                     &:hover {
                         font-weight: bold;
                     }
                 }
-            
+
                 &::after {
                     content: '';
                     background-color: $color-white;
@@ -102,7 +107,7 @@ header {
                     transition: width 0.5s;
                     width: 0%;
                 }
-            
+
                 &:hover::after {
                     width: 100%;
                 }
