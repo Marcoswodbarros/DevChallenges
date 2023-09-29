@@ -1,0 +1,10 @@
+@import 'abstract/variables';
+@import 'components/header.scss';
+@import 'components/main.scss';
+@import 'components/footer.scss';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
