@@ -5,6 +5,7 @@ main {
     align-items: center;
     display: flex;
     flex-direction: column;
+    row-gap: 2.5rem;
 
     .firstSection__container {
         width: 22rem;
@@ -107,14 +108,17 @@ main {
     }
 
     .secondSection__container {
+        color: $color-gray1;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+
         h2 {
-            color: $color-gray1;
             font-family: $font-play;
             font-size: 1.12rem;
         }
 
         h3 {
-            color: $color-gray1;
             font-family: $font-play;
             font-size: 1rem;
             font-style: italic;
@@ -123,8 +127,23 @@ main {
 
         label {
             align-items: center;
-            display: flex;
             column-gap: .5rem;
+            display: flex;
+            font-family: $font-mont;
+
+            input {
+                height: 21px;
+                width: 21px;
+            }
+
+            p {
+                font-size: .87rem;
+                max-width: 321px;
+
+                span {
+                    font-weight: 700;
+                }
+            }
         }
     }
 }

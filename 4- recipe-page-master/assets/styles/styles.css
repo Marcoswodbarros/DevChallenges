@@ -2,6 +2,7 @@ main {
   align-items: center;
   display: flex;
   flex-direction: column;
+  row-gap: 2.5rem;
 }
 main .firstSection__container {
   width: 22rem;
@@ -90,13 +91,17 @@ main .firstSection__container .firstSection__time .firstSection__time--infos .ti
   font-size: 0.62rem;
   font-weight: 500;
 }
-main .secondSection__container h2 {
+main .secondSection__container {
   color: #333333;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+main .secondSection__container h2 {
   font-family: "Playfair Display";
   font-size: 1.12rem;
 }
 main .secondSection__container h3 {
-  color: #333333;
   font-family: "Playfair Display";
   font-size: 1rem;
   font-style: italic;
@@ -104,9 +109,21 @@ main .secondSection__container h3 {
 }
 main .secondSection__container label {
   align-items: center;
-  display: flex;
   -moz-column-gap: 0.5rem;
        column-gap: 0.5rem;
+  display: flex;
+  font-family: "Montserrat";
+}
+main .secondSection__container label input {
+  height: 21px;
+  width: 21px;
+}
+main .secondSection__container label p {
+  font-size: 0.87rem;
+  max-width: 321px;
+}
+main .secondSection__container label p span {
+  font-weight: 700;
 }
 
 * {
