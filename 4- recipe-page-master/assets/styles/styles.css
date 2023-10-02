@@ -3,12 +3,14 @@
 }
 .firstSection__container h1 {
   font-family: "Playfair Display";
+  margin-top: 2rem;
 }
 .firstSection__container .section__text {
   align-items: flex-start;
   -moz-column-gap: 0.5rem;
        column-gap: 0.5rem;
   display: flex;
+  margin-top: 0.8rem;
 }
 .firstSection__container .section__text .section__text--img {
   margin-top: 0.25rem;
@@ -22,6 +24,7 @@
 }
 .firstSection__container .firstSection__img {
   border-radius: 0.75rem;
+  margin-top: 2rem;
   width: 350px;
 }
 .firstSection__container .firstSection__utensils {
@@ -29,6 +32,7 @@
   -moz-column-gap: 0.5rem;
        column-gap: 0.5rem;
   display: flex;
+  margin-top: 1.5rem;
 }
 .firstSection__container .firstSection__utensils .fa-utensils {
   color: #F2994A;
@@ -53,6 +57,7 @@
 .firstSection__container .firstSection__time {
   display: flex;
   justify-content: space-around;
+  margin-top: 1.5rem;
 }
 .firstSection__container .firstSection__time .firstSection__time--infos {
   align-items: center;
