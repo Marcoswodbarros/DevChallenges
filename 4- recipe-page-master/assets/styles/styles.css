@@ -7,9 +7,19 @@ main {
 main .firstSection__container {
   width: 22rem;
 }
+@media screen and (min-width: 1024px) {
+  main .firstSection__container {
+    width: auto;
+  }
+}
 main .firstSection__container h1 {
   font-family: "Playfair Display";
   margin-top: 2rem;
+}
+@media screen and (min-width: 1024px) {
+  main .firstSection__container h1 {
+    font-size: 2.5rem;
+  }
 }
 main .firstSection__container .section__text {
   align-items: flex-start;
@@ -29,10 +39,20 @@ main .firstSection__container .section__text p {
   font-weight: 500;
   width: 20rem;
 }
+@media screen and (min-width: 1024px) {
+  main .firstSection__container .section__text p {
+    width: 31rem;
+  }
+}
 main .firstSection__container .firstSection__img {
   border-radius: 0.75rem;
   margin-top: 2rem;
   width: 350px;
+}
+@media screen and (min-width: 1024px) {
+  main .firstSection__container .firstSection__img {
+    width: 850px;
+  }
 }
 main .firstSection__container .firstSection__utensils {
   align-items: center;
