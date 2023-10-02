@@ -73,8 +73,8 @@ main {
         }
 
         .firstSection__time {
-            display: flex;
             column-gap: 12%;
+            display: flex;
             margin-top: 1.5rem;
 
             .firstSection__time--infos {
@@ -94,8 +94,8 @@ main {
                     .info__time--firstSpan {
                         color: $color-gray4;
                         font-size: .5rem;
-                        font-weight: 700;
                         text-transform: uppercase;
+                        font-weight: 700;
                     }
 
                     .info__time--secondSpan {
@@ -139,8 +139,8 @@ main {
 
                 p {
                     font-size: .87rem;
-                    max-width: 321px;
                     line-height: 25px;
+                    max-width: 321px;
 
                     span {
                         font-weight: 700;
@@ -156,17 +156,17 @@ main {
 
         .teste {
             color: $color-gray1;
-            font-weight: 500 !important;
             font-style: italic;
+            font-weight: 500 !important;
         }
 
     }
 
     .thirdSection__container {
         h2 {
-            text-align: start;
             font-family: $font-play;
             margin-bottom: 1.5rem;
+            text-align: start;
         }
 
         ul {
@@ -178,15 +178,15 @@ main {
                 list-style: none;
 
                 .li__text {
-                    display: flex;
                     column-gap: .5rem;
+                    display: flex;
 
                     .li__text--number {
                         background-color: $color-orange;
                         border-radius: .5rem;
                         height: 32px;
-                        width: 32px;
                         text-align: center;
+                        width: 32px;
 
                         span {
                             color: $color-white;
@@ -207,6 +207,19 @@ main {
                     }
                 }
             }
+        }
+    }
+
+    .source {
+        p {
+            color: $color-gray4;
+            font-family: $font-mont;
+            font-size: .75rem;
+            line-height: 1.12rem; 
+        }
+
+        span {
+            font-style: italic;
         }
     }
 }

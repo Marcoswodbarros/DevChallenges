@@ -62,9 +62,9 @@ main .firstSection__container .firstSection__utensils .utensils__text .utensils_
   font-weight: 500;
 }
 main .firstSection__container .firstSection__time {
-  display: flex;
   -moz-column-gap: 12%;
        column-gap: 12%;
+  display: flex;
   margin-top: 1.5rem;
 }
 main .firstSection__container .firstSection__time .firstSection__time--infos {
@@ -84,8 +84,8 @@ main .firstSection__container .firstSection__time .firstSection__time--infos .ti
 main .firstSection__container .firstSection__time .firstSection__time--infos .time__infos--text .info__time--firstSpan {
   color: #BDBDBD;
   font-size: 0.5rem;
-  font-weight: 700;
   text-transform: uppercase;
+  font-weight: 700;
 }
 main .firstSection__container .firstSection__time .firstSection__time--infos .time__infos--text .info__time--secondSpan {
   font-size: 0.62rem;
@@ -120,8 +120,8 @@ main .secondSection__container .secondSection__ingredients label input {
 }
 main .secondSection__container .secondSection__ingredients label p {
   font-size: 0.87rem;
-  max-width: 321px;
   line-height: 25px;
+  max-width: 321px;
 }
 main .secondSection__container .secondSection__ingredients label p span {
   font-weight: 700;
@@ -131,13 +131,13 @@ main .secondSection__container .ingredients__secondTitle {
 }
 main .secondSection__container .teste {
   color: #333333;
-  font-weight: 500 !important;
   font-style: italic;
+  font-weight: 500 !important;
 }
 main .thirdSection__container h2 {
-  text-align: start;
   font-family: "Playfair Display";
   margin-bottom: 1.5rem;
+  text-align: start;
 }
 main .thirdSection__container ul {
   display: flex;
@@ -148,16 +148,16 @@ main .thirdSection__container ul li {
   list-style: none;
 }
 main .thirdSection__container ul li .li__text {
-  display: flex;
   -moz-column-gap: 0.5rem;
        column-gap: 0.5rem;
+  display: flex;
 }
 main .thirdSection__container ul li .li__text .li__text--number {
   background-color: #F2994A;
   border-radius: 0.5rem;
   height: 32px;
-  width: 32px;
   text-align: center;
+  width: 32px;
 }
 main .thirdSection__container ul li .li__text .li__text--number span {
   color: #FFFFFF;
@@ -172,6 +172,15 @@ main .thirdSection__container ul li .li__text p {
 }
 main .thirdSection__container ul li .li__text p span {
   font-weight: 700;
+}
+main .source p {
+  color: #BDBDBD;
+  font-family: "Montserrat";
+  font-size: 0.75rem;
+  line-height: 1.12rem;
+}
+main .source span {
+  font-style: italic;
 }
 
 * {
