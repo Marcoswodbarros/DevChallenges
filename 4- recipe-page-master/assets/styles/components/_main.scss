@@ -1,0 +1,28 @@
+@import '../abstract/variables';
+
+.firstSection__container {
+    padding: 1rem;
+    width: 22rem;
+
+    h1 {
+        font-family: $font-play;
+    }
+
+    .section__text {
+        align-items: flex-start;
+        column-gap: .5rem;
+        display: flex;
+
+        .firstSection__img {
+            margin-top: .25rem;
+        }
+
+        p {
+            color: $color-gray2;
+            font-family: $font-mont;
+            font-size: .75rem;
+            font-style: italic;
+            font-weight: 500;
+        }
+    }
+}

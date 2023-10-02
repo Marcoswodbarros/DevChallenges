@@ -1,3 +1,27 @@
+.firstSection__container {
+  padding: 1rem;
+  width: 22rem;
+}
+.firstSection__container h1 {
+  font-family: "Playfair Display";
+}
+.firstSection__container .section__text {
+  align-items: flex-start;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+  display: flex;
+}
+.firstSection__container .section__text .firstSection__img {
+  margin-top: 0.25rem;
+}
+.firstSection__container .section__text p {
+  color: #4F4F4F;
+  font-family: "Montserrat";
+  font-size: 0.75rem;
+  font-style: italic;
+  font-weight: 500;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
