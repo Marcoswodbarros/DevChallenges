@@ -1,98 +1,105 @@
 @import '../abstract/variables';
 
-.firstSection__container {
-    width: 22rem;
 
-    h1 {
-        font-family: $font-play;
-        margin-top: 2rem;
-    }
+main {
+    display: flex;
+    justify-content: center;
 
-    .section__text {
-        align-items: flex-start;
-        column-gap: .5rem;
-        display: flex;
-        margin-top: .8rem;
+    .firstSection__container {
+        width: 22rem;
 
-        .section__text--img {
-            margin-top: .25rem;
+        h1 {
+            font-family: $font-play;
+            margin-top: 2rem;
         }
 
-        p {
-            color: $color-gray2;
-            font-family: $font-mont;
-            font-size: .75rem;
-            font-style: italic;
-            font-weight: 500;
-        }
-    }
-
-    .firstSection__img {
-        border-radius: .75rem;
-        margin-top: 2rem;
-        width: 350px;
-    }
-
-    .firstSection__utensils {
-        align-items: center;
-        column-gap: .5rem;
-        display: flex;
-        margin-top: 1.5rem;
-
-        .fa-utensils {
-            color: $color-orange;
-            font-size: .8rem;
-        }
-
-        .utensils__text {
+        .section__text {
+            align-items: flex-start;
+            column-gap: .5rem;
             display: flex;
-            flex-direction: column;
-            font-family: $font-mont;
+            margin-top: .7rem;
 
-            .utensils__text--firstSpan {
-                color: $color-gray4;
-                font-size: .5rem;
-                text-transform: uppercase;
-                font-weight: 700;
+            .section__text--img {
+                margin-top: .25rem;
             }
 
-            .utensils__text--secondSpan {
-                color: $color-orange;
-                font-size: .62rem;
+            p {
+                color: $color-gray2;
+                font-family: $font-mont;
+                font-size: .75rem;
+                font-style: italic;
                 font-weight: 500;
+                width: 20rem;
             }
         }
-    }
 
-    .firstSection__time {
-        display: flex;
-        justify-content: space-around;
-        margin-top: 1.5rem;
+        .firstSection__img {
+            border-radius: .75rem;
+            margin-top: 2rem;
+            width: 350px;
+        }
 
-        .firstSection__time--infos {
+        .firstSection__utensils {
             align-items: center;
             column-gap: .5rem;
             display: flex;
+            margin-top: 1.5rem;
 
-            .fa-clock {
-                font-size: .9rem;
+            .fa-utensils {
+                color: $color-orange;
+                font-size: .8rem;
             }
 
-            .time__infos--text {
+            .utensils__text {
                 display: flex;
                 flex-direction: column;
                 font-family: $font-mont;
 
-                .info__time--firstSpan {
+                .utensils__text--firstSpan {
                     color: $color-gray4;
                     font-size: .5rem;
-                    font-weight: 700;
                     text-transform: uppercase;
+                    font-weight: 700;
                 }
 
-                .info__time--secondSpan {
+                .utensils__text--secondSpan {
+                    color: $color-orange;
                     font-size: .62rem;
                     font-weight: 500;
+                }
+            }
+        }
+
+        .firstSection__time {
+            display: flex;
+            column-gap: 12%;
+            margin-top: 1.5rem;
+
+            .firstSection__time--infos {
+                align-items: center;
+                column-gap: .5rem;
+                display: flex;
+
+                .fa-clock {
+                    font-size: .9rem;
+                }
+
+                .time__infos--text {
+                    display: flex;
+                    flex-direction: column;
+                    font-family: $font-mont;
+
+                    .info__time--firstSpan {
+                        color: $color-gray4;
+                        font-size: .5rem;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                    }
+
+                    .info__time--secondSpan {
+                        font-size: .62rem;
+                        font-weight: 500;
+                    }
                 }
             }
         }

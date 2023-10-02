@@ -1,85 +1,91 @@
-.firstSection__container {
+main {
+  display: flex;
+  justify-content: center;
+}
+main .firstSection__container {
   width: 22rem;
 }
-.firstSection__container h1 {
+main .firstSection__container h1 {
   font-family: "Playfair Display";
   margin-top: 2rem;
 }
-.firstSection__container .section__text {
+main .firstSection__container .section__text {
   align-items: flex-start;
   -moz-column-gap: 0.5rem;
        column-gap: 0.5rem;
   display: flex;
-  margin-top: 0.8rem;
+  margin-top: 0.7rem;
 }
-.firstSection__container .section__text .section__text--img {
+main .firstSection__container .section__text .section__text--img {
   margin-top: 0.25rem;
 }
-.firstSection__container .section__text p {
+main .firstSection__container .section__text p {
   color: #4F4F4F;
   font-family: "Montserrat";
   font-size: 0.75rem;
   font-style: italic;
   font-weight: 500;
+  width: 20rem;
 }
-.firstSection__container .firstSection__img {
+main .firstSection__container .firstSection__img {
   border-radius: 0.75rem;
   margin-top: 2rem;
   width: 350px;
 }
-.firstSection__container .firstSection__utensils {
+main .firstSection__container .firstSection__utensils {
   align-items: center;
   -moz-column-gap: 0.5rem;
        column-gap: 0.5rem;
   display: flex;
   margin-top: 1.5rem;
 }
-.firstSection__container .firstSection__utensils .fa-utensils {
+main .firstSection__container .firstSection__utensils .fa-utensils {
   color: #F2994A;
   font-size: 0.8rem;
 }
-.firstSection__container .firstSection__utensils .utensils__text {
+main .firstSection__container .firstSection__utensils .utensils__text {
   display: flex;
   flex-direction: column;
   font-family: "Montserrat";
 }
-.firstSection__container .firstSection__utensils .utensils__text .utensils__text--firstSpan {
+main .firstSection__container .firstSection__utensils .utensils__text .utensils__text--firstSpan {
   color: #BDBDBD;
   font-size: 0.5rem;
   text-transform: uppercase;
   font-weight: 700;
 }
-.firstSection__container .firstSection__utensils .utensils__text .utensils__text--secondSpan {
+main .firstSection__container .firstSection__utensils .utensils__text .utensils__text--secondSpan {
   color: #F2994A;
   font-size: 0.62rem;
   font-weight: 500;
 }
-.firstSection__container .firstSection__time {
+main .firstSection__container .firstSection__time {
   display: flex;
-  justify-content: space-around;
+  -moz-column-gap: 12%;
+       column-gap: 12%;
   margin-top: 1.5rem;
 }
-.firstSection__container .firstSection__time .firstSection__time--infos {
+main .firstSection__container .firstSection__time .firstSection__time--infos {
   align-items: center;
   -moz-column-gap: 0.5rem;
        column-gap: 0.5rem;
   display: flex;
 }
-.firstSection__container .firstSection__time .firstSection__time--infos .fa-clock {
+main .firstSection__container .firstSection__time .firstSection__time--infos .fa-clock {
   font-size: 0.9rem;
 }
-.firstSection__container .firstSection__time .firstSection__time--infos .time__infos--text {
+main .firstSection__container .firstSection__time .firstSection__time--infos .time__infos--text {
   display: flex;
   flex-direction: column;
   font-family: "Montserrat";
 }
-.firstSection__container .firstSection__time .firstSection__time--infos .time__infos--text .info__time--firstSpan {
+main .firstSection__container .firstSection__time .firstSection__time--infos .time__infos--text .info__time--firstSpan {
   color: #BDBDBD;
   font-size: 0.5rem;
   font-weight: 700;
   text-transform: uppercase;
 }
-.firstSection__container .firstSection__time .firstSection__time--infos .time__infos--text .info__time--secondSpan {
+main .firstSection__container .firstSection__time .firstSection__time--infos .time__infos--text .info__time--secondSpan {
   font-size: 0.62rem;
   font-weight: 500;
 }
