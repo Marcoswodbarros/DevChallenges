@@ -108,42 +108,57 @@ main {
     }
 
     .secondSection__container {
-        color: $color-gray1;
-        display: flex;
-        flex-direction: column;
-        row-gap: 1rem;
-
         h2 {
             font-family: $font-play;
             font-size: 1.12rem;
+            margin-bottom: 1rem;
         }
 
-        h3 {
-            font-family: $font-play;
-            font-size: 1rem;
-            font-style: italic;
-            font-weight: 400;
-        }
-
-        label {
-            align-items: center;
-            column-gap: .5rem;
+        .secondSection__ingredients {
             display: flex;
-            font-family: $font-mont;
+            flex-direction: column;
+            row-gap: 1rem;
 
-            input {
-                height: 21px;
-                width: 21px;
+            h3 {
+                font-family: $font-play;
+                font-size: 1rem;
+                font-style: italic;
+                font-weight: 400;
+                margin-bottom: .5rem;
             }
 
-            p {
-                font-size: .87rem;
-                max-width: 321px;
+            label {
+                column-gap: .5rem;
+                display: flex;
+                font-family: $font-mont;
 
-                span {
-                    font-weight: 700;
+                input {
+                    height: 21px;
+                    width: 21px;
+                }
+
+                p {
+                    font-size: .87rem;
+                    max-width: 321px;
+                    line-height: 25px;
+
+                    span {
+                        font-weight: 700;
+                    }
                 }
             }
         }
+
+
+        .ingredients__secondTitle {
+            margin-top: 3rem;
+        }
+
+        .teste {
+            color: $color-gray1;
+            font-weight: 500 !important;
+            font-style: italic;
+        }
+
     }
 }

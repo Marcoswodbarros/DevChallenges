@@ -91,39 +91,48 @@ main .firstSection__container .firstSection__time .firstSection__time--infos .ti
   font-size: 0.62rem;
   font-weight: 500;
 }
-main .secondSection__container {
-  color: #333333;
+main .secondSection__container h2 {
+  font-family: "Playfair Display";
+  font-size: 1.12rem;
+  margin-bottom: 1rem;
+}
+main .secondSection__container .secondSection__ingredients {
   display: flex;
   flex-direction: column;
   row-gap: 1rem;
 }
-main .secondSection__container h2 {
-  font-family: "Playfair Display";
-  font-size: 1.12rem;
-}
-main .secondSection__container h3 {
+main .secondSection__container .secondSection__ingredients h3 {
   font-family: "Playfair Display";
   font-size: 1rem;
   font-style: italic;
   font-weight: 400;
+  margin-bottom: 0.5rem;
 }
-main .secondSection__container label {
-  align-items: center;
+main .secondSection__container .secondSection__ingredients label {
   -moz-column-gap: 0.5rem;
        column-gap: 0.5rem;
   display: flex;
   font-family: "Montserrat";
 }
-main .secondSection__container label input {
+main .secondSection__container .secondSection__ingredients label input {
   height: 21px;
   width: 21px;
 }
-main .secondSection__container label p {
+main .secondSection__container .secondSection__ingredients label p {
   font-size: 0.87rem;
   max-width: 321px;
+  line-height: 25px;
 }
-main .secondSection__container label p span {
+main .secondSection__container .secondSection__ingredients label p span {
   font-weight: 700;
+}
+main .secondSection__container .ingredients__secondTitle {
+  margin-top: 3rem;
+}
+main .secondSection__container .teste {
+  color: #333333;
+  font-weight: 500 !important;
+  font-style: italic;
 }
 
 * {
