@@ -36,7 +36,7 @@
         column-gap: .5rem;
         display: flex;
 
-        .fa-utensils{
+        .fa-utensils {
             color: $color-orange;
             font-size: .8rem;
         }
@@ -57,6 +57,39 @@
                 color: $color-orange;
                 font-size: .62rem;
                 font-weight: 500;
+            }
+        }
+    }
+
+    .firstSection__time {
+        display: flex;
+        justify-content: space-around;
+
+        .firstSection__time--infos {
+            align-items: center;
+            column-gap: .5rem;
+            display: flex;
+
+            .fa-clock {
+                font-size: .9rem;
+            }
+
+            .time__infos--text {
+                display: flex;
+                flex-direction: column;
+                font-family: $font-mont;
+
+                .info__time--firstSpan {
+                    color: $color-gray4;
+                    font-size: .5rem;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                }
+
+                .info__time--secondSpan {
+                    font-size: .62rem;
+                    font-weight: 500;
+                }
             }
         }
     }

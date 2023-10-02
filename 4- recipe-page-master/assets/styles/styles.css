@@ -50,6 +50,34 @@
   font-size: 0.62rem;
   font-weight: 500;
 }
+.firstSection__container .firstSection__time {
+  display: flex;
+  justify-content: space-around;
+}
+.firstSection__container .firstSection__time .firstSection__time--infos {
+  align-items: center;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+  display: flex;
+}
+.firstSection__container .firstSection__time .firstSection__time--infos .fa-clock {
+  font-size: 0.9rem;
+}
+.firstSection__container .firstSection__time .firstSection__time--infos .time__infos--text {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat";
+}
+.firstSection__container .firstSection__time .firstSection__time--infos .time__infos--text .info__time--firstSpan {
+  color: #BDBDBD;
+  font-size: 0.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.firstSection__container .firstSection__time .firstSection__time--infos .time__infos--text .info__time--secondSpan {
+  font-size: 0.62rem;
+  font-weight: 500;
+}
 
 * {
   box-sizing: border-box;
