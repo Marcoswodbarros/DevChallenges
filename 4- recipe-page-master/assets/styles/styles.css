@@ -183,6 +183,22 @@ main .source span {
   font-style: italic;
 }
 
+footer {
+  margin-bottom: 0.5rem;
+  margin-top: 30%;
+  text-align: center;
+}
+footer p {
+  color: #828282;
+  font-family: "Montserrat";
+  font-size: 0.87rem;
+}
+footer p a {
+  color: #828282;
+  font-weight: 700;
+  text-decoration: none;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
