@@ -166,9 +166,14 @@ main {
         h2 {
             text-align: start;
             font-family: $font-play;
+            margin-bottom: 1.5rem;
         }
 
         ul {
+            display: flex;
+            flex-direction: column;
+            row-gap: 1rem;
+
             li {
                 list-style: none;
 
@@ -192,7 +197,13 @@ main {
                     }
 
                     p {
+                        font-family: $font-mont;
+                        line-height: 1.5rem;
                         width: 18.75rem;
+
+                        span {
+                            font-weight: 700;
+                        }
                     }
                 }
             }

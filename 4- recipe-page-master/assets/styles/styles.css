@@ -137,6 +137,12 @@ main .secondSection__container .teste {
 main .thirdSection__container h2 {
   text-align: start;
   font-family: "Playfair Display";
+  margin-bottom: 1.5rem;
+}
+main .thirdSection__container ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
 }
 main .thirdSection__container ul li {
   list-style: none;
@@ -160,7 +166,12 @@ main .thirdSection__container ul li .li__text .li__text--number span {
   font-weight: 700;
 }
 main .thirdSection__container ul li .li__text p {
+  font-family: "Montserrat";
+  line-height: 1.5rem;
   width: 18.75rem;
+}
+main .thirdSection__container ul li .li__text p span {
+  font-weight: 700;
 }
 
 * {
