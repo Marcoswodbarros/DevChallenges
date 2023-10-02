@@ -91,7 +91,7 @@ main .firstSection__container .firstSection__time .firstSection__time--infos .ti
   font-size: 0.62rem;
   font-weight: 500;
 }
-main .secondSection__container h2 {
+main .secondSection__container h3 {
   font-family: "Playfair Display";
   font-size: 1.12rem;
   margin-bottom: 1rem;
@@ -101,7 +101,7 @@ main .secondSection__container .secondSection__ingredients {
   flex-direction: column;
   row-gap: 1rem;
 }
-main .secondSection__container .secondSection__ingredients h3 {
+main .secondSection__container .secondSection__ingredients h4 {
   font-family: "Playfair Display";
   font-size: 1rem;
   font-style: italic;
@@ -133,6 +133,34 @@ main .secondSection__container .teste {
   color: #333333;
   font-weight: 500 !important;
   font-style: italic;
+}
+main .thirdSection__container h2 {
+  text-align: start;
+  font-family: "Playfair Display";
+}
+main .thirdSection__container ul li {
+  list-style: none;
+}
+main .thirdSection__container ul li .li__text {
+  display: flex;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+}
+main .thirdSection__container ul li .li__text .li__text--number {
+  background-color: #F2994A;
+  border-radius: 0.5rem;
+  height: 32px;
+  width: 32px;
+  text-align: center;
+}
+main .thirdSection__container ul li .li__text .li__text--number span {
+  color: #FFFFFF;
+  font-family: "Playfair Display";
+  font-size: 1.12rem;
+  font-weight: 700;
+}
+main .thirdSection__container ul li .li__text p {
+  width: 18.75rem;
 }
 
 * {
