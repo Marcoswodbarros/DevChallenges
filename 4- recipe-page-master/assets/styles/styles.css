@@ -9,6 +9,7 @@ main .firstSection__container {
 }
 @media screen and (min-width: 1024px) {
   main .firstSection__container {
+    position: relative;
     width: auto;
   }
 }
@@ -54,29 +55,35 @@ main .firstSection__container .firstSection__img {
     width: 850px;
   }
 }
-main .firstSection__container .firstSection__utensils {
+@media screen and (min-width: 1024px) {
+  main .firstSection__container .preparation {
+    position: absolute;
+    right: 0;
+  }
+}
+main .firstSection__container .preparation .firstSection__utensils {
   align-items: center;
   -moz-column-gap: 0.5rem;
        column-gap: 0.5rem;
   display: flex;
   margin-top: 1.5rem;
 }
-main .firstSection__container .firstSection__utensils .fa-utensils {
+main .firstSection__container .preparation .firstSection__utensils .fa-utensils {
   color: #F2994A;
   font-size: 0.8rem;
 }
-main .firstSection__container .firstSection__utensils .utensils__text {
+main .firstSection__container .preparation .firstSection__utensils .utensils__text {
   display: flex;
   flex-direction: column;
   font-family: "Montserrat";
 }
-main .firstSection__container .firstSection__utensils .utensils__text .utensils__text--firstSpan {
+main .firstSection__container .preparation .firstSection__utensils .utensils__text .utensils__text--firstSpan {
   color: #BDBDBD;
   font-size: 0.5rem;
   text-transform: uppercase;
   font-weight: 700;
 }
-main .firstSection__container .firstSection__utensils .utensils__text .utensils__text--secondSpan {
+main .firstSection__container .preparation .firstSection__utensils .utensils__text .utensils__text--secondSpan {
   color: #F2994A;
   font-size: 0.62rem;
   font-weight: 500;
@@ -86,6 +93,12 @@ main .firstSection__container .firstSection__time {
        column-gap: 12%;
   display: flex;
   margin-top: 1.5rem;
+}
+@media screen and (min-width: 1024px) {
+  main .firstSection__container .firstSection__time {
+    flex-direction: column;
+    row-gap: 1.5rem;
+  }
 }
 main .firstSection__container .firstSection__time .firstSection__time--infos {
   align-items: center;

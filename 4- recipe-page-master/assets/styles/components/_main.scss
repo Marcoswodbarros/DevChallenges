@@ -11,6 +11,7 @@ main {
         width: 22rem;
 
         @media screen and (min-width: 1024px) {
+            position: relative;
             width: auto;
         }
 
@@ -57,41 +58,54 @@ main {
             }
         }
 
-        .firstSection__utensils {
-            align-items: center;
-            column-gap: .5rem;
-            display: flex;
-            margin-top: 1.5rem;
-
-            .fa-utensils {
-                color: $color-orange;
-                font-size: .8rem;
+        .preparation {
+            @media screen and (min-width: 1024px) {
+                position: absolute;
+                right: 0;
             }
 
-            .utensils__text {
+            .firstSection__utensils {
+                align-items: center;
+                column-gap: .5rem;
                 display: flex;
-                flex-direction: column;
-                font-family: $font-mont;
+                margin-top: 1.5rem;
 
-                .utensils__text--firstSpan {
-                    color: $color-gray4;
-                    font-size: .5rem;
-                    text-transform: uppercase;
-                    font-weight: 700;
+                .fa-utensils {
+                    color: $color-orange;
+                    font-size: .8rem;
                 }
 
-                .utensils__text--secondSpan {
-                    color: $color-orange;
-                    font-size: .62rem;
-                    font-weight: 500;
+                .utensils__text {
+                    display: flex;
+                    flex-direction: column;
+                    font-family: $font-mont;
+
+                    .utensils__text--firstSpan {
+                        color: $color-gray4;
+                        font-size: .5rem;
+                        text-transform: uppercase;
+                        font-weight: 700;
+                    }
+
+                    .utensils__text--secondSpan {
+                        color: $color-orange;
+                        font-size: .62rem;
+                        font-weight: 500;
+                    }
                 }
             }
         }
+
 
         .firstSection__time {
             column-gap: 12%;
             display: flex;
             margin-top: 1.5rem;
+
+            @media screen and (min-width: 1024px) {
+                flex-direction: column;
+                row-gap: 1.5rem;
+            }
 
             .firstSection__time--infos {
                 align-items: center;
@@ -231,7 +245,7 @@ main {
             color: $color-gray4;
             font-family: $font-mont;
             font-size: .75rem;
-            line-height: 1.12rem; 
+            line-height: 1.12rem;
         }
 
         span {
