@@ -2,8 +2,9 @@
 
 
 main {
+    align-items: center;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 
     .firstSection__container {
         width: 22rem;
@@ -102,6 +103,28 @@ main {
                     }
                 }
             }
+        }
+    }
+
+    .secondSection__container {
+        h2 {
+            color: $color-gray1;
+            font-family: $font-play;
+            font-size: 1.12rem;
+        }
+
+        h3 {
+            color: $color-gray1;
+            font-family: $font-play;
+            font-size: 1rem;
+            font-style: italic;
+            font-weight: 400;
+        }
+
+        label {
+            align-items: center;
+            display: flex;
+            column-gap: .5rem;
         }
     }
 }

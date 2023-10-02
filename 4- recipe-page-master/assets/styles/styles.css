@@ -1,6 +1,7 @@
 main {
+  align-items: center;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 main .firstSection__container {
   width: 22rem;
@@ -88,6 +89,24 @@ main .firstSection__container .firstSection__time .firstSection__time--infos .ti
 main .firstSection__container .firstSection__time .firstSection__time--infos .time__infos--text .info__time--secondSpan {
   font-size: 0.62rem;
   font-weight: 500;
+}
+main .secondSection__container h2 {
+  color: #333333;
+  font-family: "Playfair Display";
+  font-size: 1.12rem;
+}
+main .secondSection__container h3 {
+  color: #333333;
+  font-family: "Playfair Display";
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 400;
+}
+main .secondSection__container label {
+  align-items: center;
+  display: flex;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
 }
 
 * {
