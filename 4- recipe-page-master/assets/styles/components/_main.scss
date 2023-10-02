@@ -1,7 +1,7 @@
 @import '../abstract/variables';
 
 .firstSection__container {
-    padding: 1rem;
+    // padding: 1rem;
     width: 22rem;
 
     h1 {
@@ -23,6 +23,41 @@
             font-size: .75rem;
             font-style: italic;
             font-weight: 500;
+        }
+    }
+
+    .firstSection__img {
+        border-radius: .75rem;
+        width: 350px;
+    }
+
+    .firstSection__utensils {
+        align-items: center;
+        column-gap: .5rem;
+        display: flex;
+
+        .fa-utensils{
+            color: $color-orange;
+            font-size: .8rem;
+        }
+
+        .utensils__text {
+            display: flex;
+            flex-direction: column;
+            font-family: $font-mont;
+
+            .utensils__text--firstSpan {
+                color: $color-gray4;
+                font-size: .5rem;
+                text-transform: uppercase;
+                font-weight: 700;
+            }
+
+            .utensils__text--secondSpan {
+                color: $color-orange;
+                font-size: .62rem;
+                font-weight: 500;
+            }
         }
     }
 }

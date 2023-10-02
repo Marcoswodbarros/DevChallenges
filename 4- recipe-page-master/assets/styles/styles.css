@@ -1,5 +1,4 @@
 .firstSection__container {
-  padding: 1rem;
   width: 22rem;
 }
 .firstSection__container h1 {
@@ -19,6 +18,36 @@
   font-family: "Montserrat";
   font-size: 0.75rem;
   font-style: italic;
+  font-weight: 500;
+}
+.firstSection__container .firstSection__img {
+  border-radius: 0.75rem;
+  width: 350px;
+}
+.firstSection__container .firstSection__utensils {
+  align-items: center;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+  display: flex;
+}
+.firstSection__container .firstSection__utensils .fa-utensils {
+  color: #F2994A;
+  font-size: 0.8rem;
+}
+.firstSection__container .firstSection__utensils .utensils__text {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat";
+}
+.firstSection__container .firstSection__utensils .utensils__text .utensils__text--firstSpan {
+  color: #BDBDBD;
+  font-size: 0.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.firstSection__container .firstSection__utensils .utensils__text .utensils__text--secondSpan {
+  color: #F2994A;
+  font-size: 0.62rem;
   font-weight: 500;
 }
 
