@@ -155,6 +155,10 @@ main {
             font-family: $font-play;
             font-size: 1.12rem;
             margin-bottom: 1rem;
+
+            @media screen and (min-width: 1024px) {
+                font-size: 1.5rem;
+            }
         }
 
         .secondSection__ingredients {
@@ -168,6 +172,10 @@ main {
                 font-style: italic;
                 font-weight: 400;
                 margin-bottom: .5rem;
+
+                @media screen and (min-width: 1024px) {
+                    font-size: 1.12rem;
+                }
             }
 
             label {
@@ -198,6 +206,7 @@ main {
                     max-width: 20.06rem;
 
                     @media screen and (min-width: 1024px) {
+                        font-size: 1rem;
                         max-width: none;
                         width: 30rem;
                     }
@@ -214,7 +223,7 @@ main {
             margin-top: 3rem;
         }
 
-        .teste {
+        .toppingSugestions__span {
             color: $color-gray1;
             font-style: italic;
             font-weight: 500 !important;

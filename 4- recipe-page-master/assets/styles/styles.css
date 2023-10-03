@@ -144,6 +144,11 @@ main .secondSection__container h3 {
   font-size: 1.12rem;
   margin-bottom: 1rem;
 }
+@media screen and (min-width: 1024px) {
+  main .secondSection__container h3 {
+    font-size: 1.5rem;
+  }
+}
 main .secondSection__container .secondSection__ingredients {
   display: flex;
   flex-direction: column;
@@ -155,6 +160,11 @@ main .secondSection__container .secondSection__ingredients h4 {
   font-style: italic;
   font-weight: 400;
   margin-bottom: 0.5rem;
+}
+@media screen and (min-width: 1024px) {
+  main .secondSection__container .secondSection__ingredients h4 {
+    font-size: 1.12rem;
+  }
 }
 main .secondSection__container .secondSection__ingredients label {
   -moz-column-gap: 0.5rem;
@@ -183,6 +193,7 @@ main .secondSection__container .secondSection__ingredients label p {
 }
 @media screen and (min-width: 1024px) {
   main .secondSection__container .secondSection__ingredients label p {
+    font-size: 1rem;
     max-width: none;
     width: 30rem;
   }
@@ -193,7 +204,7 @@ main .secondSection__container .secondSection__ingredients label p span {
 main .secondSection__container .ingredients__secondTitle {
   margin-top: 3rem;
 }
-main .secondSection__container .teste {
+main .secondSection__container .toppingSugestions__span {
   color: #333333;
   font-style: italic;
   font-weight: 500 !important;
