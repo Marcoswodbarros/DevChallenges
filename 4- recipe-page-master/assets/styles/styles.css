@@ -48,7 +48,7 @@ main .firstSection__container .section__text p {
 main .firstSection__container .firstSection__img {
   border-radius: 0.75rem;
   margin-top: 2rem;
-  width: 350px;
+  width: 21.87rem;
 }
 @media screen and (min-width: 1024px) {
   main .firstSection__container .firstSection__img {
@@ -135,7 +135,7 @@ main .firstSection__container .firstSection__time .firstSection__time--infos .ti
 }
 @media screen and (min-width: 1024px) {
   main .secondSection__container {
-    width: 850px;
+    width: 53.12rem;
   }
 }
 main .secondSection__container h3 {
@@ -161,19 +161,29 @@ main .secondSection__container .secondSection__ingredients label {
   display: flex;
   font-family: "Montserrat";
 }
+@media screen and (min-width: 1024px) {
+  main .secondSection__container .secondSection__ingredients label:hover {
+    cursor: pointer;
+  }
+}
 main .secondSection__container .secondSection__ingredients label input {
-  height: 21px;
-  width: 21px;
+  height: 1.31rem;
+  width: 1.31rem;
+}
+@media screen and (min-width: 1024px) {
+  main .secondSection__container .secondSection__ingredients label input:hover {
+    cursor: pointer;
+  }
 }
 main .secondSection__container .secondSection__ingredients label p {
   font-size: 0.87rem;
-  line-height: 25px;
-  max-width: 321px;
+  line-height: 1.56rem;
+  max-width: 20.06rem;
 }
 @media screen and (min-width: 1024px) {
   main .secondSection__container .secondSection__ingredients label p {
     max-width: none;
-    width: 480px;
+    width: 30rem;
   }
 }
 main .secondSection__container .secondSection__ingredients label p span {
@@ -189,7 +199,7 @@ main .secondSection__container .teste {
 }
 @media screen and (min-width: 1024px) {
   main .thirdSection__container {
-    width: 850px;
+    width: 53.12rem;
   }
 }
 main .thirdSection__container h2 {
@@ -213,9 +223,9 @@ main .thirdSection__container ul li .li__text {
 main .thirdSection__container ul li .li__text .li__text--number {
   background-color: #F2994A;
   border-radius: 0.5rem;
-  height: 32px;
+  height: 2rem;
   text-align: center;
-  width: 32px;
+  width: 2rem;
 }
 main .thirdSection__container ul li .li__text .li__text--number span {
   color: #FFFFFF;
@@ -230,7 +240,7 @@ main .thirdSection__container ul li .li__text p {
 }
 @media screen and (min-width: 1024px) {
   main .thirdSection__container ul li .li__text p {
-    min-width: 528px;
+    min-width: 33rem;
   }
 }
 main .thirdSection__container ul li .li__text p span {

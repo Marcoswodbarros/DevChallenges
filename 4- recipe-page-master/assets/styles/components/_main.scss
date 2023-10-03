@@ -51,7 +51,7 @@ main {
         .firstSection__img {
             border-radius: .75rem;
             margin-top: 2rem;
-            width: 350px;
+            width: 21.87rem;
 
             @media screen and (min-width: 1024px) {
                 width: 850px;
@@ -147,7 +147,7 @@ main {
 
     .secondSection__container {
         @media screen and (min-width: 1024px) {
-            width: 850px;
+            width: 53.12rem;
         }
 
         h3 {
@@ -174,19 +174,31 @@ main {
                 display: flex;
                 font-family: $font-mont;
 
+                @media screen and (min-width: 1024px) {
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+
                 input {
-                    height: 21px;
-                    width: 21px;
+                    height: 1.31rem;
+                    width: 1.31rem;
+
+                    @media screen and (min-width: 1024px) {
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
                 }
 
                 p {
                     font-size: .87rem;
-                    line-height: 25px;
-                    max-width: 321px;
+                    line-height: 1.56rem;
+                    max-width: 20.06rem;
 
                     @media screen and (min-width: 1024px) {
                         max-width: none;
-                        width: 480px;
+                        width: 30rem;
                     }
 
                     span {
@@ -211,7 +223,7 @@ main {
 
     .thirdSection__container {
         @media screen and (min-width: 1024px) {
-            width: 850px;
+            width: 53.12rem;
         }
 
         h2 {
@@ -235,9 +247,9 @@ main {
                     .li__text--number {
                         background-color: $color-orange;
                         border-radius: .5rem;
-                        height: 32px;
+                        height: 2rem;
                         text-align: center;
-                        width: 32px;
+                        width: 2rem;
 
                         span {
                             color: $color-white;
@@ -253,7 +265,7 @@ main {
                         width: 18.75rem;
 
                         @media screen and (min-width: 1024px) {
-                            min-width: 528px;
+                            min-width: 33rem;
                         }
 
                         span {
