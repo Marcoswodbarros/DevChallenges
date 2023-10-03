@@ -57,6 +57,10 @@ main .firstSection__container .firstSection__img {
 }
 @media screen and (min-width: 1024px) {
   main .firstSection__container .preparation {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1019607843);
+    border-radius: 0.5rem;
+    margin-top: 2.5rem;
+    padding: 35px 40px 35px 40px;
     position: absolute;
     right: 0;
   }
@@ -67,6 +71,11 @@ main .firstSection__container .preparation .firstSection__utensils {
        column-gap: 0.5rem;
   display: flex;
   margin-top: 1.5rem;
+}
+@media screen and (min-width: 1024px) {
+  main .firstSection__container .preparation .firstSection__utensils {
+    margin-top: 0;
+  }
 }
 main .firstSection__container .preparation .firstSection__utensils .fa-utensils {
   color: #F2994A;
@@ -124,6 +133,11 @@ main .firstSection__container .firstSection__time .firstSection__time--infos .ti
   font-size: 0.62rem;
   font-weight: 500;
 }
+@media screen and (min-width: 1024px) {
+  main .secondSection__container {
+    width: 850px;
+  }
+}
 main .secondSection__container h3 {
   font-family: "Playfair Display";
   font-size: 1.12rem;
@@ -166,6 +180,11 @@ main .secondSection__container .teste {
   color: #333333;
   font-style: italic;
   font-weight: 500 !important;
+}
+@media screen and (min-width: 1024px) {
+  main .thirdSection__container {
+    width: 850px;
+  }
 }
 main .thirdSection__container h2 {
   font-family: "Playfair Display";
