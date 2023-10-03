@@ -184,6 +184,11 @@ main {
                     line-height: 25px;
                     max-width: 321px;
 
+                    @media screen and (min-width: 1024px) {
+                        max-width: none;
+                        width: 480px;
+                    }
+
                     span {
                         font-weight: 700;
                     }
@@ -246,6 +251,10 @@ main {
                         font-family: $font-mont;
                         line-height: 1.5rem;
                         width: 18.75rem;
+
+                        @media screen and (min-width: 1024px) {
+                            min-width: 528px;
+                        }
 
                         span {
                             font-weight: 700;

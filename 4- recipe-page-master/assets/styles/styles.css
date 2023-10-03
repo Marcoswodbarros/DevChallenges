@@ -170,6 +170,12 @@ main .secondSection__container .secondSection__ingredients label p {
   line-height: 25px;
   max-width: 321px;
 }
+@media screen and (min-width: 1024px) {
+  main .secondSection__container .secondSection__ingredients label p {
+    max-width: none;
+    width: 480px;
+  }
+}
 main .secondSection__container .secondSection__ingredients label p span {
   font-weight: 700;
 }
@@ -221,6 +227,11 @@ main .thirdSection__container ul li .li__text p {
   font-family: "Montserrat";
   line-height: 1.5rem;
   width: 18.75rem;
+}
+@media screen and (min-width: 1024px) {
+  main .thirdSection__container ul li .li__text p {
+    min-width: 528px;
+  }
 }
 main .thirdSection__container ul li .li__text p span {
   font-weight: 700;
