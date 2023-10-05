@@ -1,0 +1,22 @@
+@import '../abstract/variables';
+
+
+main {
+
+    img {
+        border-radius: 1rem;
+        width: 6.35rem;
+    }
+
+    .intro__text--container {
+        h1 {
+            color: $color-gray;
+            font-size: .87rem;
+        }
+
+        p {
+            color: $color-light-gray;
+            font-size: .62rem;
+        }
+    }
+}

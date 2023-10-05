@@ -1,0 +1,20 @@
+main img {
+  border-radius: 1rem;
+  width: 6.35rem;
+}
+main .intro__text--container h1 {
+  color: #4E5150;
+  font-size: 0.87rem;
+}
+main .intro__text--container p {
+  color: #A9A9A9;
+  font-size: 0.62rem;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=styles.css.map */
