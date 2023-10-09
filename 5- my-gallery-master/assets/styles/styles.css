@@ -18,6 +18,31 @@ main .intro .intro__text--container p {
   font-size: 0.62rem;
   font-weight: 600;
 }
+main .intro .intro__numbers--container {
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  display: flex;
+  justify-content: center;
+}
+main .intro .intro__numbers--container .numbers {
+  align-items: center;
+  background-color: #E5E5E5;
+  border-radius: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  height: 3.25rem;
+  justify-content: center;
+  margin-top: 1rem;
+  width: 4.87rem;
+}
+main .intro .intro__numbers--container .numbers span {
+  color: #4E5150;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+main .intro .intro__numbers--container .numbers span:last-child {
+  color: #BDBDBD;
+}
 
 * {
   box-sizing: border-box;
