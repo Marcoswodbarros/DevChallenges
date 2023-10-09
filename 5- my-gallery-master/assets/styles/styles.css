@@ -1,20 +1,27 @@
-main img {
-  border-radius: 1rem;
-  width: 6.35rem;
+main .intro .intro__text--container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
 }
-main .intro__text--container h1 {
+main .intro .intro__text--container img {
+  border-radius: 0.8rem;
+  margin-top: 2rem;
+  width: 6.25rem;
+}
+main .intro .intro__text--container h1 {
   color: #4E5150;
   font-size: 0.87rem;
 }
-main .intro__text--container p {
+main .intro .intro__text--container p {
   color: #A9A9A9;
   font-size: 0.62rem;
+  font-weight: 600;
 }
 
 * {
   box-sizing: border-box;
   font-family: "Montserrat";
-  font-weight: 600;
   margin: 0;
   padding: 0;
 }/*# sourceMappingURL=styles.css.map */
