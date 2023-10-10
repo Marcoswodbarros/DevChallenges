@@ -5,7 +5,7 @@ main {
     .nightEffect {
         display: flex;
         justify-content: end;
-        margin: .5rem .75rem 0 0;
+        padding: .5rem .75rem 0 0;
 
         &:hover {
             cursor: pointer;
