@@ -1,3 +1,19 @@
+main .nightEffect {
+  display: flex;
+  justify-content: end;
+  margin: 0.5rem 0.75rem 0 0;
+}
+main .nightEffect:hover {
+  cursor: pointer;
+}
+main .nightEffect .bi-brightness-high {
+  font-size: 1.5rem;
+}
+main .nightEffect .bi-moon {
+  color: #FFFFFF;
+  display: none;
+  font-size: 1.5rem;
+}
 main .intro .intro__text--container {
   align-items: center;
   display: flex;
@@ -168,4 +184,8 @@ footer p a {
   font-family: "Montserrat";
   margin: 0;
   padding: 0;
+}
+
+body {
+  transition: 0.7s;
 }/*# sourceMappingURL=styles.css.map */

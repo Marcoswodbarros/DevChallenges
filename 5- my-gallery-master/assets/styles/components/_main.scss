@@ -1,6 +1,27 @@
 @import '../abstract/variables';
 
 main {
+
+    .nightEffect {
+        display: flex;
+        justify-content: end;
+        margin: .5rem .75rem 0 0;
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        .bi-brightness-high {
+            font-size: 1.5rem;
+        }
+
+        .bi-moon {
+            color: $color-white;
+            display: none;
+            font-size: 1.5rem;
+        }
+    }
+
     .intro {
         .intro__text--container {
             align-items: center;
@@ -110,7 +131,7 @@ main {
             grid-template-columns: 110px 110px 110px;
             grid-template-rows: 110px 110px 110px;
             margin: 0 auto;
-            
+
             @media screen and (min-width: 1024px) {
                 gap: 2rem;
                 grid-template-columns: 18.75rem 18.75rem 18.75rem;
