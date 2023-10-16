@@ -1,1 +1,48 @@
-/*# sourceMappingURL=styles.css.map */
+main h1 {
+  color: #4E5150;
+  font-size: 1.5rem;
+}
+main .car {
+  background-color: #F2F2F2;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+main .car .items {
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  display: flex;
+}
+main .car .items img {
+  border-radius: 0.75rem;
+  width: 7.68rem;
+}
+main .car .items .items__text h5 {
+  color: #4E5150;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+main .car .items .items__text .items__text--span {
+  align-items: center;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  display: flex;
+}
+main .car .items .items__text .items__text--span span {
+  font-size: 0.87rem;
+  color: #F2994A;
+}
+main .car .items .items__text .items__text--span span:last-child {
+  color: #4E5150;
+  font-size: 0.62rem;
+  text-decoration: line-through;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=styles.css.map */

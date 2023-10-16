@@ -1,0 +1,53 @@
+@import '../abstract/variables';
+
+main {
+    h1 {
+        color: $color-gray;
+        font-size: 1.5rem;
+    }
+
+    .car {
+        background-color: $color-gray6;
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+
+        .items {
+            column-gap: 1rem;
+            display: flex;
+
+            img {
+                border-radius: .75rem;
+                width: 7.68rem;
+            }
+
+            .items__text {
+
+                h5 {
+                    color: $color-gray;
+                    font-size: .75rem;
+                    font-weight: 600;
+                    margin-bottom: .75rem;
+                }
+
+                .items__text--span {
+                    align-items: center;
+                    column-gap: 1rem;
+                    display: flex;
+
+                    span {
+                        font-size: .87rem;
+                        color: $color-orange;
+
+                        &:last-child {
+                            color: $color-gray;
+                            font-size: .62rem;
+                            text-decoration: line-through;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
