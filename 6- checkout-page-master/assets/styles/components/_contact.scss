@@ -2,9 +2,10 @@
 
 .contact {
 
-    .contact__information {
+    .information {
         display: flex;
         flex-direction: column;
+        margin-bottom: 3rem;
 
         h3 {
             color: $color-gray1;
@@ -15,6 +16,7 @@
         label {
             color: $color-gray2;
             font-size: .62rem;
+            margin-bottom: .3rem;
         }
 
         input {
@@ -25,7 +27,7 @@
             width: 21.87rem;
 
             &::placeholder {
-                font-size: .87rem;
+                font-size: .75rem;
             }
         }
     }
