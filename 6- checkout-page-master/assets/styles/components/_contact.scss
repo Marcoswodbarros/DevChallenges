@@ -19,17 +19,29 @@
             margin-bottom: .3rem;
         }
 
-        input {
-            border: 1px solid $color-gray3;
-            border-radius: .5rem;
-            height: 2.5rem;
-            margin-bottom: .75rem;
-            width: 21.87rem;
+        .input__icon {
+            position: relative;
 
-            &::placeholder {
-                font-size: .75rem;
+            .bi {
+                color: $color-gray3;
+                font-size: 1.18rem;
+                left: .8rem;
+                position: absolute;
+                top: .4rem;
+            }
+
+            input {
+                border: 1px solid $color-gray3;
+                border-radius: .75rem;
+                height: 2.5rem;
+                margin-bottom: .75rem;
+                padding-left: 2.5rem;
+                width: 21.87rem;
+
+                &::placeholder {
+                    font-size: .75rem;
+                }
             }
         }
     }
-
 }
