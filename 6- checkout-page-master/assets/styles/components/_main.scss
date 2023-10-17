@@ -4,12 +4,15 @@ main {
     align-items: center;
     display: flex;
     flex-direction: column;
-
+    
     h1 {
         color: $color-gray;
         font-size: 1.5rem;
+        margin:2rem 0 1.5rem 0;
+        text-align: start;
+        width: 21.87rem;
     }
-
+    
     .car {
         background-color: $color-gray6;
         border-radius: .75rem;
@@ -18,7 +21,7 @@ main {
         padding: 1.5rem;
         row-gap: 2rem;
         width: 21.87rem;
-
+        
         .items {
             column-gap: 1rem;
             display: flex;
@@ -89,6 +92,25 @@ main {
                         }
                     }
                 }
+            }
+        }
+
+        .total {
+            .shippingTotal {
+                color: $color-gray1;
+                display: flex;
+                justify-content: space-between;
+
+                &:first-child {
+                    border-bottom: 1px solid $color-gray4;
+                    border-top: 1px solid $color-gray4;
+                    padding-bottom: .75rem;
+                    padding-top: .75rem;
+                    margin-bottom: 1rem;
+                    margin-top: 4rem;
+                }
+
+
             }
         }
     }

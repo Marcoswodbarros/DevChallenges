@@ -6,6 +6,9 @@ main {
 main h1 {
   color: #4E5150;
   font-size: 1.5rem;
+  margin: 2rem 0 1.5rem 0;
+  text-align: start;
+  width: 21.87rem;
 }
 main .car {
   background-color: #F2F2F2;
@@ -77,6 +80,19 @@ main .car .items .items__tq--container .items__quant .items__quant--span:nth-chi
 main .car .items .items__tq--container .items__quant .items__quant--span span {
   color: #828282;
   font-size: 1.2rem;
+}
+main .car .total .shippingTotal {
+  color: #333333;
+  display: flex;
+  justify-content: space-between;
+}
+main .car .total .shippingTotal:first-child {
+  border-bottom: 1px solid #BDBDBD;
+  border-top: 1px solid #BDBDBD;
+  padding-bottom: 0.75rem;
+  padding-top: 0.75rem;
+  margin-bottom: 1rem;
+  margin-top: 4rem;
 }
 
 * {
