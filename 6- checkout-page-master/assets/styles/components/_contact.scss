@@ -7,6 +7,10 @@
         flex-direction: column;
         margin-bottom: 3rem;
 
+        &:nth-child(2) {
+            margin-bottom: 0;
+        }
+
         h3 {
             color: $color-gray1;
             font-size: .87rem;
@@ -70,6 +74,21 @@
                     width: 10.12rem;
                 }
             }
+        }
+    }
+
+    .checkbox {
+        align-items: center;
+        column-gap: .5rem;
+        display: flex;
+
+        input {
+            height: 1rem;
+        }
+
+        label {
+            color: $color-gray3;
+            font-size: .62rem;
         }
     }
 }

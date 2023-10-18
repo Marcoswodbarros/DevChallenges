@@ -102,6 +102,9 @@ main h1 {
   flex-direction: column;
   margin-bottom: 3rem;
 }
+.contact .information:nth-child(2) {
+  margin-bottom: 0;
+}
 .contact .information h3 {
   color: #333333;
   font-size: 0.87rem;
@@ -158,6 +161,19 @@ main h1 {
 }
 .contact .information .countryPostal .input__icon input {
   width: 10.12rem;
+}
+.contact .checkbox {
+  align-items: center;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+  display: flex;
+}
+.contact .checkbox input {
+  height: 1rem;
+}
+.contact .checkbox label {
+  color: #828282;
+  font-size: 0.62rem;
 }
 
 * {
