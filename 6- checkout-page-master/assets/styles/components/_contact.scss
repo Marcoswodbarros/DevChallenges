@@ -47,12 +47,12 @@
         .countryPostal {
             align-items: center;
             display: flex;
+            justify-content: space-between;
 
             .input__icon {
 
                 input {
                     width: 162px;
-
                 }
             }
         }

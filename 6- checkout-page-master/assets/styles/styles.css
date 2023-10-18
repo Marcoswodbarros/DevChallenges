@@ -139,6 +139,7 @@ main h1 {
 .contact .information .countryPostal {
   align-items: center;
   display: flex;
+  justify-content: space-between;
 }
 .contact .information .countryPostal .input__icon input {
   width: 162px;
