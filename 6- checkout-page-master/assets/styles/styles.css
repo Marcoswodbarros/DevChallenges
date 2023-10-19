@@ -175,6 +175,16 @@ main h1 {
   color: #828282;
   font-size: 0.62rem;
 }
+.contact .button {
+  align-items: center;
+  background-color: #F2994A;
+  border-radius: 0.75rem;
+  color: #FFFFFF;
+  display: flex;
+  height: 3.37rem;
+  justify-content: center;
+  width: 10.37rem;
+}
 
 * {
   box-sizing: border-box;

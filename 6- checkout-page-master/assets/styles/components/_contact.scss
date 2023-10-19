@@ -91,4 +91,15 @@
             font-size: .62rem;
         }
     }
+
+    .button {
+        align-items: center;
+        background-color: $color-orange;
+        border-radius: .75rem;
+        color: $color-white;
+        display: flex;
+        height: 3.37rem;
+        justify-content: center;
+        width: 10.37rem;
+    }
 }
