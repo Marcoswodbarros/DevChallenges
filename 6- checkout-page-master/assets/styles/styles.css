@@ -130,9 +130,15 @@ main h1 {
     height: 1.64rem;
     width: 1.51rem;
   }
+  .car .items .items__tq--container .items__quant .items__quant--span:hover {
+    cursor: pointer;
+  }
 }
 .car .items .items__tq--container .items__quant .items__quant--span:nth-child(2) {
   background-color: transparent;
+}
+.car .items .items__tq--container .items__quant .items__quant--span:nth-child(2):hover {
+  cursor: default;
 }
 .car .items .items__tq--container .items__quant .items__quant--span span {
   color: #828282;
@@ -195,6 +201,9 @@ main h1 {
   .contact .information label {
     font-size: 0.75rem;
     margin-bottom: 0.5rem;
+  }
+  .contact .information label:hover {
+    cursor: pointer;
   }
 }
 .contact .information .input__icon {
@@ -297,6 +306,9 @@ main h1 {
     height: 1.31rem;
     width: 1.31rem;
   }
+  .contact .checkbox input:hover {
+    cursor: pointer;
+  }
 }
 .contact .checkbox label {
   color: #4F4F4F;
@@ -305,6 +317,9 @@ main h1 {
 @media screen and (min-width: 1440px) {
   .contact .checkbox label {
     font-size: 0.75rem;
+  }
+  .contact .checkbox label:hover {
+    cursor: pointer;
   }
 }
 .contact .button {
@@ -321,6 +336,9 @@ main h1 {
   color: #FFFFFF;
   height: 3.37rem;
   width: 10.37rem;
+}
+.contact .button input:hover {
+  cursor: pointer;
 }
 
 footer {

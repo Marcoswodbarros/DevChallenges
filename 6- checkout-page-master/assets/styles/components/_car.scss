@@ -99,10 +99,18 @@
                     @media screen and (min-width: 1440px) {
                         height: 1.64rem;
                         width: 1.51rem;
+
+                        &:hover {
+                            cursor: pointer;
+                        }
                     }
 
                     &:nth-child(2) {
                         background-color: transparent;
+
+                        &:hover {
+                            cursor: default;
+                        }
                     }
 
                     span {
