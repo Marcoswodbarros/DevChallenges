@@ -9,6 +9,12 @@
     row-gap: 2rem;
     width: 21.87rem;
 
+    @media screen and (min-width: 1440px) {
+        height: 33.43rem;
+        padding: 1.75rem;
+        width: 29rem;               
+    }
+
     .items {
         column-gap: 1rem;
         display: flex;
@@ -16,6 +22,10 @@
         img {
             border-radius: .75rem;
             width: 7.68rem;
+
+            @media screen and (min-width: 1440px) {
+                width: 8.38rem;       
+            }
         }
 
         .items__tq--container {
@@ -30,6 +40,10 @@
                     font-size: .75rem;
                     font-weight: 600;
                     margin-bottom: .75rem;
+
+                    @media screen and (min-width: 1440px) {
+                        font-size: 1rem;
+                    }
                 }
 
                 .items__text--span {
@@ -41,10 +55,18 @@
                         font-size: .87rem;
                         color: $color-orange;
 
+                        @media screen and (min-width: 1440px) {
+                            font-size: 1rem;
+                        }
+
                         &:last-child {
                             color: $color-gray;
                             font-size: .62rem;
                             text-decoration: line-through;
+
+                            @media screen and (min-width: 1440px) {
+                                font-size: .75rem;
+                            }
                         }
                     }
                 }
@@ -60,6 +82,11 @@
                 justify-content: center;
                 width: 7.62rem;
 
+                @media screen and (min-width: 1440px) {
+                    height: 3.25rem;
+                    width: 8.37rem;   
+                }
+
                 .items__quant--span {
                     align-items: center;
                     background-color: $color-gray4;
@@ -68,6 +95,11 @@
                     height: 22px;
                     justify-content: center;
                     width: 22px;
+
+                    @media screen and (min-width: 1440px) {
+                        height: 1.64rem;
+                        width: 1.51rem;
+                    }
 
                     &:nth-child(2) {
                         background-color: transparent;
@@ -87,14 +119,21 @@
             color: $color-gray1;
             display: flex;
             justify-content: space-between;
+            font-size: .87rem;
 
             &:first-child {
                 border-bottom: 1px solid $color-gray4;
                 border-top: 1px solid $color-gray4;
-                padding-bottom: .75rem;
-                padding-top: .75rem;
-                margin-bottom: 1rem;
+                padding-bottom: .6rem;
+                padding-top: .6rem;
+                margin-bottom: .6rem;
                 margin-top: 4rem;
+            }
+
+            p {
+                @media screen and (min-width: 1440px) {
+                    font-size: 1.12rem;   
+                }
             }
         }
     }
