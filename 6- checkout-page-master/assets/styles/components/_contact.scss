@@ -151,13 +151,17 @@
     .button {
         align-items: center;
         align-self: flex-end;
-        background-color: $color-orange;
-        border-radius: .75rem;
-        color: $color-white;
         display: flex;
-        height: 3.37rem;
         justify-content: center;
         margin-top: 1.5rem;
-        width: 10.37rem;
+
+        input {
+            background-color: $color-orange;
+            border-radius: .75rem;
+            border: none;
+            color: $color-white;
+            height: 3.37rem;
+            width: 10.37rem;
+        }
     }
 }
