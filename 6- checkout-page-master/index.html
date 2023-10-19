@@ -19,152 +19,154 @@
     <main>
         <h1>Checkout</h1>
 
-        <section class="car">
-            <section class="items">
-                <img src="assets/images/photo1.png" alt="">
+        <div class="container">
+            <section class="car">
+                <section class="items">
+                    <img src="assets/images/photo1.png" alt="">
 
-                <div class="items__tq--container">
-                    <div class="items__text">
-                        <h5>Vintage Backbag</h5>
+                    <div class="items__tq--container">
+                        <div class="items__text">
+                            <h5>Vintage Backbag</h5>
 
-                        <div class="items__text--span">
-                            <span>$54.99</span>
-                            <span>$94.99</span>
+                            <div class="items__text--span">
+                                <span>$54.99</span>
+                                <span>$94.99</span>
+                            </div>
+                        </div>
+
+                        <div class="items__quant">
+                            <div class="items__quant--span">
+                                <span>-</span>
+                            </div>
+
+                            <div class="items__quant--span">
+                                <span>1</span>
+                            </div>
+
+                            <div class="items__quant--span">
+                                <span>+</span>
+                            </div>
                         </div>
                     </div>
+                </section>
 
-                    <div class="items__quant">
-                        <div class="items__quant--span">
-                            <span>-</span>
+                <section class="items">
+                    <img src="assets/images/photo2.png" alt="">
+
+                    <div class="items__tq--container">
+                        <div class="items__text">
+                            <h5>Levi Shoes</h5>
+
+                            <div class="items__text--span">
+                                <span>$74.99</span>
+                                <span>$124.99</span>
+                            </div>
                         </div>
 
-                        <div class="items__quant--span">
-                            <span>1</span>
-                        </div>
+                        <div class="items__quant">
+                            <div class="items__quant--span">
+                                <span>-</span>
+                            </div>
 
-                        <div class="items__quant--span">
-                            <span>+</span>
-                        </div>
-                    </div>
-                </div>
-            </section>
+                            <div class="items__quant--span">
+                                <span>1</span>
+                            </div>
 
-            <section class="items">
-                <img src="assets/images/photo2.png" alt="">
-
-                <div class="items__tq--container">
-                    <div class="items__text">
-                        <h5>Levi Shoes</h5>
-
-                        <div class="items__text--span">
-                            <span>$74.99</span>
-                            <span>$124.99</span>
-                        </div>
-                    </div>
-
-                    <div class="items__quant">
-                        <div class="items__quant--span">
-                            <span>-</span>
-                        </div>
-
-                        <div class="items__quant--span">
-                            <span>1</span>
-                        </div>
-
-                        <div class="items__quant--span">
-                            <span>+</span>
+                            <div class="items__quant--span">
+                                <span>+</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-                </div>
+                </section>
+
+                <section class="total">
+                    <div class="shippingTotal">
+                        <p>Shipping</p>
+                        <span>$19</span>
+                    </div>
+
+                    <div class="shippingTotal">
+                        <p>Total</p>
+                        <span>$148.98</span>
+                    </div>
+                </section>
             </section>
 
-            <section class="total">
-                <div class="shippingTotal">
-                    <p>Shipping</p>
-                    <span>$19</span>
+            <form class="contact">
+                <section class="information">
+                    <h3>Contact information</h3>
+
+                    <label for="email">E-mail</label>
+                    <div class="input__icon">
+                        <i class="bi bi-envelope"></i>
+                        <input type="email" name="email" id="email" placeholder="Enter your email...">
+                    </div>
+
+                    <label for="phone">Phone</label>
+                    <div class="input__icon">
+                        <i class="bi bi-telephone"></i>
+                        <input type="tel" name="phone" id="phone" placeholder="Enter your phone...">
+                    </div>
+                </section>
+
+                <section class="information">
+                    <h3>Shipping address</h3>
+
+                    <label for="name">Full name</label>
+                    <div class="input__icon">
+                        <i class="bi bi-person-circle"></i>
+                        <input type="text" name="name" id="name" placeholder="Rodney Cotton">
+                    </div>
+
+                    <label for="address">Address</label>
+                    <div class="input__icon">
+                        <i class="bi bi-house-door"></i>
+                        <input type="text" name="address" id="address" placeholder="Your address..">
+                    </div>
+
+                    <label for="city">City</label>
+                    <div class="input__icon">
+                        <i class="bi bi-building"></i>
+                        <input type="text" name="city" id="city" placeholder="Your city..">
+                    </div>
+
+                    <div class="countryPostal">
+                        <label for="country">Country
+                            <div class="input__icon">
+                                <i class="bi bi-building"></i>
+                                <select name="country" id="country">
+                                    <option value="" class="option__disabled" disabled selected>Your country..</option>
+                                    <option value="option1">Brasil</option>
+                                    <option value="option2">Uruguai</option>
+                                    <option value="option3">Venezuela</option>
+                                </select>
+                            </div>
+                        </label>
+
+                        <label for="postalCode">Postal Code
+                            <div class="input__icon">
+                                <i class="bi bi-mailbox"></i>
+                                <input type="text" name="postalCode" id="postalCode" placeholder="Your postal code..">
+                            </div>
+                        </label>
+                    </div>
+                </section>
+
+                <div class="checkbox">
+                    <input type="checkbox" name="check" id="check">
+                    <label for="check">Save this information for next time</label>
                 </div>
 
-                <div class="shippingTotal">
-                    <p>Total</p>
-                    <span>$148.98</span>
+                <div class="button">
+                    <p>Continue</p>
                 </div>
-            </section>
-        </section>
-
-        <form class="contact">
-            <section class="information">
-                <h3>Contact information</h3>
-
-                <label for="email">E-mail</label>
-                <div class="input__icon">
-                    <i class="bi bi-envelope"></i>
-                    <input type="email" name="email" id="email" placeholder="Enter your email...">
-                </div>
-
-                <label for="phone">Phone</label>
-                <div class="input__icon">
-                    <i class="bi bi-telephone"></i>
-                    <input type="tel" name="phone" id="phone" placeholder="Enter your phone...">
-                </div>
-            </section>
-
-            <section class="information">
-                <h3>Shipping address</h3>
-
-                <label for="name">Full name</label>
-                <div class="input__icon">
-                    <i class="bi bi-person-circle"></i>
-                    <input type="text" name="name" id="name" placeholder="Rodney Cotton">
-                </div>
-
-                <label for="address">Address</label>
-                <div class="input__icon">
-                    <i class="bi bi-house-door"></i>
-                    <input type="text" name="address" id="address" placeholder="Your address..">
-                </div>
-
-                <label for="city">City</label>
-                <div class="input__icon">
-                    <i class="bi bi-building"></i>
-                    <input type="text" name="city" id="city" placeholder="Your city..">
-                </div>
-
-                <div class="countryPostal">
-                    <label for="country">Country
-                        <div class="input__icon">
-                            <i class="bi bi-building"></i>
-                            <select name="country" id="country">
-                                <option value="" class="option__disabled" disabled selected>Your country..</option>
-                                <option value="option1">Brasil</option>
-                                <option value="option2">Uruguai</option>
-                                <option value="option3">Venezuela</option>
-                            </select>
-                        </div>
-                    </label>
-
-                    <label for="postalCode">Postal Code
-                        <div class="input__icon">
-                            <i class="bi bi-mailbox"></i>
-                            <input type="text" name="postalCode" id="postalCode" placeholder="Your postal code..">
-                        </div>
-                    </label>
-                </div>
-            </section>
-
-            <div class="checkbox">
-                <input type="checkbox" name="check" id="check">
-                <label for="check">Save this information for next time</label>
-            </div>
-
-            <div class="button">
-                <p>Continue</p>
-            </div>
-        </form>
+            </form>
+        </div>
     </main>
 
     <footer>
-        <p>created by <a href="https://github.com/Marcoswodbarros" target="_blank">Marcos Barros</a> - devChallenges.io</p>
+        <p>created by <a href="https://github.com/Marcoswodbarros" target="_blank">Marcos Barros</a> - devChallenges.io
+        </p>
     </footer>
 
 </body>

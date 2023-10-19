@@ -13,4 +13,14 @@ main {
         text-align: start;
         width: 21.87rem;
     }
+
+    .container {
+        
+        @media screen and (min-width: 1024px) {
+            column-gap: 10%;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+        }
+    }
 }
