@@ -1,28 +1,26 @@
-// Functions
-function decrement(quantDisplay) {
-    const quantity = parseInt(quantDisplay.textContent);
-    if (quantity > 1) {
-        quantDisplay.textContent = quantity - 1;
-    }
-}
-
-function increment(quantDisplay) {
-    const quantity = parseInt(quantDisplay.textContent);
-    quantDisplay.textContent = quantity + 1;
-}
-
-
 // Variables
-const decrementButtons = document.querySelectorAll(".decrement");
-const incrementButtons = document.querySelectorAll(".increment");
-const quantityDisplays = document.querySelectorAll(".quantity");
+const firstDecrement = document.querySelector('.firstDecrement');
+const firstIncrement = document.querySelector('.firstIncrement');
+const firstQuantity = document.querySelector('.firstQuantity');
+
+let quantity = 1;
 
 
 // Events
-decrementButtons.forEach((button, index) => {
-    button.addEventListener("click", () => decrement(quantityDisplays[index]));
+firstDecrement.addEventListener('click', () => {
+    if (quantity > 1) {
+        quantity--;
+        updateFirstQuantity();
+    }
 });
 
-incrementButtons.forEach((button, index) => {
-    button.addEventListener("click", () => increment(quantityDisplays[index]));
+firstIncrement.addEventListener('click', () => {
+    quantity++;
+    updateFirstQuantity();
 });
+
+
+// Functions
+function updateFirstQuantity() {
+    firstQuantity.textContent = quantity;
+}
