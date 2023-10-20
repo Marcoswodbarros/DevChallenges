@@ -176,7 +176,9 @@
             width: 10.37rem;
 
             &:hover {
+                background-color: lightgreen;
                 cursor: pointer;
+                transition: .7s;
             }
         }
     }

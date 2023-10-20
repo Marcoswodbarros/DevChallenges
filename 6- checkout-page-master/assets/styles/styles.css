@@ -144,6 +144,9 @@ main h1 {
   color: #828282;
   font-size: 1.2rem;
 }
+.car .items .items__tq--container .items__quant .items__quant--span .quant__number {
+  color: #000000;
+}
 .car .total .shippingTotal {
   color: #333333;
   display: flex;
@@ -338,7 +341,9 @@ main h1 {
   width: 10.37rem;
 }
 .contact .button input:hover {
+  background-color: lightgreen;
   cursor: pointer;
+  transition: 0.7s;
 }
 
 footer {
