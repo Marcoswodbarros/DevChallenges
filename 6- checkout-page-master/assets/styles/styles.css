@@ -233,6 +233,9 @@ main h1 {
   padding-left: 2.8rem;
   width: 21.87rem;
 }
+.contact .information .input__icon input:focus {
+  border: 1px solid #F2994A;
+}
 @media screen and (min-width: 1440px) {
   .contact .information .input__icon input {
     font-size: 1rem;
@@ -270,9 +273,13 @@ main h1 {
   margin-bottom: 0.75rem;
   padding-left: 2.8rem;
   width: 10.12rem;
+  color: #828282;
+  font-size: 0.75rem;
 }
 @media screen and (min-width: 1440px) {
   .contact .information .countryPostal .input__icon #country {
+    color: #828282;
+    font-size: 1rem;
     height: 3.5rem;
     width: 13.56rem;
   }
@@ -344,6 +351,7 @@ main h1 {
   background-color: lightgreen;
   cursor: pointer;
   transition: 0.7s;
+  transform: scale(1.1);
 }
 
 footer {

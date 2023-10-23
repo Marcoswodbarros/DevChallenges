@@ -10,7 +10,7 @@
         margin-bottom: 3rem;
 
         @media screen and (min-width: 1440px) {
-            margin-bottom: 1rem;           
+            margin-bottom: 1rem;
         }
 
         &:nth-child(2) {
@@ -23,8 +23,8 @@
             margin: 1rem 0 .75rem 0;
 
             @media screen and (min-width: 1440px) {
-                font-size: 1.12rem; 
-                margin-top: 0;  
+                font-size: 1.12rem;
+                margin-top: 0;
             }
         }
 
@@ -32,7 +32,7 @@
             color: $color-gray2;
             font-size: .62rem;
             margin-bottom: .3rem;
-            
+
             @media screen and (min-width: 1440px) {
                 font-size: .75rem;
                 margin-bottom: .5rem;
@@ -67,7 +67,11 @@
                 padding-left: 2.8rem;
                 width: 21.87rem;
 
-                
+                &:focus {
+                    border: 1px solid $color-orange;
+                }
+
+
                 @media screen and (min-width: 1440px) {
                     font-size: 1rem;
                     height: 3.5rem;
@@ -101,11 +105,16 @@
                     padding-left: 2.8rem;
                     width: 10.12rem;
 
+                    color: $color-gray3;
+                    font-size: .75rem;
+
                     @media screen and (min-width: 1440px) {
+                        color: $color-gray3;
+                        font-size: 1rem;
                         height: 3.5rem;
                         width: 13.56rem;
                     }
-                    
+
                     option {
                         color: $color-gray3;
                         font-size: .75rem;
@@ -115,10 +124,10 @@
                         }
                     }
                 }
-                
+
                 input {
                     width: 10.12rem;
-                    
+
                     @media screen and (min-width: 1440px) {
                         width: 13.56rem;
                     }
@@ -137,9 +146,9 @@
             width: 1rem;
 
             @media screen and (min-width: 1440px) {
-                height: 1.31rem;       
-                width: 1.31rem; 
-                
+                height: 1.31rem;
+                width: 1.31rem;
+
                 &:hover {
                     cursor: pointer;
                 }
@@ -151,8 +160,8 @@
             font-size: .62rem;
 
             @media screen and (min-width: 1440px) {
-                font-size: .75rem;   
-                
+                font-size: .75rem;
+
                 &:hover {
                     cursor: pointer;
                 }
@@ -179,6 +188,7 @@
                 background-color: lightgreen;
                 cursor: pointer;
                 transition: .7s;
+                transform: scale(1.1);
             }
         }
     }
