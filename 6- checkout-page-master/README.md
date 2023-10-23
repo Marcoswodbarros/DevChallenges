@@ -1,90 +1,64 @@
-<!-- Please update value in the {}  -->
+# DevChallenges - Checkout Page Challenge
 
-<h1 align="center">{Your project name}</h1>
+This is my sixth challenge from DevChallenges.
 
-<div align="center">
-   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
-</div>
-
-<div align="center">
-  <h3>
-    <a href="https://{your-demo-link.your-domain}">
-      Demo
-    </a>
-    <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
-      Solution
-    </a>
-    <span> | </span>
-    <a href="https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO">
-      Challenge
-    </a>
-  </h3>
-</div>
-
-<!-- TABLE OF CONTENTS -->
-
-## Table of Contents
+## Table of contents
 
 - [Overview](#overview)
-  - [Built With](#built-with)
-- [Features](#features)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+  - [The challenge](#the-challenge)
+  - [Screenshots](#screenshots)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+- [Author](#author)
 
-<!-- OVERVIEW -->
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+### The challenge
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+Users should be able to:
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+- View the optimal layout for the site depending on their device's screen size;
+- See hover states for all interactive elements on the page;
+- Add and remove items from the shopping cart.
 
-### Built With
+### Screenshots
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
+![Mobile](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/6763f47b-0d34-4e38-afde-2a025d3c8f10)
+![Mobile-end](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/e21e0155-ee6e-43dc-ae0c-58aa7828f0dd)
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+![Desktop](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/24df4b1a-c0a6-4c1b-84c8-dfe66a178fe8)
+![Desktop-end](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/1534e8a4-b79b-48fa-9b82-2edb2df8dd00)
 
-## Features
+### Links
 
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
-
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO) was to build an application to complete the given user stories.
+- Solution URL: [https://github.com/Marcoswodbarros/DevChallenges.git]
+- Deploy: [https://devchallenges-checkout-page-challenge.netlify.app/]
 
 
-## How To Use
+## My process
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+### Built with
 
-```bash
-# Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+- Semantic HTML5 markup
+- SCSS
+- Flexbox
+- Grid
+- JavaScript
 
-# Install dependencies
-$ npm install
+### What I learned
 
-# Run the app
-$ npm start
-```
+While I was doing this project I was able to remember and improve my JS skills. 
 
-## Acknowledgements
+### Continued development
 
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
+To my next project, I will try to bring a new simple page, to help those who are starting at Front-End Development.
 
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
 
-## Contact
+## Author
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- GitHub - [Marcos Barros](https://github.com/Marcoswodbarros)
+- Linkedin - [Marcoswodbarros](www.linkedin.com/in/marcoswodbarros)
