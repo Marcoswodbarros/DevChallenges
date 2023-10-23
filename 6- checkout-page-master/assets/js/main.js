@@ -11,7 +11,10 @@ const total = document.querySelector('.totalValue');
 
 let firstQuantityValue = 1;
 let secondQuantityValue = 1;
-let totalQuantity = 148.98;
+let shipping = 19;
+let totalQuantity = 129.98;
+
+let clickCount = 0;
 
 
 // Events
@@ -20,6 +23,8 @@ firstDecrement.addEventListener('click', () => {
         firstQuantityValue--;
         updateFirstQuantity();
         updateTotal();
+
+        clickCount++;
     }
 });
 
@@ -55,6 +60,10 @@ function updateSecondQuantity() {
 }
 
 function updateTotal() {
-    const totalPrice = (firstQuantityValue * 54.99) + (secondQuantityValue * 74.99);
+    const totalPrice = ((firstQuantityValue * 54.99) + (secondQuantityValue * 74.99) + shipping);
     total.textContent = `$ ${totalPrice.toFixed(2)}`;
+}
+
+function removeClickSelection() {
+
 }
