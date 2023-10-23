@@ -25,6 +25,9 @@ firstDecrement.addEventListener('click', () => {
         updateTotal();
 
         clickCount++;
+        if (clickCount >= 2) {
+            firstDecrement.style.userSelect = 'none';
+        }
     }
 });
 
@@ -32,6 +35,11 @@ firstIncrement.addEventListener('click', () => {
     firstQuantityValue++;
     updateFirstQuantity();
     updateTotal();
+
+    clickCount++;
+        if (clickCount >= 2) {
+            firstIncrement.style.userSelect = 'none';
+        }
 });
 
 
@@ -40,6 +48,11 @@ secondDecrement.addEventListener('click', () => {
         secondQuantityValue--;
         updateSecondQuantity();
         updateTotal();
+
+        clickCount++;
+        if (clickCount >= 2) {
+            secondDecrement.style.userSelect = 'none';
+        }
     }
 });
 
@@ -47,6 +60,11 @@ secondIncrement.addEventListener('click', () => {
     secondQuantityValue++;
     updateSecondQuantity();
     updateTotal();
+
+    clickCount++;
+        if (clickCount >= 2) {
+            secondIncrement.style.userSelect = 'none';
+        }
 });
 
 
@@ -62,8 +80,4 @@ function updateSecondQuantity() {
 function updateTotal() {
     const totalPrice = ((firstQuantityValue * 54.99) + (secondQuantityValue * 74.99) + shipping);
     total.textContent = `$ ${totalPrice.toFixed(2)}`;
-}
-
-function removeClickSelection() {
-
 }
