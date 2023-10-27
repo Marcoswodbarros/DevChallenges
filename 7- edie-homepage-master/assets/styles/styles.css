@@ -2,8 +2,9 @@ header {
   align-items: center;
   display: flex;
   justify-content: space-between;
+  margin: 0.5rem 0 0.5rem 0.5rem;
 }
-header h1 {
+header span {
   font-size: 24px;
   font-weight: 800;
 }
