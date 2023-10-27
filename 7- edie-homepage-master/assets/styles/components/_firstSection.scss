@@ -1,0 +1,23 @@
+@import '../abstract/variables';
+
+main {
+    padding: 0 0 .5rem .5rem;
+
+    .introSection {
+        p {
+            color: $color-blue;
+            font-size: 12px;
+        }
+
+        h1 {
+            color: $color-gray1;
+            font-size: 24px;
+            width: 272px;
+        }
+
+        img {
+            height: 145px;
+            width: 348px;
+        }
+    }
+}
