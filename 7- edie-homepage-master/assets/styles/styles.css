@@ -5,6 +5,7 @@ header {
   margin: 0.5rem 0 0.5rem 0.5rem;
 }
 header span {
+  font-family: "Heebo";
   font-size: 24px;
   font-weight: 800;
 }
@@ -13,15 +14,26 @@ header .fa-bars {
 }
 
 main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   margin-top: 3rem;
-  padding: 0 0 0.5rem 0.5rem;
+  row-gap: 6rem;
+}
+main .introSection {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 main .introSection p {
+  align-self: self-start;
   color: #2D9CDB;
   font-size: 12px;
+  font-weight: 500;
   margin-left: 2rem;
 }
 main .introSection h1 {
+  align-self: self-start;
   color: #333333;
   font-size: 24px;
   font-weight: 500;
@@ -37,6 +49,7 @@ main .introSection img {
   width: 348px;
 }
 main .introSection h2 {
+  align-self: self-start;
   color: #333333;
   font-weight: 500;
   margin-left: 2rem;
@@ -50,6 +63,7 @@ main .introSection .introSection__secondP {
   width: 275px;
 }
 main .introSection form {
+  align-self: self-start;
   margin-left: 2rem;
   position: relative;
 }
@@ -82,9 +96,52 @@ main .introSection form .introSection__join {
   height: 39px;
   padding: 0;
   position: absolute;
-  right: 3rem;
+  right: 0.3rem;
   top: 1.65rem;
   width: 71px;
+}
+
+.secondSection {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5rem;
+}
+.secondSection h2 {
+  color: #333333;
+  font-size: 24px;
+  font-weight: 500;
+  width: 259px;
+}
+.secondSection section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+.secondSection section .iconSpace {
+  background-color: #2D9CDB;
+  border-radius: 16px;
+  height: 67px;
+  width: 67px;
+}
+.secondSection section h3 {
+  font-size: 24px;
+}
+.secondSection section p {
+  color: #4F4F4F;
+  font-weight: 400;
+  width: 273px;
+}
+.secondSection section .button {
+  align-items: center;
+  background-color: #E0E0E0;
+  border-radius: 12px;
+  display: flex;
+  height: 42px;
+  text-align: center;
+  width: 116px;
+}
+.secondSection section .button p {
+  color: #828282;
 }
 
 * {

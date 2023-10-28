@@ -1,17 +1,27 @@
 @import '../abstract/variables';
 
 main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     margin-top: 3rem;
-    padding: 0 0 .5rem .5rem;
+    row-gap: 6rem;
 
     .introSection {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
         p {
+            align-self: self-start;
             color: $color-blue;
             font-size: 12px;
+            font-weight: 500;
             margin-left: 2rem;
         }
 
         h1 {
+            align-self: self-start;
             color: $color-gray1;
             font-size: 24px;
             font-weight: 500;
@@ -28,6 +38,7 @@ main {
         }
 
         h2 {
+            align-self: self-start;
             color: $color-gray1;
             font-weight: 500;
             margin-left: 2rem;
@@ -43,6 +54,7 @@ main {
         }
 
         form {
+            align-self: self-start;
             margin-left: 2rem;
             position: relative;
 
@@ -74,7 +86,7 @@ main {
                 height: 39px;
                 padding: 0;
                 position: absolute;
-                right: 3rem;
+                right: .3rem;
                 top: 1.65rem;
                 width: 71px;
             }
