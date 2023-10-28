@@ -43,13 +43,16 @@ main .introSection .introSection__secondP {
   line-height: 18px;
   width: 275px;
 }
-main .introSection label {
+main .introSection form {
+  position: relative;
+}
+main .introSection form label {
   color: #828282;
   display: flex;
   font-size: 10px;
   font-weight: 500;
 }
-main .introSection input {
+main .introSection form input {
   background-color: #F2F2F2;
   border: none;
   border-radius: 12px;
@@ -57,13 +60,23 @@ main .introSection input {
   padding-left: 1.5rem;
   width: 291px;
 }
-main .introSection input::-moz-placeholder {
+main .introSection form input::-moz-placeholder {
   color: #BDBDBD;
   font-size: 14px;
 }
-main .introSection input::placeholder {
+main .introSection form input::placeholder {
   color: #BDBDBD;
   font-size: 14px;
+}
+main .introSection form .introSection__join {
+  background-color: #2D9CDB;
+  color: #FFFFFF;
+  height: 39px;
+  padding: 0;
+  position: absolute;
+  right: 5rem;
+  top: 1.1rem;
+  width: 71px;
 }
 
 * {
