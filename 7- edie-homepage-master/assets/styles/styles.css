@@ -22,19 +22,31 @@ main .introSection p {
 main .introSection h1 {
   color: #333333;
   font-size: 24px;
+  font-weight: 500;
   width: 272px;
 }
 main .introSection img {
+  border-radius: 18px;
   height: 145px;
   width: 348px;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+main .introSection h2 {
+  color: #333333;
+  font-weight: 500;
+  width: 227px;
+}
+main .introSection .introSection__secondP {
+  color: #4F4F4F;
+  font-weight: 400;
+  line-height: 18px;
+  width: 275px;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-body {
-  font-family: "Heebo";
+  font-family: "Poppins";
 }/*# sourceMappingURL=styles.css.map */
