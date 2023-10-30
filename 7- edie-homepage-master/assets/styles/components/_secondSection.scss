@@ -4,7 +4,12 @@
     // align-items: center;
     display: flex;
     flex-direction: column;
-    row-gap: 5rem;
+    row-gap: 2rem;
+
+    & section:nth-child(3) {
+        border-radius: 24px;
+        box-shadow: 0px 10px 30px 0px #3333331A;
+    }
 
     h2 {
         color: $color-gray1;
@@ -16,6 +21,7 @@
     section {
         display: flex;
         flex-direction: column;
+        padding:  3rem 2rem;
         row-gap: 2rem;
 
         .iconSpace {
@@ -23,6 +29,14 @@
             border-radius: 16px;
             height: 67px;
             width: 67px;
+        }
+
+        .greenIcon {
+            background-color: $color-green;
+        }
+
+        .redIcon {
+            background-color: $color-red;
         }
 
         h3 {
@@ -46,6 +60,14 @@
 
             p {
                 color: $color-button-text;
+            }
+        }
+
+        .blueButton {
+            background-color: $color-blue;
+            
+            p {
+                color: $color-white;
             }
         }
     }
