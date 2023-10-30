@@ -1,6 +1,10 @@
 @import '../abstract/variables';
 
 .fourthSection {
+    display: flex;
+    flex-direction: column;
+    row-gap: .75rem;
+
     p {
         color: $color-red;
         font-size: 18px;

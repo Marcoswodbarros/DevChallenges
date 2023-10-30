@@ -223,6 +223,11 @@ main .introSection form .introSection__join {
   font-size: 10px;
 }
 
+.fourthSection {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.75rem;
+}
 .fourthSection p {
   color: #EB5757;
   font-size: 18px;
