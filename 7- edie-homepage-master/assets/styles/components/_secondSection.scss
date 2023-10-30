@@ -21,7 +21,7 @@
     section {
         display: flex;
         flex-direction: column;
-        padding:  3rem 2rem;
+        padding: 3rem 2rem;
         row-gap: 2rem;
 
         .iconSpace {
@@ -88,7 +88,7 @@
 
         .blueButton {
             background-color: $color-blue;
-            
+
             p {
                 color: $color-white;
             }
