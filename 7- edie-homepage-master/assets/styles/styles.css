@@ -123,10 +123,29 @@ main .introSection form .introSection__join {
   row-gap: 2rem;
 }
 .secondSection section .iconSpace {
+  align-items: center;
   background-color: #2D9CDB;
   border-radius: 16px;
+  display: flex;
   height: 67px;
+  justify-content: center;
   width: 67px;
+}
+.secondSection section .iconSpace .fa-pencil {
+  color: #FFFFFF;
+  font-size: 27px;
+}
+.secondSection section .iconSpace .fa-angle-left {
+  color: #FFFFFF;
+  font-size: 24px;
+}
+.secondSection section .iconSpace .fa-angle-right {
+  color: #FFFFFF;
+  font-size: 24px;
+}
+.secondSection section .iconSpace .fa-bars-progress {
+  color: #FFFFFF;
+  font-size: 30px;
 }
 .secondSection section .greenIcon {
   background-color: #27AE60;
