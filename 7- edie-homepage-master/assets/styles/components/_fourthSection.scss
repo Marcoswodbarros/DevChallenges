@@ -21,5 +21,38 @@
         width: 280px;
     }
 
-    
+    blockquote {
+        color: $color-gray1;
+        font-size: 24px;
+        font-weight: 500;
+        width: 351px;
+    }
+
+    .blockquote__cite {
+        display: flex;
+        column-gap: 2rem;
+
+        img {
+            border-radius: .75rem;
+            height: 82px;
+        }
+
+        .blockquote__cite--texts {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            p {
+                color: $color-gray1;
+                font-size: 24px;
+                font-weight: 500;
+
+                &:last-child {
+                    color: $color-gray3;
+                    font-size: 18px;
+                    width: auto;
+                }
+            }
+        }
+    }
 }
