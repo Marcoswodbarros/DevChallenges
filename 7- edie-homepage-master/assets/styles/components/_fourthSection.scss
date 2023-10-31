@@ -26,36 +26,32 @@
     }
 
     .pics__container {
-        height: 320px;
-        width: 350px;
-
         display: grid;
-        grid-template-columns: auto auto;
         gap: .5rem;
+        grid-template-columns: auto auto;
         grid-template-rows: 72.5px 72.5px 83.5px 83.5px;
+        height: 320px;
+        margin: 2rem 0 6rem 0;
+        width: 350px;
 
         .person1 {
             border-radius: 24px;
-            height: 145px;
-
             grid-column: 2 / 3;
             grid-row: 1 / 3;
+            height: 145px;
         }
 
         .person2 {
             border-radius: 24px;
+            grid-column: 2 / 3;
             height: 167px;
             width: 162px;
-
-            grid-column: 2 / 3;
         }
 
         .person3 {
             border-radius: 24px;
-            height: 178px;
-
-            // grid-column: 1 / 2;
             grid-row: 2 / 3;
+            height: 178px;
         }
     }
 
