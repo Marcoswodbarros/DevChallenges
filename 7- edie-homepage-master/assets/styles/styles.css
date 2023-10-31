@@ -114,6 +114,7 @@ main .introSection form .introSection__join {
   color: #333333;
   font-size: 24px;
   font-weight: 500;
+  margin-left: 32px;
   width: 259px;
 }
 .secondSection section {
