@@ -44,4 +44,48 @@ footer {
             }
         }
     }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        margin-left: 32px;
+        position: relative;
+        row-gap: .5rem;
+
+        label {
+            color: $color-gray3;
+            font-weight: 500;
+            font-size: 10px;
+        }
+
+        #email {
+            background-color: $color-gray6;
+            border: none;
+            border-radius: 12px;
+            height: 47px;
+            outline: none;
+            padding-left: 25px;
+            width: 291px;
+
+            &::placeholder {
+                color: $color-gray4;
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+
+        #submit {
+            background-color: $color-blue;
+            border: none;
+            border-radius: 12px;
+            color: $color-gray6;
+            font-size: 14px;
+            font-weight: 500;
+            height: 39px;
+            width: 71px;
+            position: absolute;
+            top: 1.67rem;
+            right: 3.5rem;
+        }
+    }
 }
