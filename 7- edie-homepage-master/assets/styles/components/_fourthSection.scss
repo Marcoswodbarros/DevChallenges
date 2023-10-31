@@ -25,6 +25,40 @@
         width: 280px;
     }
 
+    .pics__container {
+        height: 320px;
+        width: 350px;
+
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: .5rem;
+        grid-template-rows: 72.5px 72.5px 83.5px 83.5px;
+
+        .person1 {
+            border-radius: 24px;
+            height: 145px;
+
+            grid-column: 2 / 3;
+            grid-row: 1 / 3;
+        }
+
+        .person2 {
+            border-radius: 24px;
+            height: 167px;
+            width: 162px;
+
+            grid-column: 2 / 3;
+        }
+
+        .person3 {
+            border-radius: 24px;
+            height: 178px;
+
+            // grid-column: 1 / 2;
+            grid-row: 2 / 3;
+        }
+    }
+
     blockquote {
         color: $color-gray1;
         font-size: 24px;
@@ -33,8 +67,9 @@
     }
 
     .blockquote__cite {
-        display: flex;
         column-gap: 2rem;
+        display: flex;
+        margin: 1rem 0;
 
         img {
             border-radius: .75rem;
