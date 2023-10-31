@@ -304,6 +304,42 @@ main .introSection form .introSection__join {
   width: auto;
 }
 
+footer {
+  background-color: #100E1D;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  row-gap: 4rem;
+}
+footer ul {
+  padding-top: 32px;
+}
+footer ul li {
+  font-size: 18px;
+  font-weight: 400;
+  list-style: none;
+  line-height: 36px;
+  margin-left: 32px;
+}
+footer ul li a {
+  color: #F2F2F2;
+  text-decoration: none;
+}
+footer .socialNetworks {
+  margin-left: 32px;
+}
+footer .socialNetworks span {
+  color: #F2F2F2;
+  font-family: "Heebo";
+  font-size: 36px;
+}
+footer .socialNetworks .socialNetworks__images--container img {
+  border-radius: 0.3rem;
+}
+footer .socialNetworks .socialNetworks__images--container .linkedin {
+  margin: 0 0.5rem;
+}
+
 * {
   box-sizing: border-box;
   font-family: "Poppins";

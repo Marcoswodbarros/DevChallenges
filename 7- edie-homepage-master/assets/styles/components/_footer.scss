@@ -1,2 +1,47 @@
 @import '../abstract/variables';
 
+footer {
+    background-color: $color-footer-bg;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    row-gap: 4rem;
+
+    ul {
+        padding-top: 32px;
+
+        li {
+            font-size: 18px;
+            font-weight: 400;
+            list-style: none;
+            line-height: 36px;
+            margin-left: 32px;
+            
+            a {
+                color: $color-footer-text;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .socialNetworks {
+        margin-left: 32px;
+
+        span {
+            color: $color-gray6;
+            font-family: $font-heebo;
+            font-size: 36px;
+        }
+
+        .socialNetworks__images--container {
+
+            img {
+                border-radius: .3rem;
+            }
+
+            .linkedin {
+                margin: 0 .5rem;
+            }
+        }
+    }
+}
