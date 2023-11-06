@@ -339,20 +339,21 @@ footer .socialNetworks .socialNetworks__images--container img {
 footer .socialNetworks .socialNetworks__images--container .linkedin {
   margin: 0 0.5rem;
 }
-footer form {
+footer #footerForm {
   display: flex;
   flex-direction: column;
   margin-bottom: 30%;
   margin-left: 32px;
   position: relative;
   row-gap: 0.5rem;
+  width: 291px;
 }
-footer form label {
+footer #footerForm label {
   color: #828282;
   font-weight: 500;
   font-size: 10px;
 }
-footer form #email {
+footer #footerForm #footerEmail {
   background-color: #F2F2F2;
   border: none;
   border-radius: 12px;
@@ -361,17 +362,17 @@ footer form #email {
   padding-left: 25px;
   width: 291px;
 }
-footer form #email::-moz-placeholder {
+footer #footerForm #footerEmail::-moz-placeholder {
   color: #BDBDBD;
   font-size: 14px;
   font-weight: 500;
 }
-footer form #email::placeholder {
+footer #footerForm #footerEmail::placeholder {
   color: #BDBDBD;
   font-size: 14px;
   font-weight: 500;
 }
-footer form #submit {
+footer #footerForm #footerSubmit {
   background-color: #2D9CDB;
   border: none;
   border-radius: 12px;
@@ -379,10 +380,10 @@ footer form #submit {
   font-size: 14px;
   font-weight: 500;
   height: 39px;
-  width: 71px;
   position: absolute;
+  right: 0.3rem;
   top: 1.67rem;
-  right: 3.5rem;
+  width: 71px;
 }
 footer p {
   color: #F2F2F2;

@@ -45,21 +45,22 @@ footer {
         }
     }
 
-    form {
+    #footerForm {
         display: flex;
         flex-direction: column;
         margin-bottom: 30%;
         margin-left: 32px;
         position: relative;
         row-gap: .5rem;
-
+        width: 291px;
+        
         label {
             color: $color-gray3;
             font-weight: 500;
             font-size: 10px;
         }
-
-        #email {
+        
+        #footerEmail {
             background-color: $color-gray6;
             border: none;
             border-radius: 12px;
@@ -75,7 +76,7 @@ footer {
             }
         }
 
-        #submit {
+        #footerSubmit {
             background-color: $color-blue;
             border: none;
             border-radius: 12px;
@@ -83,10 +84,10 @@ footer {
             font-size: 14px;
             font-weight: 500;
             height: 39px;
-            width: 71px;
             position: absolute;
+            right: .3rem;
             top: 1.67rem;
-            right: 3.5rem;
+            width: 71px;
         }
     }
 
