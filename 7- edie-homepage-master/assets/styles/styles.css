@@ -1,25 +1,37 @@
 header {
+  margin: 0.5rem 0 0.5rem 0.5rem;
+}
+header nav {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin: 0.5rem 0 0.5rem 0.5rem;
 }
-header span {
+header nav span {
   font-family: "Heebo";
   font-size: 24px;
   font-weight: 800;
 }
-header .fa-bars {
+header nav .fa-bars {
   width: 24px;
 }
-header .fa-xmark {
+header nav .fa-xmark {
   display: none;
   width: 24px;
   z-index: 2;
 }
-header nav {
+header nav ul {
+  align-items: center;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
   position: absolute;
+  row-gap: 36px;
   top: -100%;
+  width: 100vw;
+  z-index: 1;
 }
 header nav ul li {
   font-family: "Poppins";
@@ -28,17 +40,7 @@ header nav ul li {
   list-style: none;
 }
 header nav .ul__expanded {
-  align-items: center;
-  background-color: bisque;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  justify-content: center;
-  left: 0;
-  row-gap: 36px;
   top: 0;
-  width: 100vw;
-  z-index: 1;
 }
 
 main {
