@@ -12,12 +12,20 @@ main {
         display: flex;
         flex-direction: column;
 
+        @media screen and (min-width: 1024px) {
+            
+        }
+
         p {
             align-self: self-start;
             color: $color-blue;
             font-size: 12px;
             font-weight: 500;
             margin-left: 2rem;
+
+            @media screen and (min-width: 1024px) {
+                margin-left: 9rem;
+            }
         }
 
         h1 {
@@ -27,14 +35,20 @@ main {
             font-weight: 500;
             margin-left: 2rem;
             width: 272px;
+
+            @media screen and (min-width: 1024px) {
+                margin-left: 9rem;
+            }
         }
 
         img {
             border-radius: 18px;
-            height: 145px;
-            margin: 1rem 0;
-            object-fit: fill;
+            margin: 1rem 0;            
             width: 348px;
+
+            @media screen and (min-width: 1024px) {
+                width: 800px;
+            }
         }
 
         h2 {
@@ -43,6 +57,10 @@ main {
             font-weight: 500;
             margin-left: 2rem;
             width: 227px;
+
+            @media screen and (min-width: 1024px) {
+                margin-left: 9rem;
+            }
         }
 
         .introSection__secondP {
@@ -51,12 +69,20 @@ main {
             line-height: 18px;
             margin: 1rem 2rem 2rem 2rem;
             width: 275px;
+
+            @media screen and (min-width: 1024px) {
+                margin-left: 9rem;
+            }
         }
 
         form {
             align-self: self-start;
             margin-left: 2rem;
             position: relative;
+
+            @media screen and (min-width: 1024px) {
+                margin-left: 9rem;
+            }
 
             label {
                 color: $color-gray3;

@@ -85,6 +85,11 @@ main .introSection p {
   font-weight: 500;
   margin-left: 2rem;
 }
+@media screen and (min-width: 1024px) {
+  main .introSection p {
+    margin-left: 9rem;
+  }
+}
 main .introSection h1 {
   align-self: self-start;
   color: #333333;
@@ -93,13 +98,20 @@ main .introSection h1 {
   margin-left: 2rem;
   width: 272px;
 }
+@media screen and (min-width: 1024px) {
+  main .introSection h1 {
+    margin-left: 9rem;
+  }
+}
 main .introSection img {
   border-radius: 18px;
-  height: 145px;
   margin: 1rem 0;
-  -o-object-fit: fill;
-     object-fit: fill;
   width: 348px;
+}
+@media screen and (min-width: 1024px) {
+  main .introSection img {
+    width: 800px;
+  }
 }
 main .introSection h2 {
   align-self: self-start;
@@ -108,6 +120,11 @@ main .introSection h2 {
   margin-left: 2rem;
   width: 227px;
 }
+@media screen and (min-width: 1024px) {
+  main .introSection h2 {
+    margin-left: 9rem;
+  }
+}
 main .introSection .introSection__secondP {
   color: #4F4F4F;
   font-weight: 400;
@@ -115,10 +132,20 @@ main .introSection .introSection__secondP {
   margin: 1rem 2rem 2rem 2rem;
   width: 275px;
 }
+@media screen and (min-width: 1024px) {
+  main .introSection .introSection__secondP {
+    margin-left: 9rem;
+  }
+}
 main .introSection form {
   align-self: self-start;
   margin-left: 2rem;
   position: relative;
+}
+@media screen and (min-width: 1024px) {
+  main .introSection form {
+    margin-left: 9rem;
+  }
 }
 main .introSection form label {
   color: #828282;
