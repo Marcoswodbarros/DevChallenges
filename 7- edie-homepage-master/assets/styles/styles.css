@@ -12,7 +12,13 @@ header span {
 header .fa-bars {
   width: 24px;
 }
-
+header .fa-xmark {
+  display: none;
+  width: 24px;
+}
+header nav {
+  display: none;
+}
 main {
   align-items: center;
   display: flex;
