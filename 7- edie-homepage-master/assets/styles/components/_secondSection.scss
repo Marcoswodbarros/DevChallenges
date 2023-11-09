@@ -1,12 +1,8 @@
 @import '../abstract/variables';
 
 .secondSection {
-    // align-items: center;
-    display: flex;
-    flex-direction: column;
-    row-gap: 2rem;
 
-    & section:nth-child(3) {
+    & section:nth-child(2) {
         border-radius: 24px;
         box-shadow: 0px 10px 30px 0px #3333331A;
     }
@@ -17,81 +13,99 @@
         font-weight: 500;
         margin-left: 32px;
         width: 259px;
+
+        @media screen and (min-width: 1024px) {
+            margin-left: 0;
+        }
     }
 
-    section {
-        display: flex;
-        flex-direction: column;
-        padding: 3rem 2rem;
-        row-gap: 2rem;
+    .secondSection__sections--container {
 
-        .iconSpace {
+        @media screen and (min-width: 1024px) {
             align-items: center;
-            background-color: $color-blue;
-            border-radius: 16px;
             display: flex;
-            height: 67px;
             justify-content: center;
-            width: 67px;
-
-            .fa-pencil {
-                color: $color-white;
-                font-size: 27px;
-            }
-
-            .fa-angle-left {
-                color: $color-white;
-                font-size: 24px;
-            }
-
-            .fa-angle-right {
-                color: $color-white;
-                font-size: 24px;
-            }
-
-            .fa-bars-progress {
-                color: $color-white;
-                font-size: 30px;
-            }
+            column-gap: 2rem;
         }
 
-        .greenIcon {
-            background-color: $color-green;
-        }
-
-        .redIcon {
-            background-color: $color-red;
-        }
-
-        h3 {
-            font-size: 24px;
-        }
-
-        p {
-            color: $color-gray2;
-            font-weight: 400;
-            width: 273px;
-        }
-
-        .button {
-            align-items: center;
-            background-color: $color-button-bg;
-            border-radius: 12px;
+        section {
             display: flex;
-            height: 42px;
-            text-align: center;
-            width: 116px;
+            flex-direction: column;
+            padding: 3rem 2rem;
+            row-gap: 2rem;
 
-            p {
-                color: $color-button-text;
+            .iconSpace {
+                align-items: center;
+                background-color: $color-blue;
+                border-radius: 16px;
+                display: flex;
+                height: 67px;
+                justify-content: center;
+                width: 67px;
+
+                .fa-pencil {
+                    color: $color-white;
+                    font-size: 27px;
+                }
+
+                .fa-angle-left {
+                    color: $color-white;
+                    font-size: 24px;
+                }
+
+                .fa-angle-right {
+                    color: $color-white;
+                    font-size: 24px;
+                }
+
+                .fa-bars-progress {
+                    color: $color-white;
+                    font-size: 30px;
+                }
             }
-        }
 
-        .blueButton {
-            background-color: $color-blue;
+            .greenIcon {
+                background-color: $color-green;
+            }
+
+            .redIcon {
+                background-color: $color-red;
+            }
+
+            h3 {
+                font-size: 24px;
+            }
 
             p {
-                color: $color-white;
+                color: $color-gray2;
+                font-weight: 400;
+                width: 273px;
+
+                @media screen and (min-width: 1024px) {
+                    width: 200px;
+                }
+            }
+
+            .button {
+                align-items: center;
+                background-color: $color-button-bg;
+                border-radius: 12px;
+                display: flex;
+                height: 42px;
+                text-align: center;
+                width: 116px;
+
+                p {
+                    color: $color-button-text;
+                }
+            }
+
+            .blueButton {
+                background-color: $color-blue;
+
+                p {
+                    color: $color-white;
+                }
             }
         }
     }

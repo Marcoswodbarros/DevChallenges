@@ -181,12 +181,7 @@ main .introSection form .introSection__join {
   width: 71px;
 }
 
-.secondSection {
-  display: flex;
-  flex-direction: column;
-  row-gap: 2rem;
-}
-.secondSection section:nth-child(3) {
+.secondSection section:nth-child(2) {
   border-radius: 24px;
   box-shadow: 0px 10px 30px 0px rgba(51, 51, 51, 0.1019607843);
 }
@@ -197,13 +192,27 @@ main .introSection form .introSection__join {
   margin-left: 32px;
   width: 259px;
 }
-.secondSection section {
+@media screen and (min-width: 1024px) {
+  .secondSection h2 {
+    margin-left: 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .secondSection .secondSection__sections--container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
+  }
+}
+.secondSection .secondSection__sections--container section {
   display: flex;
   flex-direction: column;
   padding: 3rem 2rem;
   row-gap: 2rem;
 }
-.secondSection section .iconSpace {
+.secondSection .secondSection__sections--container section .iconSpace {
   align-items: center;
   background-color: #2D9CDB;
   border-radius: 16px;
@@ -212,37 +221,42 @@ main .introSection form .introSection__join {
   justify-content: center;
   width: 67px;
 }
-.secondSection section .iconSpace .fa-pencil {
+.secondSection .secondSection__sections--container section .iconSpace .fa-pencil {
   color: #FFFFFF;
   font-size: 27px;
 }
-.secondSection section .iconSpace .fa-angle-left {
+.secondSection .secondSection__sections--container section .iconSpace .fa-angle-left {
   color: #FFFFFF;
   font-size: 24px;
 }
-.secondSection section .iconSpace .fa-angle-right {
+.secondSection .secondSection__sections--container section .iconSpace .fa-angle-right {
   color: #FFFFFF;
   font-size: 24px;
 }
-.secondSection section .iconSpace .fa-bars-progress {
+.secondSection .secondSection__sections--container section .iconSpace .fa-bars-progress {
   color: #FFFFFF;
   font-size: 30px;
 }
-.secondSection section .greenIcon {
+.secondSection .secondSection__sections--container section .greenIcon {
   background-color: #27AE60;
 }
-.secondSection section .redIcon {
+.secondSection .secondSection__sections--container section .redIcon {
   background-color: #EB5757;
 }
-.secondSection section h3 {
+.secondSection .secondSection__sections--container section h3 {
   font-size: 24px;
 }
-.secondSection section p {
+.secondSection .secondSection__sections--container section p {
   color: #4F4F4F;
   font-weight: 400;
   width: 273px;
 }
-.secondSection section .button {
+@media screen and (min-width: 1024px) {
+  .secondSection .secondSection__sections--container section p {
+    width: 200px;
+  }
+}
+.secondSection .secondSection__sections--container section .button {
   align-items: center;
   background-color: #E0E0E0;
   border-radius: 12px;
@@ -251,13 +265,13 @@ main .introSection form .introSection__join {
   text-align: center;
   width: 116px;
 }
-.secondSection section .button p {
+.secondSection .secondSection__sections--container section .button p {
   color: #828282;
 }
-.secondSection section .blueButton {
+.secondSection .secondSection__sections--container section .blueButton {
   background-color: #2D9CDB;
 }
-.secondSection section .blueButton p {
+.secondSection .secondSection__sections--container section .blueButton p {
   color: #FFFFFF;
 }
 
