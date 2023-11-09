@@ -1,6 +1,11 @@
 header {
   margin: 0.5rem 0 0.5rem 0.5rem;
 }
+@media screen and (min-width: 1024px) {
+  header {
+    margin: 1.5rem 2rem 1rem 2rem;
+  }
+}
 header nav {
   align-items: center;
   display: flex;
@@ -34,11 +39,28 @@ header nav ul {
   width: 100vw;
   z-index: 1;
 }
+@media screen and (min-width: 1024px) {
+  header nav ul {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    justify-content: space-between;
+    position: static;
+    width: 500px;
+  }
+}
 header nav ul li {
+  color: #333333;
   font-family: "Poppins";
   font-size: 24px;
   font-weight: 500;
   list-style: none;
+}
+@media screen and (min-width: 1024px) {
+  header nav ul li {
+    font-size: 16px;
+  }
 }
 header nav .ul__expanded {
   top: 0;
