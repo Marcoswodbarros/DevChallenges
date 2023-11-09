@@ -19,13 +19,35 @@ header {
     .fa-xmark {
         display: none;
         width: 24px;
+        z-index: 2;
     }
 
     nav {
-        display: none;
+        position: absolute;
+        top: -100%;
 
         ul {
-            
+
+            li {
+                font-family: $font-poppins;
+                font-size: 24px;
+                font-weight: 500;
+                list-style: none;
+            }
+        }
+
+        .ul__expanded {
+            align-items: center;
+            background-color: bisque;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            justify-content: center;
+            left: 0;
+            row-gap: 36px;
+            top: 0;
+            width: 100vw;
+            z-index: 1;
         }
     }
 }
