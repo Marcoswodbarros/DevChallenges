@@ -384,6 +384,7 @@ main .introSection form .introSection__join {
     align-items: center;
     justify-content: space-between;
     width: 856px;
+    margin-top: 3rem;
   }
 }
 .fourthSection .fourthSection__textsAndPics--container .fourthSection__texts--container p {
@@ -459,6 +460,12 @@ main .introSection form .introSection__join {
   font-size: 24px;
   font-weight: 500;
   width: 351px;
+}
+@media screen and (min-width: 1024px) {
+  .fourthSection blockquote {
+    margin-top: 6rem;
+    width: 600px;
+  }
 }
 .fourthSection .blockquote__cite {
   -moz-column-gap: 2rem;

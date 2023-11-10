@@ -12,6 +12,7 @@
             align-items: center;
             justify-content: space-between;
             width: 856px;
+            margin-top: 3rem;
         }
 
         .fourthSection__texts--container {
@@ -93,6 +94,11 @@
         font-size: 24px;
         font-weight: 500;
         width: 351px;
+
+        @media screen and (min-width: 1024px) {
+            margin-top: 6rem;
+            width: 600px;
+        }
     }
 
     .blockquote__cite {
