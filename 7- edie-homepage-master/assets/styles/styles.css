@@ -373,11 +373,6 @@ main .introSection form .introSection__join {
   font-size: 10px;
 }
 
-.fourthSection {
-  display: flex;
-  flex-direction: column;
-  row-gap: 0.75rem;
-}
 @media screen and (min-width: 1024px) {
   .fourthSection .fourthSection__textsAndPics--container {
     display: flex;
@@ -498,10 +493,24 @@ footer {
   display: flex;
   flex-direction: column;
   margin-top: 5rem;
+  position: relative;
   row-gap: 4rem;
+}
+@media screen and (min-width: 1024px) {
+  footer {
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 8rem;
+    padding-top: 4rem;
+  }
 }
 footer ul {
   padding-top: 32px;
+}
+@media screen and (min-width: 1024px) {
+  footer ul {
+    padding-top: 0;
+  }
 }
 footer ul li {
   font-size: 18px;
@@ -581,6 +590,12 @@ footer p {
   font-weight: 500;
   margin-bottom: 1rem;
   text-align: center;
+}
+@media screen and (min-width: 1024px) {
+  footer p {
+    position: absolute;
+    bottom: 0;
+  }
 }
 footer p a {
   color: #FFFFFF;
