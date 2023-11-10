@@ -378,24 +378,32 @@ main .introSection form .introSection__join {
   flex-direction: column;
   row-gap: 0.75rem;
 }
-.fourthSection p {
+@media screen and (min-width: 1024px) {
+  .fourthSection .fourthSection__textsAndPics--container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 856px;
+  }
+}
+.fourthSection .fourthSection__textsAndPics--container .fourthSection__texts--container p {
   color: #EB5757;
   font-size: 18px;
   font-weight: 500;
 }
-.fourthSection p:last-of-type {
+.fourthSection .fourthSection__textsAndPics--container .fourthSection__texts--container p:last-of-type {
   color: #4F4F4F;
   font-size: 16px;
   font-weight: 400;
   width: 273px;
 }
-.fourthSection h2 {
+.fourthSection .fourthSection__textsAndPics--container .fourthSection__texts--container h2 {
   color: #333333;
   font-size: 36px;
   font-weight: 500;
   width: 280px;
 }
-.fourthSection .pics__container {
+.fourthSection .fourthSection__textsAndPics--container .pics__container {
   display: grid;
   gap: 0.5rem;
   grid-template-columns: auto auto;
@@ -404,19 +412,19 @@ main .introSection form .introSection__join {
   margin: 2rem 0 6rem 0;
   width: 350px;
 }
-.fourthSection .pics__container .person1 {
+.fourthSection .fourthSection__textsAndPics--container .pics__container .person1 {
   border-radius: 24px;
   grid-column: 2/3;
   grid-row: 1/3;
   height: 145px;
 }
-.fourthSection .pics__container .person2 {
+.fourthSection .fourthSection__textsAndPics--container .pics__container .person2 {
   border-radius: 24px;
   grid-column: 2/3;
   height: 167px;
   width: 162px;
 }
-.fourthSection .pics__container .person3 {
+.fourthSection .fourthSection__textsAndPics--container .pics__container .person3 {
   border-radius: 24px;
   grid-row: 2/3;
   height: 178px;
