@@ -412,11 +412,24 @@ main .introSection form .introSection__join {
   margin: 2rem 0 6rem 0;
   width: 350px;
 }
+@media screen and (min-width: 1024px) {
+  .fourthSection .fourthSection__textsAndPics--container .pics__container {
+    -moz-column-gap: 1.3rem;
+         column-gap: 1.3rem;
+    row-gap: 1.5rem;
+    width: auto;
+  }
+}
 .fourthSection .fourthSection__textsAndPics--container .pics__container .person1 {
   border-radius: 24px;
   grid-column: 2/3;
   grid-row: 1/3;
   height: 145px;
+}
+@media screen and (min-width: 1024px) {
+  .fourthSection .fourthSection__textsAndPics--container .pics__container .person1 {
+    height: 175px;
+  }
 }
 .fourthSection .fourthSection__textsAndPics--container .pics__container .person2 {
   border-radius: 24px;
@@ -424,10 +437,22 @@ main .introSection form .introSection__join {
   height: 167px;
   width: 162px;
 }
+@media screen and (min-width: 1024px) {
+  .fourthSection .fourthSection__textsAndPics--container .pics__container .person2 {
+    grid-row: 3/5;
+    height: 197px;
+    width: 192px;
+  }
+}
 .fourthSection .fourthSection__textsAndPics--container .pics__container .person3 {
   border-radius: 24px;
-  grid-row: 2/3;
+  grid-row: 2/4;
   height: 178px;
+}
+@media screen and (min-width: 1024px) {
+  .fourthSection .fourthSection__textsAndPics--container .pics__container .person3 {
+    height: 208px;
+  }
 }
 .fourthSection blockquote {
   color: #333333;
