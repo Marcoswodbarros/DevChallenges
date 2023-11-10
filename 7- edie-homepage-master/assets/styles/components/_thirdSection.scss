@@ -32,13 +32,13 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 136px 136px 136px 136px 136px 136px 136px 136px;
+            padding-top: 5rem;
             row-gap: 0;
         }
 
         section {
 
             @media screen and (min-width: 1024px) {
-                margin-top: 10rem;
 
                 &:nth-child(1) {
                     grid-column: 1 / 2;

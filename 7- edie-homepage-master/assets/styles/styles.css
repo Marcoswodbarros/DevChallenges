@@ -308,13 +308,11 @@ main .introSection form .introSection__join {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 136px 136px 136px 136px 136px 136px 136px 136px;
+    padding-top: 5rem;
     row-gap: 0;
   }
 }
 @media screen and (min-width: 1024px) {
-  .thirdSection .thirdSection__sections--container section {
-    margin-top: 10rem;
-  }
   .thirdSection .thirdSection__sections--container section:nth-child(1) {
     grid-column: 1/2;
     grid-row: 2/4;
