@@ -122,7 +122,7 @@ main .introSection p {
   main .introSection p {
     font-size: 18px;
     margin-bottom: 0.75rem;
-    margin-left: 0;
+    margin-left: 14rem;
   }
 }
 main .introSection h1 {
@@ -142,7 +142,7 @@ main .introSection h1 {
   main .introSection h1 {
     font-size: 48px;
     margin-bottom: 1rem;
-    margin-left: 0;
+    margin-left: 14rem;
     width: 543px;
   }
 }
@@ -158,6 +158,7 @@ main .introSection img {
 }
 @media screen and (min-width: 1440px) {
   main .introSection img {
+    margin-bottom: 2rem;
     width: 1330px;
   }
 }
@@ -173,6 +174,13 @@ main .introSection h2 {
     margin-left: 9rem;
   }
 }
+@media screen and (min-width: 1440px) {
+  main .introSection h2 {
+    font-size: 48px;
+    margin-left: 14rem;
+    width: 366px;
+  }
+}
 main .introSection .introSection__secondP {
   color: #4F4F4F;
   font-weight: 400;
@@ -185,6 +193,14 @@ main .introSection .introSection__secondP {
     margin-left: 9rem;
   }
 }
+@media screen and (min-width: 1440px) {
+  main .introSection .introSection__secondP {
+    line-height: 27px;
+    margin-left: 14rem;
+    margin-top: 2rem;
+    width: 366px;
+  }
+}
 main .introSection form {
   align-self: self-start;
   margin-left: 2rem;
@@ -195,12 +211,22 @@ main .introSection form {
     margin-left: 9rem;
   }
 }
+@media screen and (min-width: 1440px) {
+  main .introSection form {
+    margin-left: 14rem;
+  }
+}
 main .introSection form label {
   color: #828282;
   display: flex;
   font-size: 10px;
   font-weight: 500;
   margin-bottom: 0.5rem;
+}
+@media screen and (min-width: 1440px) {
+  main .introSection form label {
+    font-size: 14px;
+  }
 }
 main .introSection form input {
   background-color: #F2F2F2;
@@ -210,6 +236,12 @@ main .introSection form input {
   padding-left: 1.5rem;
   width: 291px;
 }
+@media screen and (min-width: 1440px) {
+  main .introSection form input {
+    height: 57px;
+    width: 350px;
+  }
+}
 main .introSection form input::-moz-placeholder {
   color: #BDBDBD;
   font-size: 14px;
@@ -217,6 +249,14 @@ main .introSection form input::-moz-placeholder {
 main .introSection form input::placeholder {
   color: #BDBDBD;
   font-size: 14px;
+}
+@media screen and (min-width: 1440px) {
+  main .introSection form input::-moz-placeholder {
+    font-size: 18px;
+  }
+  main .introSection form input::placeholder {
+    font-size: 18px;
+  }
 }
 main .introSection form .introSection__join {
   background-color: #2D9CDB;
@@ -227,6 +267,14 @@ main .introSection form .introSection__join {
   right: 0.3rem;
   top: 1.65rem;
   width: 71px;
+}
+@media screen and (min-width: 1440px) {
+  main .introSection form .introSection__join {
+    font-size: 18px;
+    height: 49px;
+    top: 2.05rem;
+    width: 94px;
+  }
 }
 
 .secondSection section:nth-child(2) {

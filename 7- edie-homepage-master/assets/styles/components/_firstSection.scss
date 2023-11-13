@@ -8,7 +8,7 @@ main {
     row-gap: 6rem;
 
     @media screen and (min-width: 1440px) {
-        margin-top: 6rem;   
+        margin-top: 6rem;
     }
 
     .introSection {
@@ -30,7 +30,7 @@ main {
             @media screen and (min-width: 1440px) {
                 font-size: 18px;
                 margin-bottom: .75rem;
-                margin-left: 0;
+                margin-left: 14rem;
             }
         }
 
@@ -49,14 +49,14 @@ main {
             @media screen and (min-width: 1440px) {
                 font-size: 48px;
                 margin-bottom: 1rem;
-                margin-left: 0;
+                margin-left: 14rem;
                 width: 543px;
             }
         }
 
         img {
             border-radius: 18px;
-            margin: 1rem 0;            
+            margin: 1rem 0;
             width: 348px;
 
             @media screen and (min-width: 1024px) {
@@ -64,6 +64,7 @@ main {
             }
 
             @media screen and (min-width: 1440px) {
+                margin-bottom: 2rem;
                 width: 1330px;
             }
         }
@@ -78,6 +79,12 @@ main {
             @media screen and (min-width: 1024px) {
                 margin-left: 9rem;
             }
+
+            @media screen and (min-width: 1440px) {
+                font-size: 48px;
+                margin-left: 14rem;
+                width: 366px;
+            }
         }
 
         .introSection__secondP {
@@ -90,6 +97,13 @@ main {
             @media screen and (min-width: 1024px) {
                 margin-left: 9rem;
             }
+
+            @media screen and (min-width: 1440px) {
+                line-height: 27px;
+                margin-left: 14rem;
+                margin-top: 2rem;
+                width: 366px;
+            }
         }
 
         form {
@@ -101,12 +115,20 @@ main {
                 margin-left: 9rem;
             }
 
+            @media screen and (min-width: 1440px) {
+                margin-left: 14rem;
+            }
+
             label {
                 color: $color-gray3;
                 display: flex;
                 font-size: 10px;
                 font-weight: 500;
                 margin-bottom: .5rem;
+
+                @media screen and (min-width: 1440px) {
+                    font-size: 14px;
+                }
             }
 
             input {
@@ -117,9 +139,18 @@ main {
                 padding-left: 1.5rem;
                 width: 291px;
 
+                @media screen and (min-width: 1440px) {
+                    height: 57px;
+                    width: 350px;
+                }
+
                 &::placeholder {
                     color: $color-gray4;
                     font-size: 14px;
+
+                    @media screen and (min-width: 1440px) {
+                        font-size: 18px;
+                    }
                 }
             }
 
@@ -132,6 +163,13 @@ main {
                 right: .3rem;
                 top: 1.65rem;
                 width: 71px;
+
+                @media screen and (min-width: 1440px) {
+                    font-size: 18px;
+                    height: 49px;
+                    top: 2.05rem;
+                    width: 94px;
+                }
             }
         }
     }
