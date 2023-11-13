@@ -18,14 +18,20 @@ header nav {
   display: flex;
   justify-content: space-between;
 }
-header nav span {
+header nav a {
   color: #333333;
   font-family: "Heebo";
   font-size: 24px;
   font-weight: 800;
+  text-decoration: none;
+}
+@media screen and (min-width: 1024px) {
+  header nav a:hover {
+    cursor: pointer;
+  }
 }
 @media screen and (min-width: 1440px) {
-  header nav span {
+  header nav a {
     font-size: 36px;
   }
 }
@@ -39,7 +45,7 @@ header nav .fa-xmark {
 }
 header nav ul {
   align-items: center;
-  background-color: bisque;
+  background-color: #2D9CDB;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -69,11 +75,13 @@ header nav ul {
   }
 }
 header nav ul li {
+  list-style: none;
+}
+header nav ul li a {
   color: #333333;
   font-family: "Poppins";
   font-size: 24px;
   font-weight: 500;
-  list-style: none;
 }
 @media screen and (min-width: 1024px) {
   header nav ul li {

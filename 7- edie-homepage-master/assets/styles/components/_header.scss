@@ -18,11 +18,18 @@ header {
         display: flex;
         justify-content: space-between;
 
-        span {
+        a {
             color: $color-gray1;
             font-family: $font-heebo;
             font-size: 24px;
             font-weight: 800;
+            text-decoration: none;
+
+            @media screen and (min-width: 1024px) {
+                &:hover {
+                    cursor: pointer;
+                }
+            }
 
             @media screen and (min-width: 1440px) {
                 font-size: 36px;
@@ -41,7 +48,7 @@ header {
 
         ul {
             align-items: center;
-            background-color: bisque;
+            background-color: $color-blue;
             display: flex;
             flex-direction: column;
             height: 100vh;
@@ -69,11 +76,14 @@ header {
             }
 
             li {
-                color: $color-gray1;
-                font-family: $font-poppins;
-                font-size: 24px;
-                font-weight: 500;
                 list-style: none;
+
+                a {
+                    color: $color-gray1;
+                    font-family: $font-poppins;
+                    font-size: 24px;
+                    font-weight: 500;
+                }
 
                 @media screen and (min-width: 1024px) {
                     font-size: 16px;
