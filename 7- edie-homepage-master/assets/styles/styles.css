@@ -420,6 +420,7 @@ main .introSection form .introSection__join {
 @media screen and (min-width: 1440px) {
   .thirdSection h2 {
     font-size: 36px;
+    margin-bottom: 4rem;
     width: 448px;
   }
 }
@@ -438,6 +439,11 @@ main .introSection form .introSection__join {
     grid-template-rows: 136px 136px 136px 136px 136px 136px 136px 136px;
     padding-top: 5rem;
     row-gap: 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .thirdSection .thirdSection__sections--container {
+    grid-template-rows: 177px 177px 177px 177px 177px 177px 177px 177px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -479,6 +485,8 @@ main .introSection form .introSection__join {
 @media screen and (min-width: 1440px) {
   .thirdSection .thirdSection__sections--container section p {
     font-size: 14px;
+    margin-bottom: 0.2rem;
+    margin-top: 0.5rem;
   }
 }
 .thirdSection .thirdSection__sections--container section h3 {
@@ -511,9 +519,19 @@ main .introSection form .introSection__join {
   font-weight: 500;
   text-decoration: none;
 }
+@media screen and (min-width: 1440px) {
+  .thirdSection .thirdSection__sections--container .seeMore a {
+    font-size: 24px;
+  }
+}
 .thirdSection .thirdSection__sections--container .seeMore .fa-arrow-right-long {
   color: #2D9CDB;
   font-size: 10px;
+}
+@media screen and (min-width: 1440px) {
+  .thirdSection .thirdSection__sections--container .seeMore .fa-arrow-right-long {
+    font-size: 16px;
+  }
 }
 
 @media screen and (min-width: 1024px) {

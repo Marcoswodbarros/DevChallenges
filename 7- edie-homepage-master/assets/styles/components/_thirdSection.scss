@@ -25,6 +25,7 @@
 
         @media screen and (min-width: 1440px) {
             font-size: 36px;
+            margin-bottom: 4rem;
             width: 448px;       
         }
     }
@@ -42,6 +43,10 @@
             grid-template-rows: 136px 136px 136px 136px 136px 136px 136px 136px;
             padding-top: 5rem;
             row-gap: 0;
+        }
+
+        @media screen and (min-width: 1440px) {
+            grid-template-rows: 177px 177px 177px 177px 177px 177px 177px 177px;       
         }
 
         section {
@@ -88,6 +93,8 @@
 
                 @media screen and (min-width: 1440px) {
                     font-size: 14px;
+                    margin-bottom: .2rem;
+                    margin-top: .5rem;
                 }
             }
 
@@ -119,11 +126,19 @@
                 font-size: 18px;
                 font-weight: 500;
                 text-decoration: none;
+
+                @media screen and (min-width: 1440px) {
+                    font-size: 24px;
+                }
             }
 
             .fa-arrow-right-long {
                 color: $color-blue;
                 font-size: 10px;
+
+                @media screen and (min-width: 1440px) {
+                    font-size: 16px;
+                }
             }
         }
     }
