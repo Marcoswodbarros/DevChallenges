@@ -753,10 +753,20 @@ footer #footerForm {
   row-gap: 0.5rem;
   width: 291px;
 }
+@media screen and (min-width: 1440px) {
+  footer #footerForm {
+    margin-bottom: 20%;
+  }
+}
 footer #footerForm label {
   color: #828282;
   font-weight: 500;
   font-size: 10px;
+}
+@media screen and (min-width: 1440px) {
+  footer #footerForm label {
+    font-size: 14px;
+  }
 }
 footer #footerForm #footerEmail {
   background-color: #F2F2F2;
@@ -767,6 +777,12 @@ footer #footerForm #footerEmail {
   padding-left: 25px;
   width: 291px;
 }
+@media screen and (min-width: 1440px) {
+  footer #footerForm #footerEmail {
+    height: 57px;
+    width: 350px;
+  }
+}
 footer #footerForm #footerEmail::-moz-placeholder {
   color: #BDBDBD;
   font-size: 14px;
@@ -776,6 +792,14 @@ footer #footerForm #footerEmail::placeholder {
   color: #BDBDBD;
   font-size: 14px;
   font-weight: 500;
+}
+@media screen and (min-width: 1440px) {
+  footer #footerForm #footerEmail::-moz-placeholder {
+    font-size: 18px;
+  }
+  footer #footerForm #footerEmail::placeholder {
+    font-size: 18px;
+  }
 }
 footer #footerForm #footerSubmit {
   background-color: #2D9CDB;
@@ -790,6 +814,15 @@ footer #footerForm #footerSubmit {
   top: 1.67rem;
   width: 71px;
 }
+@media screen and (min-width: 1440px) {
+  footer #footerForm #footerSubmit {
+    font-size: 18px;
+    height: 49px;
+    left: 15.75rem;
+    top: 2.05rem;
+    width: 94px;
+  }
+}
 footer p {
   color: #F2F2F2;
   font-family: "Montserrat";
@@ -800,8 +833,8 @@ footer p {
 }
 @media screen and (min-width: 1024px) {
   footer p {
-    position: absolute;
     bottom: 0;
+    position: absolute;
   }
 }
 footer p a {
