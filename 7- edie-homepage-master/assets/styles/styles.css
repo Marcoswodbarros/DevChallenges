@@ -400,6 +400,11 @@ main .introSection form .introSection__join {
     width: 856px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .thirdSection {
+    width: 1087px;
+  }
+}
 .thirdSection h2 {
   color: #333333;
   font-weight: 500;
@@ -410,6 +415,12 @@ main .introSection form .introSection__join {
   .thirdSection h2 {
     align-self: flex-start;
     margin-bottom: 1.5rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .thirdSection h2 {
+    font-size: 36px;
+    width: 448px;
   }
 }
 .thirdSection .thirdSection__sections--container {
@@ -456,14 +467,29 @@ main .introSection form .introSection__join {
     width: 415px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .thirdSection .thirdSection__sections--container section img {
+    width: 543px;
+  }
+}
 .thirdSection .thirdSection__sections--container section p {
   color: #828282;
   font-size: 12px;
+}
+@media screen and (min-width: 1440px) {
+  .thirdSection .thirdSection__sections--container section p {
+    font-size: 14px;
+  }
 }
 .thirdSection .thirdSection__sections--container section h3 {
   color: #333333;
   font-size: 18px;
   font-weight: 500;
+}
+@media screen and (min-width: 1440px) {
+  .thirdSection .thirdSection__sections--container section h3 {
+    font-size: 24px;
+  }
 }
 .thirdSection .thirdSection__sections--container .seeMore {
   align-items: center;
