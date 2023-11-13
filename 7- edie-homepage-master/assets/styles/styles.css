@@ -195,6 +195,7 @@ main .introSection h2 {
   }
 }
 main .introSection .introSection__secondP {
+  align-self: self-start;
   color: #4F4F4F;
   font-weight: 400;
   line-height: 18px;
@@ -203,7 +204,9 @@ main .introSection .introSection__secondP {
 }
 @media screen and (min-width: 1024px) {
   main .introSection .introSection__secondP {
+    line-height: 22px;
     margin-left: 9rem;
+    width: 330px;
   }
 }
 @media screen and (min-width: 1440px) {
