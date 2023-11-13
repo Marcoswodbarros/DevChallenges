@@ -2,17 +2,30 @@
 
 .fourthSection {
 
+    @media screen and (min-width: 1440px) {
+        padding-bottom: 4rem;                  
+    }
+
     .fourthSection__textsAndPics--container {
 
         @media screen and (min-width: 1024px) {
-            display: flex;
             align-items: center;
+            display: flex;
             justify-content: space-between;
-            width: 856px;
             margin-top: 3rem;
+            width: 856px;
+        }
+
+        @media screen and (min-width: 1440px) {
+            margin-top: 6rem;
+            width: 1087px;           
         }
 
         .fourthSection__texts--container {
+
+            @media screen and (min-width: 1440px) {
+                padding-bottom: 4rem;           
+            }
 
             p {
                 color: $color-red;
@@ -50,6 +63,12 @@
                 width: auto;
             }
 
+            @media screen and (min-width: 1440px) {
+                grid-template-rows: 130px 130px 130px 130px;   
+                height: auto;
+                row-gap: .6rem;
+            }
+
             .person1 {
                 border-radius: 24px;
                 grid-column: 2 / 3;
@@ -58,6 +77,10 @@
 
                 @media screen and (min-width: 1024px) {
                     height: 175px;
+                }
+
+                @media screen and (min-width: 1440px) {
+                    height: 260px;
                 }
             }
 
@@ -72,6 +95,11 @@
                     height: 197px;
                     width: 192px;
                 }
+
+                @media screen and (min-width: 1440px) {
+                    height: 300px;
+                    width: 291px;
+                }
             }
 
             .person3 {
@@ -81,6 +109,10 @@
 
                 @media screen and (min-width: 1024px) {
                     height: 208px;
+                }
+
+                @media screen and (min-width: 1440px) {
+                    height: 320px;
                 }
             }
         }
@@ -95,6 +127,12 @@
         @media screen and (min-width: 1024px) {
             margin-top: 6rem;
             width: 600px;
+        }
+
+        @media screen and (min-width: 1440px) {
+            font-size: 36px;
+            margin-bottom: 3rem;
+            width: 937px;              
         }
     }
 

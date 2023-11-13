@@ -534,13 +534,29 @@ main .introSection form .introSection__join {
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .fourthSection {
+    padding-bottom: 4rem;
+  }
+}
 @media screen and (min-width: 1024px) {
   .fourthSection .fourthSection__textsAndPics--container {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: space-between;
-    width: 856px;
     margin-top: 3rem;
+    width: 856px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .fourthSection .fourthSection__textsAndPics--container {
+    margin-top: 6rem;
+    width: 1087px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .fourthSection .fourthSection__textsAndPics--container .fourthSection__texts--container {
+    padding-bottom: 4rem;
   }
 }
 .fourthSection .fourthSection__textsAndPics--container .fourthSection__texts--container p {
@@ -577,6 +593,13 @@ main .introSection form .introSection__join {
     width: auto;
   }
 }
+@media screen and (min-width: 1440px) {
+  .fourthSection .fourthSection__textsAndPics--container .pics__container {
+    grid-template-rows: 130px 130px 130px 130px;
+    height: auto;
+    row-gap: 0.6rem;
+  }
+}
 .fourthSection .fourthSection__textsAndPics--container .pics__container .person1 {
   border-radius: 24px;
   grid-column: 2/3;
@@ -586,6 +609,11 @@ main .introSection form .introSection__join {
 @media screen and (min-width: 1024px) {
   .fourthSection .fourthSection__textsAndPics--container .pics__container .person1 {
     height: 175px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .fourthSection .fourthSection__textsAndPics--container .pics__container .person1 {
+    height: 260px;
   }
 }
 .fourthSection .fourthSection__textsAndPics--container .pics__container .person2 {
@@ -601,6 +629,12 @@ main .introSection form .introSection__join {
     width: 192px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .fourthSection .fourthSection__textsAndPics--container .pics__container .person2 {
+    height: 300px;
+    width: 291px;
+  }
+}
 .fourthSection .fourthSection__textsAndPics--container .pics__container .person3 {
   border-radius: 24px;
   grid-row: 2/4;
@@ -609,6 +643,11 @@ main .introSection form .introSection__join {
 @media screen and (min-width: 1024px) {
   .fourthSection .fourthSection__textsAndPics--container .pics__container .person3 {
     height: 208px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .fourthSection .fourthSection__textsAndPics--container .pics__container .person3 {
+    height: 320px;
   }
 }
 .fourthSection blockquote {
@@ -621,6 +660,13 @@ main .introSection form .introSection__join {
   .fourthSection blockquote {
     margin-top: 6rem;
     width: 600px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .fourthSection blockquote {
+    font-size: 36px;
+    margin-bottom: 3rem;
+    width: 937px;
   }
 }
 .fourthSection .blockquote__cite {
