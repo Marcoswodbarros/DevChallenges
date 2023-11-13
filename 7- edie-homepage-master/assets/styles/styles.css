@@ -277,6 +277,11 @@ main .introSection form .introSection__join {
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .secondSection {
+    margin-top: 6rem;
+  }
+}
 .secondSection section:nth-child(2) {
   border-radius: 24px;
   box-shadow: 0px 10px 30px 0px rgba(51, 51, 51, 0.1019607843);
@@ -293,13 +298,19 @@ main .introSection form .introSection__join {
     margin-left: 0;
   }
 }
+@media screen and (min-width: 1440px) {
+  .secondSection h2 {
+    font-size: 36px;
+    width: 346px;
+  }
+}
 @media screen and (min-width: 1024px) {
   .secondSection .secondSection__sections--container {
     align-items: center;
-    display: flex;
-    justify-content: center;
     -moz-column-gap: 2rem;
          column-gap: 2rem;
+    display: flex;
+    justify-content: center;
   }
 }
 .secondSection .secondSection__sections--container section {
@@ -307,6 +318,11 @@ main .introSection form .introSection__join {
   flex-direction: column;
   padding: 3rem 2rem;
   row-gap: 2rem;
+}
+@media screen and (min-width: 1440px) {
+  .secondSection .secondSection__sections--container section {
+    width: 341px;
+  }
 }
 .secondSection .secondSection__sections--container section .iconSpace {
   align-items: center;
@@ -350,6 +366,11 @@ main .introSection form .introSection__join {
 @media screen and (min-width: 1024px) {
   .secondSection .secondSection__sections--container section p {
     width: 200px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .secondSection .secondSection__sections--container section p {
+    width: 273px;
   }
 }
 .secondSection .secondSection__sections--container section .button {
