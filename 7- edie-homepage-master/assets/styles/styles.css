@@ -6,15 +6,26 @@ header {
     margin: 1.5rem 2rem 1rem 2rem;
   }
 }
+@media screen and (min-width: 1440px) {
+  header {
+    margin: 2rem 2.5rem 1rem 2.5rem;
+  }
+}
 header nav {
   align-items: center;
   display: flex;
   justify-content: space-between;
 }
 header nav span {
+  color: #333333;
   font-family: "Heebo";
   font-size: 24px;
   font-weight: 800;
+}
+@media screen and (min-width: 1440px) {
+  header nav span {
+    font-size: 36px;
+  }
 }
 header nav .fa-bars {
   width: 24px;
@@ -50,6 +61,11 @@ header nav ul {
     width: 500px;
   }
 }
+@media screen and (min-width: 1440px) {
+  header nav ul {
+    width: 700px;
+  }
+}
 header nav ul li {
   color: #333333;
   font-family: "Poppins";
@@ -60,6 +76,11 @@ header nav ul li {
 @media screen and (min-width: 1024px) {
   header nav ul li {
     font-size: 16px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  header nav ul li {
+    font-size: 24px;
   }
 }
 header nav .ul__expanded {
