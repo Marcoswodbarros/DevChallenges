@@ -18,7 +18,7 @@ header nav {
   display: flex;
   justify-content: space-between;
 }
-header nav a {
+header nav .header__logo {
   color: #333333;
   font-family: "Heebo";
   font-size: 24px;
@@ -26,12 +26,12 @@ header nav a {
   text-decoration: none;
 }
 @media screen and (min-width: 1024px) {
-  header nav a:hover {
+  header nav .header__logo:hover {
     cursor: pointer;
   }
 }
 @media screen and (min-width: 1440px) {
-  header nav a {
+  header nav .header__logo {
     font-size: 36px;
   }
 }
@@ -77,19 +77,20 @@ header nav ul {
 header nav ul li {
   list-style: none;
 }
-header nav ul li a {
+header nav ul li .header__li--a {
   color: #333333;
   font-family: "Poppins";
   font-size: 24px;
   font-weight: 500;
+  text-decoration: none;
 }
 @media screen and (min-width: 1024px) {
-  header nav ul li {
+  header nav ul li .header__li--a {
     font-size: 16px;
   }
 }
 @media screen and (min-width: 1440px) {
-  header nav ul li {
+  header nav ul li .header__li--a {
     font-size: 24px;
   }
 }
@@ -114,20 +115,24 @@ main .introSection {
   display: flex;
   flex-direction: column;
 }
-main .introSection p {
+main .introSection a {
   align-self: self-start;
   color: #2D9CDB;
   font-size: 12px;
   font-weight: 500;
   margin-left: 2rem;
+  text-decoration: none;
 }
 @media screen and (min-width: 1024px) {
-  main .introSection p {
+  main .introSection a {
     margin-left: 9rem;
+  }
+  main .introSection a:hover {
+    cursor: pointer;
   }
 }
 @media screen and (min-width: 1440px) {
-  main .introSection p {
+  main .introSection a {
     font-size: 18px;
     margin-bottom: 0.75rem;
     margin-left: 14rem;

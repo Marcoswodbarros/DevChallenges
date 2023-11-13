@@ -16,15 +16,20 @@ main {
         display: flex;
         flex-direction: column;
 
-        p {
+        a {
             align-self: self-start;
             color: $color-blue;
             font-size: 12px;
             font-weight: 500;
             margin-left: 2rem;
+            text-decoration: none;
 
             @media screen and (min-width: 1024px) {
                 margin-left: 9rem;
+
+                &:hover {
+                    cursor: pointer;
+                }
             }
 
             @media screen and (min-width: 1440px) {

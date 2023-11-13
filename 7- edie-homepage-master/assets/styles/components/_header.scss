@@ -18,7 +18,7 @@ header {
         display: flex;
         justify-content: space-between;
 
-        a {
+        .header__logo {
             color: $color-gray1;
             font-family: $font-heebo;
             font-size: 24px;
@@ -78,20 +78,23 @@ header {
             li {
                 list-style: none;
 
-                a {
+                .header__li--a {
                     color: $color-gray1;
                     font-family: $font-poppins;
                     font-size: 24px;
                     font-weight: 500;
+                    text-decoration: none;
+
+                    @media screen and (min-width: 1024px) {
+                        font-size: 16px;
+                    }
+    
+                    @media screen and (min-width: 1440px) {
+                        font-size: 24px;
+                    }
                 }
 
-                @media screen and (min-width: 1024px) {
-                    font-size: 16px;
-                }
-
-                @media screen and (min-width: 1440px) {
-                    font-size: 24px;
-                }
+                
             }
         }
 
