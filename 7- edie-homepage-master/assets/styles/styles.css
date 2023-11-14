@@ -810,12 +810,10 @@ footer .socialNetworks span {
 footer .socialNetworks .socialNetworks__images--container img {
   border-radius: 0.3rem;
 }
-@media screen and (min-width: 1024px) {
-  footer .socialNetworks .socialNetworks__images--container img:hover {
-    cursor: pointer;
-    transform: scale(1.2);
-    transition: 0.5s;
-  }
+footer .socialNetworks .socialNetworks__images--container img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: 0.5s;
 }
 footer .socialNetworks .socialNetworks__images--container .linkedin {
   margin: 0 0.5rem;
@@ -890,12 +888,10 @@ footer #footerForm #footerSubmit {
   top: 1.67rem;
   width: 71px;
 }
-@media screen and (min-width: 1024px) {
-  footer #footerForm #footerSubmit:hover {
-    background-color: #27AE60;
-    cursor: pointer;
-    transition: 0.7s;
-  }
+footer #footerForm #footerSubmit:hover {
+  background-color: #27AE60;
+  cursor: pointer;
+  transition: 0.7s;
 }
 @media screen and (min-width: 1440px) {
   footer #footerForm #footerSubmit {
