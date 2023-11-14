@@ -64,7 +64,7 @@ header nav ul {
   row-gap: 36px;
   transition: 0.7s;
   top: -100%;
-  width: 100vw;
+  width: 100%;
   z-index: 1;
 }
 @media screen and (min-width: 1024px) {
