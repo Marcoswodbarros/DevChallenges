@@ -78,9 +78,9 @@ header {
             li {
                 list-style: none;
                 position: relative;
-                
+
                 .header__li--a {
-                    color: $color-gray1;
+                    color: $color-white;
                     display: inline-block;
                     font-family: $font-poppins;
                     font-size: 24px;
@@ -94,7 +94,7 @@ header {
                             transform: scale(1.2);
                             transition: .7s;
                         }
-                        
+
                         &::before,
                         &::after {
                             content: '';
@@ -106,26 +106,27 @@ header {
                             transition: .7s;
                             width: 0;
                         }
-                        
+
                         &:hover::before {
                             left: 0;
                             width: 50%;
                         }
-                        
+
                         &:hover::after {
                             width: 50%;
                         }
-                        
 
-                    @media screen and (min-width: 1440px) {
-                        font-size: 24px;
+
+                        @media screen and (min-width: 1440px) {
+                            font-size: 24px;
+                        }
                     }
                 }
             }
-        }
 
-        .ul__expanded {
-            top: 0;
+            .ul__expanded {
+                top: 0;
+            }
         }
     }
-}}
+}

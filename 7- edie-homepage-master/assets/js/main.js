@@ -1,35 +1,34 @@
-// Variables
-const bar = document.querySelector('.fa-bars');
-const xmark = document.querySelector('.fa-xmark');
-const nav = document.querySelector('ul');
+const bars = document.querySelector('.fa-bars');
+const x = document.querySelector('.fa-xmark');
+const list = document.querySelector('ul');
 
-
-// Functions
-function showMenu() {
-    nav.classList.add('ul__expanded');
-    bar.style.display = 'none';
-    xmark.style.display = 'block';
+function openMenu() {
+    x.style.display = 'block';
+    bars.style.display = 'none';
+    list.style.top = "0";
+    list.classList.add('ul__expanded');
+    updateIconVisibility();
 }
 
-function hideMenu() {
-    nav.classList.remove('ul__expanded');
-    xmark.style.display = 'none';
-    bar.style.display = 'block';
+function closeMenu() {
+    x.style.display = 'none';
+    bars.style.display = 'block';
+    list.style.top = "-100%";
+    list.classList.remove('ul__expanded');
+    updateIconVisibility();
 }
 
 function updateIconVisibility() {
-    if (window.innerWidth >= 1024 && nav.classList.contains('ul__expanded')) {
-        hideMenu();
+    if (window.innerWidth >= 1024 && list.classList.contains('ul__expanded')) {
+        closeMenu();
     }
 
-    bar.style.display = window.innerWidth < 1024 && !nav.classList.contains('ul__expanded') ? 'block' : 'none';
-    xmark.style.display = window.innerWidth < 1024 && nav.classList.contains('ul__expanded') ? 'block' : 'none';
+    bars.style.display = window.innerWidth < 1024 && !list.classList.contains('ul__expanded') ? 'block' : 'none';
+    x.style.display = window.innerWidth < 1024 && list.classList.contains('ul__expanded') ? 'block' : 'none';
 }
 
-
-// Events
-bar.addEventListener('click', showMenu);
-xmark.addEventListener('click', hideMenu);
+bars.addEventListener('click', openMenu);
+x.addEventListener('click', closeMenu);
 window.addEventListener('resize', updateIconVisibility);
 
 // Chamando a função inicialmente para definir a visibilidade correta dos ícones
