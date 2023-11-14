@@ -445,9 +445,6 @@ main .introSection form .introSection__join:hover {
 .secondSection .secondSection__sections--container section .button p {
   color: #828282;
 }
-.secondSection .secondSection__sections--container section .button p:hover {
-  color: #FFFFFF;
-}
 .secondSection .secondSection__sections--container section .blueButton {
   background-color: #2D9CDB;
 }
