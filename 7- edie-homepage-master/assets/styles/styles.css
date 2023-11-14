@@ -1,6 +1,11 @@
 header {
   margin: 0.5rem 0 0.5rem 0.5rem;
 }
+@media screen and (min-width: 576px) {
+  header {
+    margin: 1rem 0.5rem 1rem 1rem;
+  }
+}
 @media screen and (min-width: 1024px) {
   header {
     margin: 1.5rem 2rem 1rem 2rem;
@@ -88,6 +93,7 @@ header nav ul li .header__li--a {
 }
 @media screen and (min-width: 1024px) {
   header nav ul li .header__li--a {
+    color: #333333;
     font-size: 16px;
   }
   header nav ul li .header__li--a:hover {
