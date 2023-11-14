@@ -318,12 +318,10 @@ main .introSection form .introSection__join {
   top: 1.65rem;
   width: 71px;
 }
-@media screen and (min-width: 1024px) {
-  main .introSection form .introSection__join:hover {
-    background-color: #27AE60;
-    cursor: pointer;
-    transition: 0.7s;
-  }
+main .introSection form .introSection__join:hover {
+  background-color: #27AE60;
+  cursor: pointer;
+  transition: 0.7s;
 }
 @media screen and (min-width: 1440px) {
   main .introSection form .introSection__join {

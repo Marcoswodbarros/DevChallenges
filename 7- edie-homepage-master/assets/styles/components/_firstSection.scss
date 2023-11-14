@@ -173,12 +173,10 @@ main {
                 top: 1.65rem;
                 width: 71px;
 
-                @media screen and (min-width: 1024px) {
-                    &:hover {
-                        background-color: $color-green;
-                        cursor: pointer;
-                        transition: .7s;
-                    }
+                &:hover {
+                    background-color: $color-green;
+                    cursor: pointer;
+                    transition: .7s;
                 }
 
                 @media screen and (min-width: 1440px) {
