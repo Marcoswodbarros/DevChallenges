@@ -172,6 +172,12 @@ main {
                 top: 1.65rem;
                 width: 71px;
 
+                @media screen and (min-width: 1024px) {
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+
                 @media screen and (min-width: 1440px) {
                     font-size: 18px;
                     height: 49px;

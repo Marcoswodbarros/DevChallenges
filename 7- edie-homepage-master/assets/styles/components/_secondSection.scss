@@ -113,6 +113,18 @@
 
                 p {
                     color: $color-button-text;
+
+                    @media screen and (min-width: 1024px) {
+                        color: $color-white;
+                    }
+                }
+
+                @media screen and (min-width: 1024px) {
+                    &:hover {
+                        background-color: $color-green;
+                        cursor: pointer;
+                        transition: .7s;
+                    }   
                 }
             }
 
