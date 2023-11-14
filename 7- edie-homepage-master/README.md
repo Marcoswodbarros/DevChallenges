@@ -1,92 +1,68 @@
-<!-- Please update value in the {}  -->
+# DevChallenges - Edie Homepage Challenge
 
-<h1 align="center">{Your project name}</h1>
+This is my seventh challenge from DevChallenges.
 
-<div align="center">
-   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
-</div>
-
-<div align="center">
-  <h3>
-    <a href="https://{your-demo-link.your-domain}">
-      Demo
-    </a>
-    <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
-      Solution
-    </a>
-    <span> | </span>
-    <a href="https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0">
-      Challenge
-    </a>
-  </h3>
-</div>
-
-<!-- TABLE OF CONTENTS -->
-
-## Table of Contents
+## Table of contents
 
 - [Overview](#overview)
-  - [Built With](#built-with)
-- [Features](#features)
-- [How to use](#how-to-use)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+  - [The challenge](#the-challenge)
+  - [Screenshots](#screenshots)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+- [Author](#author)
 
-<!-- OVERVIEW -->
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+### The challenge
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+Users should be able to:
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+- View the optimal layout for the site depending on their device's screen size;
+- See hover states for all interactive elements on the page;
+- Open and close the menu depending on their device's screen size.
 
-### Built With
+### Screenshots
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
+![Mobile](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/5f5ab5c1-b199-460e-a1d5-203e0e1fa6f8)
+![Mobile - Menu](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/bcbd736f-2ad2-45ac-82ef-19d94d5c41af)
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+![Laptop](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/4224ceea-1345-4c18-b1dd-a8a41409202a)
+![Laptop - secondSection](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/82efb846-4d33-4b4e-9f41-0c71f88d1458)
 
-## Features
+![Desktop](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/362a0ccf-7caa-4d16-8384-12972b57561a)
+![Desktop - fourthSection](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/c106b728-5b22-4130-ac71-f4ff9a257798)
 
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
+### Links
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0) was to build an application to complete the given user stories.
+- Solution URL: [https://github.com/Marcoswodbarros/DevChallenges.git]
+- Deploy: [https://devchallenges-ediehomepage-challenge.netlify.app/]
 
-## How To Use
 
-<!-- Example: -->
+## My process
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+### Built with
 
-```bash
-# Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+- Semantic HTML5 markup
+- SCSS
+- Flexbox
+- Grid
+- JavaScript
 
-# Install dependencies
-$ npm install
+### What I learned
 
-# Run the app
-$ npm start
-```
+While I was doing this project I was able to remember and improve my JS skills. 
 
-## Acknowledgements
+### Continued development
 
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For example -->
+To my next project, I will try to bring a new simple page, to help those who are starting at Front-End Development.
 
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
 
-## Contact
+## Author
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- GitHub - [Marcos Barros](https://github.com/Marcoswodbarros)
+- Linkedin - [Marcoswodbarros](www.linkedin.com/in/marcoswodbarros)
+
