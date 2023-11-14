@@ -437,20 +437,16 @@ main .introSection form .introSection__join:hover {
   text-align: center;
   width: 116px;
 }
+.secondSection .secondSection__sections--container section .button:hover {
+  background-color: #27AE60;
+  cursor: pointer;
+  transition: 0.7s;
+}
 .secondSection .secondSection__sections--container section .button p {
   color: #828282;
 }
-@media screen and (min-width: 1024px) {
-  .secondSection .secondSection__sections--container section .button p {
-    color: #FFFFFF;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .secondSection .secondSection__sections--container section .button:hover {
-    background-color: #27AE60;
-    cursor: pointer;
-    transition: 0.7s;
-  }
+.secondSection .secondSection__sections--container section .button p:hover {
+  color: #FFFFFF;
 }
 .secondSection .secondSection__sections--container section .blueButton {
   background-color: #2D9CDB;
