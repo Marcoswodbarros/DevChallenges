@@ -249,6 +249,7 @@ main .introSection form input {
   border: none;
   border-radius: 12px;
   height: 47px;
+  outline: none;
   padding-left: 1.5rem;
   width: 291px;
 }
@@ -286,7 +287,9 @@ main .introSection form .introSection__join {
 }
 @media screen and (min-width: 1024px) {
   main .introSection form .introSection__join:hover {
+    background-color: #27AE60;
     cursor: pointer;
+    transition: 0.7s;
   }
 }
 @media screen and (min-width: 1440px) {
