@@ -63,7 +63,7 @@ header nav ul {
   position: absolute;
   row-gap: 36px;
   transition: 0.7s;
-  top: -100%;
+  top: -120%;
   width: 100%;
   z-index: 1;
 }
