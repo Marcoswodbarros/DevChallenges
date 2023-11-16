@@ -33,3 +33,26 @@ window.addEventListener('resize', updateIconVisibility);
 
 // Chamando a função inicialmente para definir a visibilidade correta dos ícones
 updateIconVisibility();
+
+
+
+
+const buttons = document.querySelectorAll('.buttonJs');
+
+buttons.forEach(function (button, index) {
+    const texts = document.querySelectorAll('.getStarted'); // Seleciona todos os textos
+
+    button.addEventListener('mouseover', () => {
+        button.style.backgroundColor = '#27AE60';
+        button.style.transition = '.7s';
+        texts[index].style.color = '#FFFFFF';
+        texts[index].style.transition = '.7s';
+    });
+
+    button.addEventListener('mouseout', () => {
+        button.style.backgroundColor = '';
+        texts[index].style.color = '';
+        texts[index].style.transition = '';
+    });
+});
+

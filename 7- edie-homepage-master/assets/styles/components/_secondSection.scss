@@ -109,12 +109,12 @@
                 display: flex;
                 height: 42px;
                 text-align: center;
+                transition: .7s;
                 width: 116px;
 
                 &:hover {
                     background-color: $color-green;
                     cursor: pointer;
-                    transition: .7s;
                 }
 
                 p {

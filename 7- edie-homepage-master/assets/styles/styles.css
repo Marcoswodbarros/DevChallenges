@@ -435,12 +435,12 @@ main .introSection form .introSection__join:hover {
   display: flex;
   height: 42px;
   text-align: center;
+  transition: 0.7s;
   width: 116px;
 }
 .secondSection .secondSection__sections--container section .button:hover {
   background-color: #27AE60;
   cursor: pointer;
-  transition: 0.7s;
 }
 .secondSection .secondSection__sections--container section .button p {
   color: #828282;
