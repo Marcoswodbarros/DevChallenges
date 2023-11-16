@@ -57,13 +57,13 @@ header nav ul {
   background-color: #2D9CDB;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
   justify-content: center;
   left: 0;
   position: absolute;
   row-gap: 36px;
   transition: 0.7s;
-  top: -150vh;
+  top: -150%;
   width: 100%;
   z-index: 1;
 }
