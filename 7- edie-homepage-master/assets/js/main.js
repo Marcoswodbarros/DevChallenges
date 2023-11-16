@@ -1,7 +1,10 @@
+// Variables
 const bars = document.querySelector('.fa-bars');
 const x = document.querySelector('.fa-xmark');
 const list = document.querySelector('ul');
 
+
+// Functions
 function openMenu() {
     x.style.display = 'block';
     bars.style.display = 'none';
@@ -27,6 +30,8 @@ function updateIconVisibility() {
     x.style.display = window.innerWidth < 1024 && list.classList.contains('ul__expanded') ? 'block' : 'none';
 }
 
+
+// Events
 bars.addEventListener('click', openMenu);
 x.addEventListener('click', closeMenu);
 window.addEventListener('resize', updateIconVisibility);
@@ -37,10 +42,12 @@ updateIconVisibility();
 
 
 
+
+// Button (Second Section) hover
 const buttons = document.querySelectorAll('.buttonJs');
 
 buttons.forEach(function (button, index) {
-    const texts = document.querySelectorAll('.getStarted'); // Seleciona todos os textos
+    const texts = document.querySelectorAll('.getStarted');
 
     button.addEventListener('mouseover', () => {
         button.style.backgroundColor = '#27AE60';

@@ -171,12 +171,12 @@ main {
                 position: absolute;
                 right: .3rem;
                 top: 1.65rem;
+                transition: .5s;
                 width: 71px;
 
                 &:hover {
                     background-color: $color-green;
                     cursor: pointer;
-                    transition: .7s;
                 }
 
                 @media screen and (min-width: 1440px) {
