@@ -1,0 +1,19 @@
+section {
+    display: flex;
+    flex-direction: column;
+    row-gap: .75rem;
+
+    img {
+        align-self: center;
+        border-radius: 1rem;
+        width: 80%;
+    }
+
+    address {
+        .intro__contact {
+            align-items: center;
+            column-gap: .5rem;
+            display: flex;
+        }
+    }
+}

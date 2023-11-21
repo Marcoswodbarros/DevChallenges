@@ -1,0 +1,22 @@
+section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.75rem;
+}
+section img {
+  align-self: center;
+  border-radius: 1rem;
+  width: 80%;
+}
+section address .intro__contact {
+  align-items: center;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+  display: flex;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=style.css.map */
