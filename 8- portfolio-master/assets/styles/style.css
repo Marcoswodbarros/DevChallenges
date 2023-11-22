@@ -8,15 +8,38 @@ section img {
   border-radius: 1rem;
   width: 80%;
 }
+section .intro__name h4 {
+  color: #4F4F4F;
+  font-size: 24px;
+  font-weight: 600;
+}
+section .intro__name p {
+  color: #828282;
+  font-size: 18px;
+}
 section address .intro__contact {
   align-items: center;
-  -moz-column-gap: 0.5rem;
-       column-gap: 0.5rem;
+  -moz-column-gap: 0.75rem;
+       column-gap: 0.75rem;
   display: flex;
+  margin-bottom: 0.5rem;
+}
+section address i {
+  color: #4F4F4F;
+  font-size: 18px;
+}
+section address p {
+  color: #4F4F4F;
+  font-size: 18px;
+}
+section p {
+  color: #828282;
+  font-size: 18px;
 }
 
 * {
   box-sizing: border-box;
+  font-family: "Montserrat";
   margin: 0;
   padding: 0;
 }/*# sourceMappingURL=style.css.map */

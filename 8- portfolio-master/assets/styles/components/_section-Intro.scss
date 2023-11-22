@@ -9,11 +9,40 @@ section {
         width: 80%;
     }
 
+    .intro__name {
+        h4 {
+            color: $color-gray-2;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        p {
+            color: $color-gray-3;
+            font-size: 18px;
+        }
+    }
+
     address {
         .intro__contact {
             align-items: center;
-            column-gap: .5rem;
+            column-gap: .75rem;
             display: flex;
+            margin-bottom: .5rem;
         }
+        
+        i {
+            color: $color-gray-2;
+            font-size: 18px;
+        }
+        
+        p {
+            color: $color-gray-2;
+            font-size: 18px;
+        }
+    }
+
+    p {
+        color: $color-gray-3;
+        font-size: 18px;
     }
 }

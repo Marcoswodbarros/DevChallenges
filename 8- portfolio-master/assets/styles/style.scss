@@ -1,7 +1,9 @@
+@import 'abstract/variables';
 @import 'components/section-Intro';
 
 * {
     box-sizing: border-box;
+    font-family: $mont;
     margin: 0;
     padding: 0;
 }
