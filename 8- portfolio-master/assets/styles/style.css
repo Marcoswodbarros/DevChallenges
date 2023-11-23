@@ -96,6 +96,20 @@ section p {
   height: 9px;
 }
 
+#experiences {
+  margin-top: 2rem;
+}
+#experiences h4 {
+  color: #4F4F4F;
+  font-size: 24px;
+  font-weight: 500;
+}
+#experiences .experiences__sections {
+  background-color: transparent;
+  display: flex;
+  padding: 0;
+}
+
 * {
   box-sizing: border-box;
   font-family: "Montserrat";
