@@ -116,6 +116,13 @@
   justify-content: space-between;
   padding: 0;
 }
+#experiences .experiences__sections img {
+  height: 2rem;
+  margin-top: 1rem;
+}
+#experiences .experiences__sections .nivea {
+  height: 3rem;
+}
 #experiences .experiences__sections .texts {
   display: flex;
   flex-direction: column;
