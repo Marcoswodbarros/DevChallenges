@@ -1,15 +1,17 @@
 section {
+  background-color: #FFFFFF;
+  border-radius: 12px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  padding-top: 1rem;
+  padding: 20px;
   row-gap: 1rem;
   width: 330px;
 }
 section img {
   align-self: center;
   border-radius: 1rem;
-  width: 330px;
+  width: 300px;
 }
 section .intro__name h4 {
   color: #4F4F4F;
@@ -40,30 +42,58 @@ section p {
   font-size: 18px;
 }
 
+#skills {
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  margin-top: 2rem;
+  padding: 20px;
+}
 #skills h4 {
   color: #4F4F4F;
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
 }
-#skills ul li {
-  color: #4F4F4F;
-  list-style: none;
+#skills ul {
   display: flex;
+  flex-direction: column;
+  row-gap: 0.75rem;
+}
+#skills ul li {
   align-items: center;
+  color: #4F4F4F;
+  display: flex;
   justify-content: space-between;
+  list-style: none;
+}
+#skills ul li:nth-child(1) .percentage {
+  width: 80px;
+}
+#skills ul li:nth-child(2) .percentage {
+  width: 50px;
+}
+#skills ul li:nth-child(3) .percentage {
+  width: 100px;
+}
+#skills ul li:nth-child(4) .percentage {
+  width: 110px;
+}
+#skills ul li:nth-child(5) .percentage {
+  width: 70px;
+}
+#skills ul li:nth-child(6) .percentage {
+  width: 20px;
 }
 #skills ul li .space {
   background-color: #C4C4C4;
   border-radius: 12px;
   height: 9px;
-  width: 200px;
+  width: 130px;
 }
 #skills ul li .percentage {
   background-color: #2F80ED;
   border-radius: 12px;
   height: 9px;
-  width: 100px;
 }
 
 * {
@@ -71,4 +101,8 @@ section p {
   font-family: "Montserrat";
   margin: 0;
   padding: 0;
+}
+
+main {
+  background-color: rgba(186, 186, 186, 0.345);
 }/*# sourceMappingURL=style.css.map */

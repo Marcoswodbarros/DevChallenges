@@ -1,15 +1,17 @@
 section {
+    background-color: $color-white;
+    border-radius: 12px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    padding-top: 1rem;
+    padding: 20px;
     row-gap: 1rem;
     width: 330px;
 
     img {
         align-self: center;
         border-radius: 1rem;
-        width: 330px;
+        width: 300px;
     }
 
     .intro__name {
