@@ -1,12 +1,15 @@
 section {
   display: flex;
   flex-direction: column;
-  row-gap: 0.75rem;
+  margin: 0 auto;
+  padding-top: 1rem;
+  row-gap: 1rem;
+  width: 330px;
 }
 section img {
   align-self: center;
   border-radius: 1rem;
-  width: 80%;
+  width: 330px;
 }
 section .intro__name h4 {
   color: #4F4F4F;
