@@ -1,43 +1,43 @@
-section {
+#intro {
   background-color: #FFFFFF;
   border-radius: 12px;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  margin-top: 2rem;
   padding: 20px;
   row-gap: 1rem;
   width: 330px;
 }
-section img {
+#intro img {
   align-self: center;
   border-radius: 1rem;
   width: 300px;
 }
-section .intro__name h4 {
+#intro .intro__name h4 {
   color: #4F4F4F;
   font-size: 24px;
   font-weight: 600;
 }
-section .intro__name p {
+#intro .intro__name p {
   color: #828282;
   font-size: 18px;
 }
-section address .intro__contact {
+#intro address .intro__contact {
   align-items: center;
   -moz-column-gap: 0.75rem;
        column-gap: 0.75rem;
   display: flex;
   margin-bottom: 0.5rem;
 }
-section address i {
+#intro address i {
   color: #4F4F4F;
   font-size: 18px;
 }
-section address p {
+#intro address p {
   color: #4F4F4F;
   font-size: 18px;
 }
-section p {
+#intro p {
   color: #828282;
   font-size: 18px;
 }
@@ -45,8 +45,8 @@ section p {
 #skills {
   background-color: #FFFFFF;
   border-radius: 12px;
-  margin-top: 2rem;
   padding: 20px;
+  width: 330px;
 }
 #skills h4 {
   color: #4F4F4F;
@@ -97,7 +97,13 @@ section p {
 }
 
 #experiences {
-  margin-top: 2rem;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  row-gap: 2rem;
+  width: 330px;
 }
 #experiences h4 {
   color: #4F4F4F;
@@ -107,7 +113,27 @@ section p {
 #experiences .experiences__sections {
   background-color: transparent;
   display: flex;
+  justify-content: space-between;
   padding: 0;
+}
+#experiences .experiences__sections .texts {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+#experiences .experiences__sections .texts .date {
+  color: #828282;
+  font-size: 14px;
+}
+#experiences .experiences__sections .texts h6 {
+  color: #333333;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+#experiences .experiences__sections .texts .texts__description {
+  color: #828282;
+  width: 210px;
 }
 
 * {
@@ -118,5 +144,9 @@ section p {
 }
 
 main {
+  align-items: center;
   background-color: rgba(186, 186, 186, 0.345);
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
 }/*# sourceMappingURL=style.css.map */

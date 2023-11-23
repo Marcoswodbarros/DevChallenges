@@ -1,5 +1,11 @@
 #experiences {
-    margin-top: 2rem;
+    background-color: $color-white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    row-gap: 2rem;
+    width: 330px;
 
     h4 {
         color: $color-gray-2;
@@ -10,6 +16,30 @@
     .experiences__sections {
         background-color: transparent;
         display: flex;
+        justify-content: space-between;
         padding: 0;
+
+        .texts {
+            display: flex;
+            flex-direction: column;
+            row-gap: 1rem;
+
+            .date {
+                color: $color-gray-3;
+                font-size: 14px;
+            }
+
+            h6 {
+                color: $color-titles;
+                font-size: 16px;
+                font-weight: 600;
+                margin-bottom: .5rem;
+            }
+
+            .texts__description {
+                color: $color-gray-3;
+                width: 210px;
+            }
+        }
     }
 }
