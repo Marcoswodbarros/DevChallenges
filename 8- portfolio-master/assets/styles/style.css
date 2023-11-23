@@ -40,6 +40,32 @@ section p {
   font-size: 18px;
 }
 
+#skills h4 {
+  color: #4F4F4F;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#skills ul li {
+  color: #4F4F4F;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#skills ul li .space {
+  background-color: #C4C4C4;
+  border-radius: 12px;
+  height: 9px;
+  width: 200px;
+}
+#skills ul li .percentage {
+  background-color: #2F80ED;
+  border-radius: 12px;
+  height: 9px;
+  width: 100px;
+}
+
 * {
   box-sizing: border-box;
   font-family: "Montserrat";

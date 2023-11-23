@@ -1,0 +1,32 @@
+#skills {
+    h4 {
+        color: $color-gray-2;
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    ul {
+        li {
+            color: $color-gray-2;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .space {
+                background-color: $color-space;
+                border-radius: 12px;
+                height: 9px;
+                width: 200px;
+            }
+
+            .percentage {
+                background-color: $color-blue;
+                border-radius: 12px;
+                height: 9px;
+                width: 100px;
+            }
+        }
+    }
+}
