@@ -149,9 +149,17 @@
   padding: 20px;
   width: 330px;
 }
-#projects h4 {
-  font-size: 24px;
+#projects .title-chevrons {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 1rem;
+}
+#projects .title-chevrons h4 {
+  font-size: 24px;
+}
+#projects .title-chevrons .fa-chevron-down {
+  display: none;
 }
 #projects .projects__buttons--container {
   display: flex;
