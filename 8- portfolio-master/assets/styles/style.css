@@ -143,6 +143,51 @@
   width: 210px;
 }
 
+#projects {
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  padding: 20px;
+  width: 330px;
+}
+#projects h4 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+#projects .projects__buttons--container {
+  display: flex;
+  justify-content: space-between;
+}
+#projects .projects__buttons--container .react {
+  align-items: center;
+  border: 1px solid #4F4F4F;
+  border-radius: 12px;
+  display: flex;
+  font-size: 14px;
+  height: 33px;
+  justify-content: center;
+  width: 85px;
+}
+#projects .projects__buttons--container .vue {
+  align-items: center;
+  border: 1px solid #4F4F4F;
+  border-radius: 12px;
+  display: flex;
+  font-size: 14px;
+  height: 33px;
+  justify-content: center;
+  width: 72px;
+}
+#projects .projects__buttons--container .responsive {
+  align-items: center;
+  border: 1px solid #4F4F4F;
+  border-radius: 12px;
+  display: flex;
+  font-size: 14px;
+  height: 33px;
+  justify-content: center;
+  width: 118px;
+}
+
 * {
   box-sizing: border-box;
   font-family: "Montserrat";

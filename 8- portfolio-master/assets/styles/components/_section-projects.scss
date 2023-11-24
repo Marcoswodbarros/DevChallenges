@@ -1,0 +1,49 @@
+#projects {
+    background-color: $color-white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 330px;
+
+    h4 {
+        font-size: 24px;
+        margin-bottom: 1rem;
+    }
+
+    .projects__buttons--container {
+        display: flex;
+        justify-content: space-between;
+
+        .react {
+            align-items: center;
+            border: 1px solid $color-gray-2;
+            border-radius: 12px;
+            display: flex;
+            font-size: 14px;
+            height: 33px;
+            justify-content: center;
+            width: 85px;
+        }
+
+        .vue {
+            align-items: center;
+            border: 1px solid $color-gray-2;
+            border-radius: 12px;
+            display: flex;
+            font-size: 14px;
+            height: 33px;
+            justify-content: center;
+            width: 72px;
+        }
+
+        .responsive {
+            align-items: center;
+            border: 1px solid $color-gray-2;
+            border-radius: 12px;
+            display: flex;
+            font-size: 14px;
+            height: 33px;
+            justify-content: center;
+            width: 118px;
+        }
+    }
+}
