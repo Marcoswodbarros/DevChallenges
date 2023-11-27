@@ -39,4 +39,5 @@ vue.addEventListener('click', () => {
 
 responsive.addEventListener('click', () => {
     projectsProjects.style.display = 'block';
+    projects.style.height = 'auto';
 });

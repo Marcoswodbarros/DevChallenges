@@ -1,23 +1,28 @@
 #projects {
     background-color: $color-white;
     border-radius: 12px;
-    height: 65px;
+    height: 70px;
     overflow: hidden;
     padding: 20px;
     transition: .7s ease-in-out;
     width: 330px;
-
-
+    
     .title-chevrons {
         align-items: center;
         display: flex;
         justify-content: space-between;
-
+        
         h4 {
+            color: $color-gray-2;
             font-size: 24px;
+        }
+        
+        .fa-chevron-up {
+            color: $color-gray-2;
         }
 
         .fa-chevron-down {
+            color: $color-gray-2;
             display: none;
         }
     }
@@ -85,7 +90,7 @@
             }
 
             .projects__texts {
-                h4 {
+                h6 {
                     color: $color-titles;
                     font-size: 24px;
                     font-weight: 500;
