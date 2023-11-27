@@ -55,4 +55,33 @@
             width: 118px;
         }
     }
+
+    .projects__container {
+
+        .projects {
+            img {
+
+            }
+
+            .hashtags {
+                span {
+                    color: $color-gray-2;
+                    font-size: 16px;
+                }
+            }
+
+            .projects__texts {
+                h4 {
+                    color: $color-titles;
+                    font-size: 24px;
+                    font-weight: 500;
+                }
+
+                p {
+                    color: $color-gray-3;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
 }
