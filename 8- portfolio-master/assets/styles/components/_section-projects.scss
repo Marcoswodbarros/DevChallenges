@@ -1,8 +1,12 @@
 #projects {
     background-color: $color-white;
     border-radius: 12px;
+    height: 65px;
+    overflow: hidden;
     padding: 20px;
+    transition: .7s ease-in-out;
     width: 330px;
+
 
     .title-chevrons {
         align-items: center;
@@ -57,6 +61,7 @@
     }
 
     .projects__container {
+        
 
         .projects {
             border-radius: 12px;
