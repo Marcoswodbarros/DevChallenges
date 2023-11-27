@@ -195,10 +195,13 @@
   width: 118px;
 }
 #projects .projects__container .projects {
+  border-radius: 12px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   display: flex;
   flex-direction: column;
-  row-gap: 1rem;
   margin: 2rem 0 3rem 0;
+  padding: 20px;
+  row-gap: 1rem;
 }
 #projects .projects__container .projects img {
   border: 1px solid #C4C4C4;
@@ -219,7 +222,7 @@
   font-size: 16px;
 }
 #projects .projects__container .projects .projects__buttons {
-  margin-top: 2rem;
+  margin: 2rem 0 1rem 0;
 }
 #projects .projects__container .projects .projects__buttons .demo {
   background-color: #2F80ED;
