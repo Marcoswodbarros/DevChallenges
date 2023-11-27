@@ -2,6 +2,7 @@
     background-color: $color-white;
     border-radius: 12px;
     padding: 20px;
+    transition: .7s ease-in-out;
     width: 330px;
 
     @media screen and (min-width: 756px) {
@@ -12,6 +13,7 @@
         color: $color-gray-2;
         font-size: 18px;
         font-weight: 700;
+        margin-bottom: 1rem;
         text-transform: uppercase;
     }
 

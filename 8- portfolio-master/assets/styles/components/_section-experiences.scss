@@ -5,6 +5,7 @@
     flex-direction: column;
     padding: 20px;
     row-gap: 2rem;
+    transition: .7s ease-in-out;
     width: 330px;
 
     @media screen and (min-width: 756px) {
