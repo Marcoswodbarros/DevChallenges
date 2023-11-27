@@ -89,6 +89,26 @@
                     font-size: 16px;
                 }
             }
+
+            .projects__buttons {
+                margin-top: 2rem;
+
+                .demo {
+                    background-color: $color-blue;
+                    border-radius: 12px;
+                    color: $color-white;
+                    font-size: 18px;
+                    padding: 10px 30px 10px 30px;
+                    text-decoration: none;
+                }
+
+                .code {
+                    background-color: $color-white;
+                    border: 1px solid $color-blue;
+                    color: $color-blue;
+                    margin-left: 1rem;
+                }
+            }
         }
     }
 }
