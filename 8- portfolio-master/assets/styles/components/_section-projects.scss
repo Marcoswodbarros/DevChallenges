@@ -65,7 +65,8 @@
             margin: 2rem 0 3rem 0;
 
             img {
-
+                border: 1px solid $color-space;
+                border-radius: 12px;
             }
 
             .hashtags {

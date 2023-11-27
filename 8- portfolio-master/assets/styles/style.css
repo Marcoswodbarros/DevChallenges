@@ -200,6 +200,10 @@
   row-gap: 1rem;
   margin: 2rem 0 3rem 0;
 }
+#projects .projects__container .projects img {
+  border: 1px solid #C4C4C4;
+  border-radius: 12px;
+}
 #projects .projects__container .projects .hashtags span {
   color: #4F4F4F;
   font-size: 16px;
