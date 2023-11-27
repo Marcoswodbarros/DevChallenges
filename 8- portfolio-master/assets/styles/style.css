@@ -194,6 +194,12 @@
   justify-content: center;
   width: 118px;
 }
+#projects .projects__container .projects {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  margin: 2rem 0 3rem 0;
+}
 #projects .projects__container .projects .hashtags span {
   color: #4F4F4F;
   font-size: 16px;
@@ -202,6 +208,7 @@
   color: #333333;
   font-size: 24px;
   font-weight: 500;
+  margin-bottom: 0.75rem;
 }
 #projects .projects__container .projects .projects__texts p {
   color: #828282;

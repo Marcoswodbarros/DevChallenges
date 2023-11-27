@@ -59,6 +59,11 @@
     .projects__container {
 
         .projects {
+            display: flex;
+            flex-direction: column;
+            row-gap: 1rem;
+            margin: 2rem 0 3rem 0;
+
             img {
 
             }
@@ -75,6 +80,7 @@
                     color: $color-titles;
                     font-size: 24px;
                     font-weight: 500;
+                    margin-bottom: .75rem;
                 }
 
                 p {
