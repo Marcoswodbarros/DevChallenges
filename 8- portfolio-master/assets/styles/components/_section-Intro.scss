@@ -8,10 +8,18 @@
     row-gap: 1rem;
     width: 330px;
 
+    @media screen and (min-width: 756px) {
+        width: 430px;
+    }
+
     img {
         align-self: center;
         border-radius: 1rem;
         width: 300px;
+
+        @media screen and (min-width: 756px) {
+            width: 400px;
+        }
     }
 
     .intro__name {

@@ -6,6 +6,10 @@
     padding: 20px;
     transition: .7s ease-in-out;
     width: 330px;
+
+    @media screen and (min-width: 756px) {
+        width: 430px;
+    }
     
     .title-chevrons {
         align-items: center;
@@ -31,6 +35,11 @@
     .projects__buttons--container {
         display: none;
         justify-content: space-between;
+
+        @media screen and (min-width: 756px) {
+            column-gap: 2rem;
+            justify-content: center;
+        }
 
         .react {
             align-items: center;

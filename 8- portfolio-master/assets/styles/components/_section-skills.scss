@@ -4,6 +4,10 @@
     padding: 20px;
     width: 330px;
 
+    @media screen and (min-width: 756px) {
+        width: 430px;
+    }
+
     h4 {
         color: $color-gray-2;
         font-size: 18px;

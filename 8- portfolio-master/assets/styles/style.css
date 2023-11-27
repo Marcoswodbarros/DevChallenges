@@ -8,10 +8,20 @@
   row-gap: 1rem;
   width: 330px;
 }
+@media screen and (min-width: 756px) {
+  #intro {
+    width: 430px;
+  }
+}
 #intro img {
   align-self: center;
   border-radius: 1rem;
   width: 300px;
+}
+@media screen and (min-width: 756px) {
+  #intro img {
+    width: 400px;
+  }
 }
 #intro .intro__name h4 {
   color: #4F4F4F;
@@ -47,6 +57,11 @@
   border-radius: 12px;
   padding: 20px;
   width: 330px;
+}
+@media screen and (min-width: 756px) {
+  #skills {
+    width: 430px;
+  }
 }
 #skills h4 {
   color: #4F4F4F;
@@ -105,6 +120,11 @@
   row-gap: 2rem;
   width: 330px;
 }
+@media screen and (min-width: 756px) {
+  #experiences {
+    width: 430px;
+  }
+}
 #experiences h4 {
   color: #4F4F4F;
   font-size: 24px;
@@ -115,6 +135,11 @@
   display: flex;
   justify-content: space-between;
   padding: 0;
+}
+@media screen and (min-width: 756px) {
+  #experiences .experiences__sections {
+    justify-content: space-around;
+  }
 }
 #experiences .experiences__sections img {
   height: 2rem;
@@ -152,6 +177,11 @@
   transition: 0.7s ease-in-out;
   width: 330px;
 }
+@media screen and (min-width: 756px) {
+  #projects {
+    width: 430px;
+  }
+}
 #projects .title-chevrons {
   align-items: center;
   display: flex;
@@ -172,6 +202,13 @@
 #projects .projects__buttons--container {
   display: none;
   justify-content: space-between;
+}
+@media screen and (min-width: 756px) {
+  #projects .projects__buttons--container {
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
+    justify-content: center;
+  }
 }
 #projects .projects__buttons--container .react {
   align-items: center;
@@ -254,6 +291,11 @@
   padding: 20px;
   transition: 0.7s ease-in-out;
   width: 330px;
+}
+@media screen and (min-width: 756px) {
+  #hobbies {
+    width: 430px;
+  }
 }
 #hobbies h4 {
   color: #4F4F4F;
