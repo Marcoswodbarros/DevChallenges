@@ -21,5 +21,16 @@
             border-radius: 12px;
             width: 100%;
         }
+
+        h6 {
+            color: $color-titles;
+            font-size: 18px;
+            font-weight: 600;
+            margin: 1rem 0 .5rem 0;
+        }
+
+        p {
+            color: $color-gray-3;
+        }
     }
 }
