@@ -16,12 +16,14 @@
 }
 @media screen and (min-width: 1024px) {
   #intro {
+    align-items: center;
     display: grid;
+    grid-column: 1/3;
+    grid-row: 1/2;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
     gap: 1rem;
     width: 900px;
-    align-items: center;
   }
 }
 #intro img {
@@ -110,6 +112,14 @@
     width: 430px;
   }
 }
+@media screen and (min-width: 1024px) {
+  #skills {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: right;
+    width: 432px;
+  }
+}
 #skills h4 {
   color: #4F4F4F;
   font-size: 18px;
@@ -174,6 +184,14 @@
     width: 430px;
   }
 }
+@media screen and (min-width: 1024px) {
+  #experiences {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    justify-self: left;
+    width: 432px;
+  }
+}
 #experiences h4 {
   color: #4F4F4F;
   font-size: 24px;
@@ -229,6 +247,13 @@
 @media screen and (min-width: 756px) {
   #projects {
     width: 430px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #projects {
+    grid-column: 1/3;
+    grid-row: 5/6;
+    width: 900px;
   }
 }
 #projects .title-chevrons {
@@ -346,6 +371,14 @@
     width: 430px;
   }
 }
+@media screen and (min-width: 1024px) {
+  #hobbies {
+    grid-column: 1/2;
+    grid-row: 3/5;
+    justify-self: right;
+    width: 432px;
+  }
+}
 #hobbies h4 {
   color: #4F4F4F;
   font-size: 24px;
@@ -400,4 +433,15 @@ main {
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
+}
+@media screen and (min-width: 1024px) {
+  main {
+    align-items: start;
+    -moz-column-gap: 32px;
+         column-gap: 32px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    justify-items: center;
+  }
 }/*# sourceMappingURL=style.css.map */
