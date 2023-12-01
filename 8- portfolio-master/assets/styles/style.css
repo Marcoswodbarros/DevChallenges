@@ -21,6 +21,7 @@
     grid-template-rows: auto auto auto;
     gap: 1rem;
     width: 900px;
+    align-items: center;
   }
 }
 #intro img {
@@ -82,10 +83,18 @@
   color: #828282;
   font-size: 18px;
 }
+#intro .intro__firstP {
+  grid-column: 2/4;
+  grid-row: 2/3;
+}
+#intro .intro__secondP {
+  display: none;
+  grid-column: 2/4;
+  grid-row: 3/4;
+}
 @media screen and (min-width: 1024px) {
-  #intro p {
-    grid-column: 2/4;
-    grid-row: 2/3;
+  #intro .intro__secondP {
+    display: block;
   }
 }
 
