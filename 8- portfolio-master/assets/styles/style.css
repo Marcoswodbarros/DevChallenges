@@ -404,6 +404,42 @@
   color: #828282;
 }
 
+#blog {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  #blog {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    display: block;
+    grid-column: 2/3;
+    grid-row: 2/4;
+    overflow: hidden;
+    padding: 20px;
+    transition: 0.7s ease-in-out;
+    width: 432px;
+  }
+}
+#blog h4 {
+  color: #333333;
+  font-size: 24px;
+  font-weight: 500;
+  width: 178px;
+}
+#blog img {
+  border-radius: 12px;
+  width: 200px;
+}
+#blog .blog__texts--container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+#blog .blog__texts--container p {
+  color: #828282;
+  font-weight: 500;
+}
+
 footer {
   background-color: rgba(186, 186, 186, 0.345);
   padding-bottom: 0.5rem;
