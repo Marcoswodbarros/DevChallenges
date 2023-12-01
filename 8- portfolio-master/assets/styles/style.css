@@ -117,7 +117,7 @@
     grid-column: 1/2;
     grid-row: 2/3;
     justify-self: right;
-    width: 432px;
+    width: 328px;
   }
 }
 #skills h4 {
@@ -189,7 +189,7 @@
     grid-column: 2/3;
     grid-row: 4/5;
     justify-self: left;
-    width: 432px;
+    width: 508px;
   }
 }
 #experiences h4 {
@@ -376,7 +376,7 @@
     grid-column: 1/2;
     grid-row: 3/5;
     justify-self: right;
-    width: 432px;
+    width: 328px;
   }
 }
 #hobbies h4 {
@@ -411,33 +411,44 @@
   #blog {
     background-color: #FFFFFF;
     border-radius: 12px;
-    display: block;
+    display: grid;
     grid-column: 2/3;
     grid-row: 2/4;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    height: 650px;
     overflow: hidden;
     padding: 20px;
+    row-gap: 2rem;
     transition: 0.7s ease-in-out;
-    width: 432px;
+    width: 508px;
   }
 }
 #blog h4 {
   color: #333333;
   font-size: 24px;
   font-weight: 500;
+  grid-template-columns: 1/2;
+  grid-row: 1/2;
   width: 178px;
 }
 #blog img {
   border-radius: 12px;
-  width: 200px;
+  grid-column: 2/3;
+  grid-row: 1/3;
+  height: 320px;
 }
 #blog .blog__texts--container {
   display: flex;
   flex-direction: column;
+  grid-column: 1/3;
+  grid-row: 3/5;
   row-gap: 1rem;
 }
 #blog .blog__texts--container p {
   color: #828282;
   font-weight: 500;
+  width: 490px;
 }
 
 footer {
@@ -476,8 +487,9 @@ main {
     -moz-column-gap: 32px;
          column-gap: 32px;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 360px 540px;
     grid-template-rows: auto auto auto auto auto;
+    justify-content: center;
     justify-items: center;
   }
 }/*# sourceMappingURL=style.css.map */
