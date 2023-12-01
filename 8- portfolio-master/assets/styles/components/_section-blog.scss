@@ -10,11 +10,12 @@
         grid-template-columns: auto auto;
         grid-template-rows: auto auto auto auto;
         height: 650px;
+        justify-self: start;
         overflow: hidden;
         padding: 20px;
         row-gap: 2rem;
         transition: .7s ease-in-out;
-        width: 508px;
+        width: 530px;
     }
 
     h4 {

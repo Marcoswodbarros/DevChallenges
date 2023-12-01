@@ -15,8 +15,10 @@
     @media screen and (min-width: 1024px) {
         grid-column: 2 / 3;
         grid-row: 4 / 5;
+        height: 573px;
         justify-self: left;
-        width: 508px;
+        overflow-y: scroll;
+        width: 524px;
     }
 
     h4 {

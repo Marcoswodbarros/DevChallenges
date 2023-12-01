@@ -116,8 +116,7 @@
   #skills {
     grid-column: 1/2;
     grid-row: 2/3;
-    justify-self: right;
-    width: 328px;
+    width: 334px;
   }
 }
 #skills h4 {
@@ -188,8 +187,10 @@
   #experiences {
     grid-column: 2/3;
     grid-row: 4/5;
+    height: 573px;
     justify-self: left;
-    width: 508px;
+    overflow-y: scroll;
+    width: 524px;
   }
 }
 #experiences h4 {
@@ -375,8 +376,7 @@
   #hobbies {
     grid-column: 1/2;
     grid-row: 3/5;
-    justify-self: right;
-    width: 328px;
+    width: 334px;
   }
 }
 #hobbies h4 {
@@ -417,11 +417,12 @@
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto auto;
     height: 650px;
+    justify-self: start;
     overflow: hidden;
     padding: 20px;
     row-gap: 2rem;
     transition: 0.7s ease-in-out;
-    width: 508px;
+    width: 530px;
   }
 }
 #blog h4 {
@@ -484,8 +485,8 @@ main {
 @media screen and (min-width: 1024px) {
   main {
     align-items: start;
-    -moz-column-gap: 32px;
-         column-gap: 32px;
+    -moz-column-gap: 26px;
+         column-gap: 26px;
     display: grid;
     grid-template-columns: 360px 540px;
     grid-template-rows: auto auto auto auto auto;
