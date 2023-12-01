@@ -82,7 +82,12 @@
     }
 
     .projects__container {
-        
+        @media screen and (min-width: 1024px) {
+            column-gap: 4rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
 
         .projects {
             border-radius: 12px;
@@ -92,6 +97,10 @@
             margin: 2rem 0 3rem 0;
             padding: 20px;
             row-gap: 1rem;
+
+            @media screen and (min-width: 1024px) {
+                width: 328px;
+            }
 
             img {
                 border: 1px solid $color-space;
