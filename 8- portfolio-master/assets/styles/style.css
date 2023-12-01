@@ -267,10 +267,10 @@
   font-size: 24px;
   font-weight: 500;
 }
-#projects .title-chevrons .fa-chevron-up {
+#projects .title-chevrons .fa-chevron-down {
   color: #4F4F4F;
 }
-#projects .title-chevrons .fa-chevron-down {
+#projects .title-chevrons .fa-chevron-up {
   color: #4F4F4F;
   display: none;
 }
@@ -335,6 +335,7 @@
 }
 @media screen and (min-width: 1024px) {
   #projects .projects__container .projects {
+    margin-bottom: 1.5rem;
     width: 328px;
   }
 }

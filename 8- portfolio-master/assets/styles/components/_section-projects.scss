@@ -28,11 +28,11 @@
             font-weight: 500;
         }
         
-        .fa-chevron-up {
+        .fa-chevron-down {
             color: $color-gray-2;
         }
 
-        .fa-chevron-down {
+        .fa-chevron-up {
             color: $color-gray-2;
             display: none;
         }
@@ -99,6 +99,7 @@
             row-gap: 1rem;
 
             @media screen and (min-width: 1024px) {
+                margin-bottom: 1.5rem;
                 width: 328px;
             }
 
