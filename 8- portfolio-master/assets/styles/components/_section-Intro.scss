@@ -13,17 +13,38 @@
         width: 430px;
     }
 
+    @media screen and (min-width: 1024px) {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        gap: 1rem;
+        width: 900px;
+    }
+
     img {
         align-self: center;
         border-radius: 1rem;
+        transition: .7s ease-in-out;
         width: 300px;
 
         @media screen and (min-width: 756px) {
             width: 400px;
         }
+
+        @media screen and (min-width: 1024px) {
+            width: 271px; 
+            grid-column: 1 / 2;
+            grid-row: 1 / 4;  
+        }
     }
 
     .intro__name {
+        @media screen and (min-width: 1024px) {
+            grid-column: 2 / 3;
+            grid-row: 1 / 2;
+            width: 200px;
+        }
+
         h4 {
             color: $color-gray-2;
             font-size: 24px;
@@ -37,6 +58,11 @@
     }
 
     address {
+        @media screen and (min-width: 1024px) {
+            grid-column: 3 / 4;   
+            grid-row: 1 / 2;
+        }
+
         .intro__contact {
             align-items: center;
             column-gap: .75rem;
@@ -58,5 +84,10 @@
     p {
         color: $color-gray-3;
         font-size: 18px;
+
+        @media screen and (min-width: 1024px) {
+            grid-column: 2 / 4;
+            grid-row: 2 / 3;   
+        }
     }
 }
