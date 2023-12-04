@@ -112,9 +112,12 @@
     }
 
     .projects__container {
+        display: flex;
+        flex-direction: column;
+
         @media screen and (min-width: 1024px) {
             column-gap: 4rem;
-            display: flex;
+            flex-direction: row;
             flex-wrap: wrap;
             justify-content: center;
         }

@@ -29,7 +29,7 @@ btnUp.addEventListener('click', () => {
 
 react.addEventListener('click', () => {
     projectsProjects.style.display = 'none';
-    projects.style.height = '4063.88px';
+    projects.style.height = 'auto';
     react.style.backgroundColor = '#2F80ED';
     react.style.color = 'white';
     vue.style.backgroundColor = '';
@@ -40,7 +40,7 @@ react.addEventListener('click', () => {
 
 vue.addEventListener('click', () => {
     projectsProjects.style.display = 'none';
-    projects.style.height = '4063.88px';
+    projects.style.height = 'auto';
     react.style.backgroundColor = '';
     react.style.color = '';
     vue.style.backgroundColor = '#2F80ED';

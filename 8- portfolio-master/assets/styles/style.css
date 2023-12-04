@@ -350,11 +350,15 @@
     cursor: pointer;
   }
 }
+#projects .projects__container {
+  display: flex;
+  flex-direction: column;
+}
 @media screen and (min-width: 1024px) {
   #projects .projects__container {
     -moz-column-gap: 4rem;
          column-gap: 4rem;
-    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
   }
