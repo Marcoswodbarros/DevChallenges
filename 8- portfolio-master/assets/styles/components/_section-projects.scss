@@ -173,10 +173,10 @@
 
                     @media screen and (min-width: 1024px) {
                         &:hover {
-                            background-color: rgb(96, 175, 96);
+                            background-color: $color-green;
                             color: $color-white;
                             cursor: pointer;
-                            transition: .7s;
+                            transition: .7s ease-in-out;
                         }
                     }
                 }

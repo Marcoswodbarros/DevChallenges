@@ -396,10 +396,10 @@
 }
 @media screen and (min-width: 1024px) {
   #projects .projects__container .projects .projects__buttons .demo:hover {
-    background-color: rgb(96, 175, 96);
+    background-color: #60af60;
     color: #FFFFFF;
     cursor: pointer;
-    transition: 0.7s;
+    transition: 0.7s ease-in-out;
   }
 }
 #projects .projects__container .projects .projects__buttons .code {
