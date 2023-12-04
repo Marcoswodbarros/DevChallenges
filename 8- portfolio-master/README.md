@@ -27,14 +27,11 @@ Users should be able to:
 
 ### Screenshots
 
-![Mobile](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/5f5ab5c1-b199-460e-a1d5-203e0e1fa6f8)
-![Mobile - Menu](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/bcbd736f-2ad2-45ac-82ef-19d94d5c41af)
+![Mobile](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/25699c3b-f3a4-4745-acd4-a80b8a3e8525)
+![Mobile - 1](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/b8e64d02-16fd-4dd7-b674-03591f9e552c)
 
-![Laptop](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/4224ceea-1345-4c18-b1dd-a8a41409202a)
-![Laptop - secondSection](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/82efb846-4d33-4b4e-9f41-0c71f88d1458)
-
-![Desktop](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/362a0ccf-7caa-4d16-8384-12972b57561a)
-![Desktop - fourthSection](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/c106b728-5b22-4130-ac71-f4ff9a257798)
+![Desktop](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/6c1ee3fd-acd6-4aca-81ce-aa12c3b517f5)
+![Desktop - 1](https://github.com/Marcoswodbarros/DevChallenges/assets/108278189/02d70ad6-0cb7-435b-81c8-c8189b1f2eb2)
 
 ### Links
 
