@@ -270,9 +270,19 @@
 #projects .title-chevrons .fa-chevron-down {
   color: #4F4F4F;
 }
+@media screen and (min-width: 1024px) {
+  #projects .title-chevrons .fa-chevron-down:hover {
+    cursor: pointer;
+  }
+}
 #projects .title-chevrons .fa-chevron-up {
   color: #4F4F4F;
   display: none;
+}
+@media screen and (min-width: 1024px) {
+  #projects .title-chevrons .fa-chevron-up:hover {
+    cursor: pointer;
+  }
 }
 #projects .projects__buttons--container {
   display: none;
@@ -295,6 +305,11 @@
   justify-content: center;
   width: 85px;
 }
+@media screen and (min-width: 1024px) {
+  #projects .projects__buttons--container .react:hover {
+    cursor: pointer;
+  }
+}
 #projects .projects__buttons--container .vue {
   align-items: center;
   border: 1px solid #4F4F4F;
@@ -305,6 +320,11 @@
   justify-content: center;
   width: 72px;
 }
+@media screen and (min-width: 1024px) {
+  #projects .projects__buttons--container .vue:hover {
+    cursor: pointer;
+  }
+}
 #projects .projects__buttons--container .responsive {
   align-items: center;
   border: 1px solid #4F4F4F;
@@ -314,6 +334,11 @@
   height: 33px;
   justify-content: center;
   width: 118px;
+}
+@media screen and (min-width: 1024px) {
+  #projects .projects__buttons--container .responsive:hover {
+    cursor: pointer;
+  }
 }
 @media screen and (min-width: 1024px) {
   #projects .projects__container {
