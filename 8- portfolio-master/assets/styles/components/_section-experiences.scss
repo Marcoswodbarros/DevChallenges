@@ -40,10 +40,18 @@
         img {
             height: 2rem;
             margin-top: 1rem;
+
+            @media screen and (min-width: 1024px) {
+                height: 4rem;
+            }
         }
 
         .nivea {
             height: 3rem;
+
+            @media screen and (min-width: 1024px) {
+                height: 5rem;
+            }
         }
 
         .texts {

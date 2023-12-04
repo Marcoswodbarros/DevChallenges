@@ -213,8 +213,18 @@
   height: 2rem;
   margin-top: 1rem;
 }
+@media screen and (min-width: 1024px) {
+  #experiences .experiences__sections img {
+    height: 4rem;
+  }
+}
 #experiences .experiences__sections .nivea {
   height: 3rem;
+}
+@media screen and (min-width: 1024px) {
+  #experiences .experiences__sections .nivea {
+    height: 5rem;
+  }
 }
 #experiences .experiences__sections .texts {
   display: flex;
