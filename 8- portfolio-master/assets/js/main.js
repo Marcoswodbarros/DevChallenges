@@ -30,14 +30,33 @@ btnUp.addEventListener('click', () => {
 react.addEventListener('click', () => {
     projectsProjects.style.display = 'none';
     projects.style.height = '4063.88px';
+    react.style.backgroundColor = '#2F80ED';
+    react.style.color = 'white';
+    vue.style.backgroundColor = '';
+    vue.style.color = '';
+    responsive.style.backgroundColor = '';
+    responsive.style.color = '';
 });
 
 vue.addEventListener('click', () => {
     projectsProjects.style.display = 'none';
     projects.style.height = '4063.88px';
+    react.style.backgroundColor = '';
+    react.style.color = '';
+    vue.style.backgroundColor = '#2F80ED';
+    vue.style.color = 'white';
+    responsive.style.backgroundColor = '';
+    responsive.style.color = '';
 });
 
 responsive.addEventListener('click', () => {
     projectsProjects.style.display = 'flex';
     projects.style.height = 'auto';
+    react.style.backgroundColor = '';
+    react.style.color = '';
+    vue.style.backgroundColor = '';
+    vue.style.color = '';
+    responsive.style.backgroundColor = '#2F80ED';
+    responsive.style.color = 'white';
 });
+
