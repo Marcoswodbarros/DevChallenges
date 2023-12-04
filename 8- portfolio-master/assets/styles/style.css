@@ -394,11 +394,24 @@
   padding: 10px 30px 10px 30px;
   text-decoration: none;
 }
+@media screen and (min-width: 1024px) {
+  #projects .projects__container .projects .projects__buttons .demo:hover {
+    background-color: rgb(96, 175, 96);
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.7s;
+  }
+}
 #projects .projects__container .projects .projects__buttons .code {
   background-color: #FFFFFF;
   border: 1px solid #2F80ED;
   color: #2F80ED;
   margin-left: 1rem;
+}
+@media screen and (min-width: 1024px) {
+  #projects .projects__container .projects .projects__buttons .code:hover {
+    border: 1px solid #FFFFFF;
+  }
 }
 
 #hobbies {

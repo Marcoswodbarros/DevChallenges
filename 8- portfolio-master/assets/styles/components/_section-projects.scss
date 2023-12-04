@@ -170,13 +170,28 @@
                     font-size: 18px;
                     padding: 10px 30px 10px 30px;
                     text-decoration: none;
-                }
 
+                    @media screen and (min-width: 1024px) {
+                        &:hover {
+                            background-color: rgb(96, 175, 96);
+                            color: $color-white;
+                            cursor: pointer;
+                            transition: .7s;
+                        }
+                    }
+                }
+                
                 .code {
                     background-color: $color-white;
                     border: 1px solid $color-blue;
                     color: $color-blue;
                     margin-left: 1rem;
+                    
+                    @media screen and (min-width: 1024px) {
+                        &:hover {
+                            border: 1px solid $color-white;
+                        }
+                    }
                 }
             }
         }
