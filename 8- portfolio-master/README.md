@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Marcoswodbarros/DevChallenges.git]
-- Deploy: [https://devchallenges-ediehomepage-challenge.netlify.app/]
+- Deploy: [https://devchallenges-portfolio-challenge.netlify.app/]
 
 
 ## My process
